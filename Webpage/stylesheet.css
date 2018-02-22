@@ -1,0 +1,61 @@
+body{
+    background-color: black;
+    background-size: 100%;
+    font-family: 'amita-regular';
+    width: 100%;
+    margin: 0;
+    height: 100%;
+    padding: 0;
+    color: white;
+}
+
+@font-face{
+font-family: "amita-regular";
+src: url("fonts/amita-regular.ttf");
+}
+
+/* head */
+
+.header{
+	margin: 0 auto;
+	width: 50%;
+	border-radius: 60px;
+	background-color: white;
+	opacity: 0.5;
+}
+#hdtitle{
+	color: black;
+	text-align: center;
+}
+
+/* container */
+
+.container{
+	width: 50%;
+    margin: 0 auto;
+}
+
+/* nav */
+
+h4{
+
+}
+
+/* content */
+
+#content-title{
+	color: black;
+	text-align: center;
+	margin: 0 auto;
+	width: 50%;
+	border-radius: 60px;
+	background-color: white;
+	opacity: 0.5;
+}
+
+/* footer */
+
+footer{
+	margin: 0 auto;
+	width: 50%;
+}
