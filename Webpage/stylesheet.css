@@ -18,10 +18,11 @@ src: url("fonts/amita-regular.ttf");
 
 .header{
 	margin: 0 auto;
-	width: 50%;
-	border-radius: 60px;
+	width: 100%;
 	background-color: white;
-	opacity: 0.5;
+	opacity: 1;
+	position: fixed;
+	float:left;
 }
 #hdtitle{
 	color: black;
@@ -33,11 +34,16 @@ src: url("fonts/amita-regular.ttf");
 .container{
 	width: 50%;
     margin: 0 auto;
+    padding-top: 70px;
 }
 
 /* nav */
-
-h4{
+ .nav{
+ 	width: 50%;
+	border-radius: 60px;
+	background-color: white;
+	opacity: 0.5;
+ }
 
 }
 
