@@ -1,47 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title> HTTP and HTML</title>
-    <link rel="stylesheet" type="text/css" href="stylesheet.css">
-    <link rel="icon" href="images/SLU.jpg">
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <title> HTTP and HTML</title>
+        <link rel="stylesheet" type="text/css" href="stylesheet.css">
+        <link rel="icon" href="images/SLU.jpg">
+    </head>
 
-<body>
-    <div class="header">
-        <h4 id="hdtitle">WEB SYSTEMS AND TECHNOLOGIES</h4>
-    </div>
-    <div class="container">
-        <div class="nav">
-            <ul>
-                 <li><a href="index.html">HTML</a></li>
-            </ul>
+    <body>
+        <div class="header">
+            <h4 id="hdtitle">WEB SYSTEMS AND TECHNOLOGIES</h4>
         </div>
-        <div class="contents">
-            <h2 id="content-title">HTML & HTTP Notes</h2>
-            <div class="content1">
-                <ul class="list1">
-                    <li>World Wide Web(1989, Tim Berners-Lee)system of internet that allows documents to be connected to other documents with hypertext links.</li>
-                    <li>Hyper-Text Markup Language known as HTML .  Markup is a way of document to have designated meaning and at is a language that is used to create or design a web page.</li>
-                    <li>HTML is focused on structure and content while the CSS handle the presentation or aesthetic  and JavaScript handles the behavioral aspects of the site.HTML was created by Tim Berners-Lee and W3C is responsible for evolving HTML</li>
-                    <li>Email – earliest application that uses the internet</li>
-                    <li>Internet (1969) – connection among others</li>
-                    <li>Nodes- usually computers or devices</li>
-                    <li>Interconnection Technology – used to connect nodes
-                        <ul>
-                            <li>Wired – have actual physical connection</li>
-                            <li>Wireless - don’t have actual physical connection</li>
-                        </ul>
-                    </li>
-                    <li>Protocols – standard way of doing things</li>
-                    <li>Tranceiver – device that receives and transmits data</li>
-                    <li>Gopher – indexes servers of information</li>
-                    <li>Usenet – similar to bulletin board</li>
-                    <li>HTTP – port 80 (default)</li>
-                    <li>SSL – port 443</li>
+        <div class="container">
+            <div class="nav">
+                <ul>
+                    <li><a href="index.html">HTML</a></li>
                 </ul>
-                <p class=""><h2>Abbreviations:</h2></p>
-                    <ul class="list2">
+            </div>
+            <div class="contents">
+                <h2 id="content-title">HTML & HTTP Notes</h2>
+                    <ul class="list">
+                        <li>World Wide Web(1989, Tim Berners-Lee)system of internet that allows documents to be connected to other documents with hypertext links.</li>
+                        <li>Hyper-Text Markup Language known as HTML .  Markup is a way of document to have designated meaning and at is a language that is used to create or design a web page.</li>
+                        <li>HTML is focused on structure and content while the CSS handle the presentation or aesthetic  and JavaScript handles the behavioral aspects of the site.HTML was created by Tim Berners-Lee and W3C is responsible for evolving HTML</li>
+                        <li>Email – earliest application that uses the internet</li>
+                        <li>Internet (1969) – connection among others</li>
+                        <li>Nodes- usually computers or devices</li>
+                        <li>Interconnection Technology – used to connect nodes
+                            <ul>
+                                <li>Wired – have actual physical connection</li>
+                                <li>Wireless - don’t have actual physical connection</li>
+                            </ul>
+                        </li>
+                        <li>Protocols – standard way of doing things</li>
+                        <li>Tranceiver – device that receives and transmits data</li>
+                        <li>Gopher – indexes servers of information</li>
+                        <li>Usenet – similar to bulletin board</li>
+                        <li>HTTP – port 80 (default)</li>
+                        <li>SSL – port 443</li>
+                    </ul>
+                <h2>Abbreviations:</h2>
+                    <ul class="list">
                         <li>HTTP - HyperText Transfer Protocol</li>
                         <li>HTML - HyperText Markup Language</li>
                         <li>WAIS (Wide Area Information Servers) – databases in servers</li>
@@ -50,43 +49,92 @@
                         <li>SSL – Secure Socket Layer</li>
                         <li>TLS – Transport Layer Security</li>
                     </ul>
+                <h2>Packet Switched vs Circuit Switched:</h2>
+                    <ul>
+                        <li>Packet Switch – store and forward; connection to node don’t need connection to that node</li>
+                        <li>Circuit Switch – connection should be maintained</li>
+                    </ul>
+                <h2>Servers:</h2>
+                    <ul>
+                        <li>Origin Server</li>
+                        <li>Proxy Servers, gateways, tunnels (encryption)</li>
+                    </ul>
+                <h2>HTTP Version History:</h2>
+                    <ul>
+                        <li>HTTP 0.9 (1991)</li>
+                        <li>HTTP 1.0 (RFC 1945, May 1996)</li>
+                        <li>HTTP 1.1 (RFC 2068 Jan 1997, RFC 2616 Jun 1999), RFC 7230-7235 (Jun 2014)</li>
+                        <li>HTTP 2 (RFC 7540 May 2015)</li>
+                    </ul>
+                <br>
+                <hr>
+                <h1><center>HTTP Status Codes</center></h2>
+                    <h2>Informational (1xx):</h2>
+                    <ul>
+                        <li>100 Continue</li>
+                        <li>101 Switching Protocols</li>
+                    </ul>
+                <h2>Success (2xx):</h2>
+                    <ul>
+                        <li>200 OK </li>
+                        <li>201 Created</li>
+                        <li>202 Accepted </li>
+                        <li>203 Non-Authoritative Information </li>
+                        <li>204 No Content </li>
+                        <li>205 Reset Content </li>
+                        <li>206 Partial Content </li>
+                    </ul>
+                <h2>Redirection (3xx):</h2>
+                    <ul>
+                        <li>300 Multiple Choices </li>
+                        <li>301 Moved Permanently </li>
+                        <li>302 Found </li>
+                        <li>303 See Other </li>
+                        <li>304 Not Modified </li>
+                        <li>305 Use Proxy </li>
+                        <li>306 Switch Proxy</li>
+                        <li>307 Temporary Redirect</li>
+                    </ul>
+                <h2>Client Error (4xx):</h2>
+                    <ul>
+                        <li>400 Bad Request </li>
+                        <li>401 Unauthorized </li>
+                        <li>402 Payment Required </li>
+                        <li>403 Forbidden </li>
+                        <li>404 Not Found </li>
+                        <li>405 Method not Allowed </li>
+                        <li>406 Not Acceptable </li>
+                        <li>407 Proxy Authentication Required </li>
+                        <li>408 Request Timeout </li>
+                        <li>409 Conflict </li>
+                        <li>410 Gone </li>
+                        <li>411 Length Required </li>
+                        <li>412 Precondition Failed </li>
+                        <li>413 Request Entity Too Large </li>
+                        <li>414 Request-URI Too Long </li>
+                        <li>415 Unsupported Media Type </li>
+                        <li>416 Request Range Not Satisfiable </li>
+                        <li>417 Expectation Failed </li>
+                    </ul>
+                <h2>Server Error (5xx):</h2>
+                    <ul>
+                        <li>500 Internal Server Error </li>
+                        <li>501 Not Implemented </li>
+                        <li>502  Bad Gateway </li>
+                        <li>503 Service Unavailable </li>
+                        <li>504 Gateway Timeout </li>
+                        <li>505 HTTP Version Not Supported</li>
+                    </ul>
+                </div>
             </div>
-            <div class="content2">
-                <p class=""><h2>Packet Switched vs Circuit Switched:</h2></p>
-                <ul>
-                    <li>Packet Switch – store and forward; connection to node don’t need connection to that node</li>
-                    <li>Circuit Switch – connection should be maintained</li>
-                </ul>
-                <p class=""><h2>Servers:</h2></p>
-                <ul>
-                    <li>Origin Server</li>
-                    <li>Proxy Servers, gateways, tunnels (encryption)</li>
-                </ul>
-            </div>
-            <div class="content3">
-                <ul>
-                </ul>    
-            </div>
-            <div class="content4">
-                <p class=""><h2>HTTP Version History:</h2></p>
-                <ul>
-                    <li>HTTP 0.9 (1991)</li>
-                    <li>HTTP 1.0 (RFC 1945, May 1996)</li>
-                    <li>HTTP 1.1 (RFC 2068 Jan 1997, RFC 2616 Jun 1999), RFC 7230-7235 (Jun 2014)</li>
-                    <li>HTTP 2 (RFC 7540 May 2015)</li>
-                </ul>
+            <div class="images">
+                <div class="imglib1">
+                    
+                </div>
+                <div class="imglib2">
+                </div>
             </div>
         </div>
-        <div class="images">
-            <div class="imglib1">
-                <p class=""></p>
-            </div>
-            <div class="imglib2">
-            </div>
-        </div>
-    </div>
-    <footer>Group 1 &copy; Web Systems and Technologies 2018</footer>
-</body>
-
-
+        <footer>Group 1 &copy; Web Systems and Technologies 2018</footer>
+    </body>
 </html>
