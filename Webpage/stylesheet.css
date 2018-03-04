@@ -21,7 +21,7 @@ src: url("fonts/amita-regular.ttf");
 	width: 100%;
 	background-color: white;
 	opacity: 1;
-	position: fixed;
+
 	float:left;
 }
 #hdtitle{
@@ -44,7 +44,7 @@ src: url("fonts/amita-regular.ttf");
 	border-radius: 60px;
 	background-color: white;
 	opacity: 0.5;
-	float: left;
+    position: relative;
 
  }
  .nav li a{
