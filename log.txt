@@ -1,0 +1,366 @@
+commit b0994de3d72becd08d9ee80236d673ae6500be43
+Author: cjdumz <carldumo@gmail.com>
+Date:   Mon Feb 26 05:21:12 2018 +0800
+
+    edited html and css file
+
+
+commit a247c5b3d55d2c944b28a98b362d9de3e25fa07a
+Author: cjdumz <carldumo@gmail.com>
+Date:   Mon Feb 26 03:33:53 2018 +0800
+
+    edited html and css files
+
+
+commit 97dc0be432b4850bfccaf543095dffb4ebcd55ce
+Author: Marileus <marileusbernardez@gmail.com>
+Date:   Mon Feb 26 01:12:27 2018 +0800
+
+    Created a second web page and added more notes/content
+
+
+commit 4e42e48d039957a63f7fa3f09cace606b28e621f
+Author: kristine2155789 <kwistinedealban@gmail.com>
+Date:   Sun Feb 25 13:47:00 2018 +0800
+
+    LINKS USED FOR NOTES
+
+
+commit 2b9d425c3c2d7d1419b6d3225887b4ec520a9e50
+Author: kristine2155789 <kwistinedealban@gmail.com>
+Date:   Sun Feb 25 13:46:21 2018 +0800
+
+    NOTES FOR HTML VERSIONS
+
+
+commit ede5bfc96834ea05fcf322cca79b9bd73822f3c1
+Author: kristine2155789 <kwistinedealban@gmail.com>
+Date:   Sun Feb 25 13:41:38 2018 +0800
+
+    HTTP REQUEST METHODS NOTES
+
+
+commit 5235489c6e0c1a6a50dac2e902e1a7e0ba0d010d
+Author: Janriel Testado <2150048@slu.edu.ph>
+Date:   Sun Feb 25 12:27:11 2018 +0800
+
+    Added Http Status codes notes to Index.html
+
+
+commit ee98e3aebbb864b4042934a8f661619e18404935
+Author: cjdumz <carldumo@gmail.com>
+Date:   Thu Feb 22 19:13:55 2018 +0800
+
+    edited css
+
+
+commit 90890a0a82955f79f1860e1c6ba7cbef3b61153b
+Author: cjdumz <carldumo@gmail.com>
+Date:   Thu Feb 22 19:07:00 2018 +0800
+
+    edited css stylesheet.css, edited Index.html
+
+
+commit 207bee053b7a95c0781e896f7e05215c61b70743
+Author: cjdumz <carldumo@gmail.com>
+Date:   Thu Feb 22 18:48:20 2018 +0800
+
+    added webpage icon and css file
+
+
+commit 2849395d46522a7f0ac95a37862f1d9189a58daa
+Author: migzrmrz <2144165@slu.edu.ph>
+Date:   Wed Feb 21 14:19:35 2018 +0800
+
+    Added notes on HTML
+
+
+commit 0f789294a6417ec13d44ff2eb18c19d21849b021
+Author: migzrmrz <2144165@slu.edu.ph>
+Date:   Wed Feb 21 14:14:46 2018 +0800
+
+    Edited the HTML format
+
+
+commit 91b08adb3599b9244139d61c5a0eb0435b13018e
+Author: Janriel Testado <2150048@slu.edu.ph>
+Date:   Thu Feb 15 23:58:54 2018 +0800
+
+    Added Webpage folder containing Initial Index.html
+
+
+commit 16d06911bad9020a0cfe67b78be52a122d4776f4
+Author: Janriel Testado <2150048@slu.edu.ph>
+Date:   Thu Feb 15 23:35:57 2018 +0800
+
+    Added Notes folder containing HTML and HTTP notes
+
+
+commit 92b009e50d65de510bfedce576a72ccc0223c836
+Author: cjdumz <carldumo@gmail.com>
+Date:   Mon Feb 12 12:17:37 2018 +0800
+
+    added reference
+
+
+commit ebc6a2ebd66bc7440a262c57bc94b09a72e52993
+Author: migzrmrz <2144165@slu.edu.ph>
+Date:   Mon Feb 12 12:03:06 2018 +0800
+
+    Added a reference to my topic which is WWW.
+
+
+commit 4e823c943efe492428b374c1179b61348329cea2
+Author: Joshua <2140748@slu.edu.ph>
+Date:   Mon Feb 12 11:45:20 2018 +0800
+
+    Edited
+
+
+commit 81c2ff5eeb13e0384b109acfd85f24a458755a60
+Author: migzrmrz <2144165@slu.edu.ph>
+Date:   Mon Feb 12 11:37:28 2018 +0800
+
+    Edited WWW description too much generalized.
+
+
+commit c6ded9fbc792740fd7b373aa2e10b12b526430bf
+Author: Joshua <2140748@slu.edu.ph>
+Date:   Mon Feb 12 00:50:31 2018 +0800
+
+    Proofread done
+
+
+commit 4faa558c7da00bd189de57c0b39f67c136a11dd3
+Author: Marileus Bernardez <marileusbernardez@gmail.com>
+Date:   Sun Feb 11 23:32:06 2018 +0800
+
+    Finished Part III
+
+
+commit 0bdc3fa3d061cbd69239d4bb697fcc1e720a47ef
+Author: cjdumz <carldumo@gmail.com>
+Date:   Sun Feb 11 21:59:16 2018 +0800
+
+    edited Webtek lec.docx
+
+
+commit 72e41724f30ddb1e8c060e03c36b80d6b7d0f3bd
+Author: Joshua <2140748@slu.edu.ph>
+Date:   Sun Feb 11 21:57:36 2018 +0800
+
+    Added Finalized Conclusion
+
+
+commit ecf11e9b7b38f679fc95680ff422ff172304bd91
+Author: cjdumz <carldumo@gmail.com>
+Date:   Sun Feb 11 17:38:28 2018 +0800
+
+    edited Webtek lec.docx
+
+
+commit 4f87d651c8d66d42fa8499475dc3b5314629f767
+Merge: b2cc341 3565135
+Author: cjdumz <carldumo@gmail.com>
+Date:   Sun Feb 11 17:35:46 2018 +0800
+
+    REMOVED Webtek lec.docx FOR EDITING
+
+
+commit b2cc3411a8cc0fcf6b953e346f7cf59acdc4d9d8
+Author: cjdumz <carldumo@gmail.com>
+Date:   Sun Feb 11 17:34:23 2018 +0800
+
+    edited Webtek lec.docx
+
+
+commit e9bcaa8f6c94245bf207610aa876c58a454b615c
+Author: cjdumz <carldumo@gmail.com>
+Date:   Sun Feb 11 17:33:29 2018 +0800
+
+    edited Webtek lec.docx
+
+
+commit b15b251457c6c749da4b38b2ffe6be53592706ca
+Author: cjdumz <carldumo@gmail.com>
+Date:   Sun Feb 11 17:29:05 2018 +0800
+
+    edited Webtek lec.docx
+
+
+commit 3565135895f2cf9590463aa225d350b7258c16b4
+Author: cjdumz <carldumo@gmail.com>
+Date:   Sun Feb 11 17:29:05 2018 +0800
+
+    edited Webtek lec.docx
+
+
+commit 7b2e0208f7f60487b6255a3dbd86844d5ba9a114
+Author: cjdumz <carldumo@gmail.com>
+Date:   Sun Feb 11 17:28:40 2018 +0800
+
+    removed README.md
+
+
+commit c35a4e10d9d7f1a452d81c8f9134523354a2796d
+Author: cjdumz <carldumo@gmail.com>
+Date:   Sun Feb 11 17:26:50 2018 +0800
+
+    added initial Use of WWW in Entertainment.docx
+
+
+commit f4a0cbeff42c8cc852b7fadf54a9963078ed79c7
+Merge: 8642192 9c43ebb
+Author: cjdumz <carldumo@gmail.com>
+Date:   Sun Feb 11 17:24:37 2018 +0800
+
+    Merge branch 'master' of https://github.com/migzrmrz/9346A-Webtek-Lec
+
+
+commit 9c43ebbb0fd1b56054cc4a469c361ce91bd00ea8
+Author: kristine2155789 <kwistinedealban@gmail.com>
+Date:   Sun Feb 11 15:17:56 2018 +0800
+
+    Social interaction w/ WWW
+
+
+commit a4a9121d02976d5a6b311436870484fe71a29128
+Author: kristine2155789 <kwistinedealban@gmail.com>
+Date:   Sun Feb 11 15:15:52 2018 +0800
+
+    initial Entertainment w/o WWW
+
+
+commit cb50aadb2102a1acd2f0c59e85674679e938c526
+Author: Joshua <2140748@slu.edu.ph>
+Date:   Sat Feb 10 05:32:31 2018 +0800
+
+    Added Initial Conclusion Content
+
+
+commit c07628af07376e67e12b91b45064829dcbf0128b
+Author: Joshua <2140748@slu.edu.ph>
+Date:   Sat Feb 10 05:16:26 2018 +0800
+
+    Converted Part 1 to paragraph (to be edited)
+
+
+commit d863270bb172f6bd79075b8b7cb8c66f12367cc0
+Author: Joshua <2140748@slu.edu.ph>
+Date:   Sat Feb 10 05:14:19 2018 +0800
+
+    Mistake
+
+
+commit dd5f495971c47403226b2392eab48c277cca5c87
+Author: Joshua <2140748@slu.edu.ph>
+Date:   Sat Feb 10 05:09:13 2018 +0800
+
+    Converted Part 1 to paragraph (To be edited)
+
+
+commit 67fb02438f4b6bea34855f51c4f214a348c58d33
+Author: Joshua <2140748@slu.edu.ph>
+Date:   Sat Feb 10 05:05:10 2018 +0800
+
+    Added Initial Conclusion Content
+
+
+commit 86421929ac735c95010baa314807c9429d5ffc7d
+Merge: 05eba93 f42fa41
+Author: cjdumz <carldumo@gmail.com>
+Date:   Fri Feb 9 22:29:53 2018 +0800
+
+    Merge branch 'master' of https://github.com/migzrmrz/9346A-Webtek-Lec
+
+
+commit 05eba9343cc68dfad821c620125fa7a2588c3dc1
+Author: cjdumz <carldumo@gmail.com>
+Date:   Fri Feb 9 22:28:53 2018 +0800
+
+    deleted extra file
+
+
+commit f42fa418968a5683c469b7dc74f37bd1001e599f
+Author: cjdumz <carldumo@gmail.com>
+Date:   Fri Feb 9 22:28:53 2018 +0800
+
+    deleted
+
+
+commit 0f487300ee7516933d2f5b9c988aea487d0e0af4
+Author: cjdumz <carldumo@gmail.com>
+Date:   Fri Feb 9 22:26:54 2018 +0800
+
+    added content and edited the file
+
+
+commit 7cb172bda5203557b23c09d89ab7f93e28924140
+Author: migzrmrz <2144165@slu.edu.ph>
+Date:   Fri Feb 9 22:13:00 2018 +0800
+
+    Added new description of World Wide Web
+
+
+commit aa0ab8d91137a1438a85535268e99c1872be2940
+Author: Marileus Bernardez <marileusbernardez@gmail.com>
+Date:   Fri Feb 9 15:36:06 2018 +0800
+
+    Added Part V of the document
+
+
+commit 01df0cdacaba153dc5181e573c68268075a1b008
+Author: kristine2155789 <kwistinedealban@gmail.com>
+Date:   Thu Feb 8 21:36:13 2018 +0800
+
+    initial description for all parts
+
+
+commit 5c56ce993913d364d34ac3f8b4ff4d366b3b3c39
+Author: migzrmrz <2144165@slu.edu.ph>
+Date:   Thu Feb 8 20:19:44 2018 +0800
+
+    Edited the definition of the World Wide Web
+
+
+commit c4507009bd454e00a892fb880c2bd26b3b1f08ce
+Author: migzrmrz <2144165@slu.edu.ph>
+Date:   Thu Feb 8 20:14:08 2018 +0800
+
+    Resolved some issues in other files that are duplicated.
+
+
+commit 391955b1ea0b678b28a372a3c967347fbb10f37c
+Author: migzrmrz <2144165@slu.edu.ph>
+Date:   Thu Feb 8 20:09:07 2018 +0800
+
+    Resolving merge conflict by incorporating both suggestions.
+
+
+commit c42d86083feaa23b30016bfc435fdc1abf0ca8af
+Merge: bcac2f3 5e1d083
+Author: migzrmrz <2144165@slu.edu.ph>
+Date:   Thu Feb 8 20:02:35 2018 +0800
+
+    Merge branch 'master' of https://github.com/migzrmrz/9346A-Webtek-Lec
+
+
+commit bcac2f35728e7edbaeb34036c5c876d8280cd8a8
+Author: migzrmrz <2144165@slu.edu.ph>
+Date:   Thu Feb 8 19:54:03 2018 +0800
+
+    Added some defintion of WWW
+
+
+commit 5e1d083f2c2c80a7e77a74b212709338deba3be5
+Author: cjdumz <carldumo@gmail.com>
+Date:   Wed Feb 7 17:28:14 2018 +0800
+
+    added documentation
+
+
+commit 9c9c1002beb6049ed97c4579e1246126935569a6
+Author: migzrmrz <2144165@slu.edu.ph>
+Date:   Tue Feb 6 20:57:27 2018 +0800
+
+    first commit
