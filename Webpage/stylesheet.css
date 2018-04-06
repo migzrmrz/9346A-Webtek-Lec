@@ -124,3 +124,16 @@ src: url("fonts/amita-regular.ttf");
     margin-left: 285px;
     border-radius: 25px;
 }
+
+p{
+    text-indent: 20px;
+}
+
+img{
+    margin-left: 10%;
+    display: block;
+    max-width:500px;
+    max-height:300px;
+    width: auto;
+    height: auto;
+}
