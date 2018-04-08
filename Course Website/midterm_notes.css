@@ -35,6 +35,10 @@ body {
   color: white;
 }
 
+ul {
+  list-style-type: none;
+}
+
 .content {
   padding: 16px;
 }
