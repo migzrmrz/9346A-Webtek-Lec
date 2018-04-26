@@ -16,6 +16,72 @@
 /*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
 
 --
+-- Table structure for table `css_questions`
+--
+
+DROP TABLE IF EXISTS `css_questions`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `css_questions` (
+  `id` int(11) NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `css_questions`
+--
+
+LOCK TABLES `css_questions` WRITE;
+/*!40000 ALTER TABLE `css_questions` DISABLE KEYS */;
+/*!40000 ALTER TABLE `css_questions` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `html_questions`
+--
+
+DROP TABLE IF EXISTS `html_questions`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `html_questions` (
+  `id` int(11) NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `html_questions`
+--
+
+LOCK TABLES `html_questions` WRITE;
+/*!40000 ALTER TABLE `html_questions` DISABLE KEYS */;
+/*!40000 ALTER TABLE `html_questions` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `http_questions`
+--
+
+DROP TABLE IF EXISTS `http_questions`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `http_questions` (
+  `id` int(11) NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `http_questions`
+--
+
+LOCK TABLES `http_questions` WRITE;
+/*!40000 ALTER TABLE `http_questions` DISABLE KEYS */;
+/*!40000 ALTER TABLE `http_questions` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
 -- Dumping events for database 'webtek'
 --
 
@@ -32,4 +98,4 @@
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2018-04-26 20:44:21
+-- Dump completed on 2018-04-26 21:01:02
