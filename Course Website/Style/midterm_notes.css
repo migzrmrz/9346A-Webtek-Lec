@@ -1,0 +1,76 @@
+body {
+  background-image: url('images/background.jpg');
+  background-attachment: fixed;
+  background-size: 100%;
+  font-family: "Calibri";
+}
+
+@font-face {
+  font-family: "myFirstFont";
+  src:url('font/.ttf');
+}
+
+h2{
+  background-color: #333;
+  color: white;
+  text-align: center;
+}
+
+.header {
+  background-image: url('images/header.jpg');
+  padding: 163px;
+  text-align: center;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.container{
+  margin: 0 auto;
+  width: 60%;
+  font-size: 28px;
+  background-color: white;
+}
+
+#navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+#navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 90px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+
+#navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+#navbar a.active {
+  background-color: #9fa5f8;
+  color: white;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.content {
+  padding: 16px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 59.5%;
+}
+
+.sticky + .content {
+  padding-top: 60px;
+}
