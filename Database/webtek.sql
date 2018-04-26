@@ -24,6 +24,8 @@ DROP TABLE IF EXISTS `css_questions`;
 /*!40101 SET character_set_client = utf8 */;
 CREATE TABLE `css_questions` (
   `id` int(11) NOT NULL,
+  `questions` varchar(191) DEFAULT NULL,
+  `answers` varchar(45) DEFAULT NULL,
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 /*!40101 SET character_set_client = @saved_cs_client */;
@@ -98,4 +100,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2018-04-26 21:01:02
+-- Dump completed on 2018-04-26 21:08:01
