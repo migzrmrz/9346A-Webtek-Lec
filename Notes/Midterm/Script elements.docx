@@ -1,0 +1,68 @@
+Script Elements
+
+	
+
+	<script> tag
+
+	 - this tag is used to define a client-side script (JavaScript).
+
+	 - this element either contains scripting statements, or it points to an external script file
+
+	   through the src attribute.
+
+	
+
+	<noscript> tag
+
+	 - this tag is used to provide an alternative content for users thathave disabled scripts in their
+
+	   browser or have a browser that doesn't support client-side scripts.
+
+	
+
+	Script Object Properties
+
+	
+
+	async - Sets or returns whether a script should be executed asychronously as soon as it is available
+
+	charset - Sets or returns the value of the charset attribute of a script.
+
+	crossOrigin - Sets or returns the CORS settings of a script.
+
+	defer - execution of the script is not needed.
+
+	src - sets or returns a value of the src attribute of a script.
+
+	text - sets or returns the contents of all the text nodes that are children of a script.
+
+	type - sets or returns the value of the type attribute of a script.
+
+	
+
+	HTML DOM (Document Object Model)
+
+	> Core DOM - standard model for all document types.
+
+	> XML DOM - standard model for XML documents.
+
+	> HTML DOM - standard model for HTML documents.
+
+	
+
+	# HTML DOM getElementByTagName() Method -- returns a collection of an elements's child elements with the specified tag name, as a NodeList object. 
+
+	The NodeList object represents a collection of nodes. The nodes can be accessed by index numbers. The index starts at 0.
+
+	
+
+	# HTML DOM getElementByName() Method -- The getElementsByName() method returns a collection of all elements in the document with the specified name (the value of the name attribute), as a NodeList object.
+
+	# HTML DOM getElementsByClassName() Method -- The getElementsByClassName() method returns a collection of all elements in the document with the specified class name, as a NodeList object.
+
+	# HTML DOM querySelector() Method -- The querySelector() method returns the first element that matches a specified CSS selector(s) in the document.
+
+	The querySelector() method only returns the first element that matches the specified selectors. To return all the matches, use the querySelectorAll() method instead.
+
+	# HTML DOM querySelectorAll() Method -- The querySelectorAll() method returns all elements in the document that matches a specified CSS selector(s), as a static NodeList object.
+
