@@ -1,5 +1,135 @@
-<html>
-  <title></title>
-  <body>
-  </body>
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title> HTTP and HTML</title>
+        <link rel="stylesheet" type="text/css" href="stylesheet.css">
+        <link rel="icon" href="images/SLU.jpg">
+    </head>
+
+    <body>
+        <div class="header">
+            <h4 id="hdtitle">WEB SYSTEMS AND TECHNOLOGIES</h4>
+        </div>
+        <div class="container">
+            <div class="nav">
+                <ul>
+                    <li><a href="index.html">INTRODUCTION</a></li>
+					<li><a class="selected" href="#">COMMANDS</a></li>
+					<li><a href="page3.html">STATUS CODES</a></li>
+                </ul>
+            </div>
+            <div class="contents">
+                <h2 id="content-title">Commands</h2>
+                    <ul class="list">
+                        <li>Clients
+                            <ul>
+                                <li>Client sends requests to the server</li>
+                                <li>User Agents - ones who access resources</li>
+                            </ul>
+						</li>
+						 <li>Cache Control
+                            <ul>
+                                <li>Proxies can be caching servers</li>
+                                <li>Note: Locality of Memory Principle</li>
+                            </ul>
+						</li>
+						 <li>Content media type(MIME) specification
+                            <ul>
+                                <li>Tell you what type of content it is. Example: text/html</li>	
+							</ul>
+						</li>
+						<li>Content/transfer coding
+                            <ul>
+                                <li>Example: Compression</li>	
+							</ul>
+						</li>
+						<li>Content negotiation
+                            <ul>
+                                <li>Example: Mobile and desktop has different content even if it's the same website</li>	
+							</ul>
+						</li>
+						 <li>Client server protocol negotiation
+                            <ul>
+                                <li>If connections have different protocols. Example: HTTP 1.0 and HTTP 2</li>
+                                <li>Connections have to negotiate which protocol to use</li>
+                            </ul>
+						</li>
+						 <li>Persistent connections
+                            <ul>
+                                <li>Introduced in HTTP 1.1</li>
+                                <li>In HTTP 1, connections where non-persistent so once a request has been fulfilled the connection would cut off. This made sense before since websites back then have little content. However nowadays the non-persistent connection cannot be used anymore. because of overhead. More sites have more requests and for each request there will be a transfer, which called for the need of persistent connections. So when asking for a request, it will inform the server not to close the connection.</li>
+                            </ul>
+						</li>
+						<li>Request pipelining
+                            <ul>
+                                <li>Introduced in HTTP 1.1</li>
+                                <li>There is still overhead in waiting for one request to be finished in a persistent connection. Request pipelining enables you to fetch the next instruction EVEN IF the first one isn't done yet.</li>
+								<li>HTTPS</li>
+								<li>Status line</li>
+								<li>HTTP protocol version</li>
+								<li>Status code</li>
+								<li>Reason phrase</li>
+								<li>Response headers</li>
+								<li>Empty line</li>
+								<li>Message body</li>
+                            </ul>
+						</li>
+							<li>GET
+                            <ul>
+                                <li>Most commonly used HTTP method</li>	
+								<li>Can be combined with conditional and/or range request headers to effect conditional and/or partial resource retrieval</li>	
+								<li>Must be supported by all general-purpose servers.</li>	
+							</ul>
+						</li>
+							<li>HEAD
+                            <ul>
+                                <li>Identical to GET, except the message body is not included in the response</li>	
+							</ul>
+						</li>
+							<li>POST
+                            <ul>
+                                <li>Request that the origin server accept the entity enclosed in the request as a new subordinate of the resource identified by the Request-URI in the Request-Line.</li>	
+							</ul>
+						</li>
+							<li>OPTIONS
+                            <ul>
+                                <li>Request for information about the communication options available on the request/response chain identified by the Request-URI. This method allows the client to determine the options and/or requirements associated with a resource, or the capabilities of a server, without implying a resource action or initiating resource retrieval.</li>	
+							</ul>
+						</li>
+						<li>TRACE
+                            <ul>
+                                <li>Request the server to “echo” back to the client the received request</li>	
+								<li>Typically used for testing/diagnostics of the request chain</li>
+							</ul>
+						</li>
+						<li>PUT
+                            <ul>
+                                <li>Request the server to store the enclosed entity in the message under the specified request URI</li>
+							</ul>
+						</li>
+							<li>DELETE
+                            <ul>
+                                <li>Request the server to delete the resource identified by the request URI</li>
+							</ul>
+						</li>
+							<li>CONNECT
+                            <ul>
+                                <li>Reserved for use of tunneling proxy servers</li>
+							</ul>
+						</li>
+						
+                    </ul>
+                </div>
+            </div>
+            <div class="images">
+                <div class="imglib1">
+                    
+                </div>
+                <div class="imglib2">
+				
+                </div>
+            </div>
+        <footer>Group 1 &copy; Web Systems and Technologies 2018</footer>
+    </body>
 </html>
