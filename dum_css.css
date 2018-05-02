@@ -66,6 +66,8 @@ src: url("fonts/amita-regular.ttf");
 }
 .nav ul li{
 	margin-top:90px;
+	float: left;
+    padding-left: 150px;
 }
 .nav a{
 	text-decoration: none;
@@ -76,6 +78,8 @@ src: url("fonts/amita-regular.ttf");
 }
 .nav a.selected{
 	font-weight: bold;
+	float: left;
+    padding-left: 150px;
 }
 /* content */
 
@@ -100,6 +104,8 @@ src: url("fonts/amita-regular.ttf");
     float: right;
     margin-right: 110px;
     border-radius: 35px;
+    float: left;
+    padding-left: 150px;
 }
 .contents1{
 	float: left;
@@ -123,4 +129,6 @@ footer{
     text-align: center;
     margin-left: 285px;
     border-radius: 25px;
+    float: left;
+    padding-left: 150px;
 }
