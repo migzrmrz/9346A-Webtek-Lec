@@ -9,6 +9,7 @@ body{
     color: white;
 }
 
+
 @font-face{
 font-family: "amita-regular";
 src: url("fonts/amita-regular.ttf");
@@ -129,6 +130,10 @@ footer{
     text-align: center;
     margin-left: 285px;
     border-radius: 25px;
+<<<<<<< HEAD
     float: left;
     padding-left: 150px;
 }
+=======
+}
+>>>>>>> fe4c43135f28aa8ef3409e3734b34fea44533cab
