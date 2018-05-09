@@ -26,18 +26,18 @@
                 @csrf
                 <div class="row">
                     <div class="col-md-12 form-group">
-                        <label for="uname">Username</label>
-                        <input type="text" id="uname" class="form-control{{ $errors->has('uname') ? ' is-invalid' : '' }}" name="uname" required>
-                        @if ($errors->has('email'))
+                        <label for="name">Username</label>
+                        <input type="text" id="name" class="form-control{{ $errors->has('name') ? ' is-invalid' : '' }}" name="name" required>
+                        @if ($errors->has('name'))
                             <span class="invalid-feedback">
-                                <strong>{{ $errors->first('email') }}</strong>
+                                <strong>{{ $errors->first('name') }}</strong>
                             </span>
                         @endif
                     </div>
                 </div>
                 <div class="row mb-5">
                     <div class="col-md-12 form-group">
-                        <label for="name">Password</label>
+                        <label for="password">Password</label>
                         <input type="password" id="password" class="form-control{{ $errors->has('password') ? ' is-invalid' : '' }}" name="password" required>
                         @if ($errors->has('password'))
                             <span class="invalid-feedback">
