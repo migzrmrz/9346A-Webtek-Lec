@@ -38,7 +38,19 @@
                   </div>
                   <div class="row">
                     <div class="col-md-12 form-group">
-                      <label for="name">Password</label>
+                      <label for="email">Email</label>
+                      <input id="email" type="email" class="form-control{{ $errors->has('email') ? ' is-invalid' : '' }}" name="email" value="{{ old('email') }}" required>
+
+                      @if ($errors->has('email'))
+                          <span class="invalid-feedback">
+                              <strong>{{ $errors->first('email') }}</strong>
+                          </span>
+                      @endif
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-md-12 form-group">
+                      <label for="password">Password</label>
                       <input id="password" type="password" class="form-control{{ $errors->has('password') ? ' is-invalid' : '' }}" name="password" required>
 
                       @if ($errors->has('password'))
@@ -67,25 +79,6 @@
     </section>
     <!-- END section -->
 
-     <section class="overflow">
-      <div class="container">
-        <div class="row justify-content-center align-items-center">
-          
-          
-          <div class="col-lg-7 order-lg-3 order-1 mb-lg-0 mb-5">
-            <img src="{{ asset('bootstrap/images/person_testimonial_1.jpg') }}" alt="Image placeholder" class="img-md-fluid">
-          </div>
-          <div class="col-lg-1 order-lg-2"></div>
-          <div class="col-lg-4 order-lg-1 order-2 mb-lg-0 mb-5">
-            <blockquote class="testimonial">
-              &ldquo; Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt incidunt nihil ab cumque molestiae commodi. &rdquo;
-            </blockquote>
-            <p>&mdash; John Doe, Certified ReactJS Student</p>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- END section -->
     
   
     <footer class="site-footer" style="background-image: url(bootstrap/images/big_image_3.jpg);">
