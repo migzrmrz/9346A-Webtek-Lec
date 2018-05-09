@@ -2,7 +2,13 @@
 
 namespace App\Http\Controllers;
 
+use App\Http\Controllers\Controller;
+use App\Http\Requsts;
+
 use Illuminate\Http\Request;
+
+use App\HtmlQuestions;
+use App\HtmlChoice;
 
 class PagesController extends Controller
 {
@@ -40,4 +46,47 @@ class PagesController extends Controller
     {
         return view('pages.register');
     }
+    
+    public function home()
+    {
+        return view('pages.home');
+    }
+
+    public function htmlQuiz()
+    {
+        return view('pages.htmlQuiz');
+    }
+
+    public function htmlQuestionsPage()
+    {   
+        $questions = HtmlQuestions::all();
+        $choices = HtmlChoice::all();
+        return view('pages.htmlQuestionsPage')->with('questions', $questions)->with('choices', $choices);
+    }
+
+    public function htmlCourse()
+    {
+        return view('pages.htmlCourse');
+    }
+
+    public function cssCourse()
+    {
+        return view('pages.cssCourse');
+    }
+
+    public function phpCourse()
+    {
+        return view('pages.phpCourse');
+    }
+
+    public function jsCourse()
+    {
+        return view('pages.jsCourse');
+    }
+
+    public function nodeJSCourse()
+    {
+        return view('pages.nodeJSCourse');
+    }
+
 }
