@@ -9,8 +9,8 @@
 
             <div class="mb-5 element-animate">
               <h1>Level Up Your Skills</h1>
-              <p class="lead">See our courses Below</p>
-              <p><a href="#" class="btn btn-primary">Sign up and get a 7-day free trial</a></p>
+              <p class="lead">Learn more on our Course Website</p>
+              <p><a href="#" class="btn btn-primary">Learn Today!</a></p>
             </div>
 
             
@@ -31,14 +31,14 @@
         <div class="row top-course">
           <div class="col-md-4 col-sm-6 col-12">
             <a href="{{ route('htmlCourse')}}" class="course">
-              <img src="{{ asset('bootstrap/images/webdesign.jpg') }}" alt="Image placeholder">
+              <img src="{{ asset('bootstrap/images/html5.png') }}" alt="Image placeholder">
               <h2>HTML</h2>
               <p>Enroll Now</p>
             </a>
           </div>
           <div class="col-md-4 col-sm-6 col-12">
             <a href="{{ route('cssCourse')}}" class="course">
-              <img src="{{ asset('bootstrap/images/wordpress.jpg') }}" alt="Image placeholder">
+              <img src="{{ asset('bootstrap/images/css3.png') }}" alt="Image placeholder">
               <h2>CSS</h2>
               <p>Enroll Now</p>
             </a>
@@ -46,7 +46,7 @@
 
           <div class="col-md-4 col-sm-6 col-12">
             <a href="{{ route('jsCourse')}}" class="course">
-              <img src="{{ asset('bootstrap/images/javascript.jpg') }}" alt="Image placeholder">
+              <img src="{{ asset('bootstrap/images/javascript.png') }}" alt="Image placeholder">
               <h2>JavaScript</h2>
               <p>Enroll Now</p>
             </a>
@@ -66,7 +66,7 @@
           </div>
           <div class="col-lg-2 col-md-4 col-sm-6 col-12">
             <a href="course-single.html" class="course">
-              <img src="{{ asset('bootstrap/images/wordpress.jpg') }}" alt="Image placeholder">
+              <img src="{{ asset('bootstrap/images/css.png') }}" alt="Image placeholder">
               <h2>CSS</h2>
               <p>Enroll Now</p>
             </a>
@@ -80,14 +80,14 @@
           </div>
           <div class="col-lg-2 col-md-4 col-sm-6 col-12">
             <a href="course-single.html" class="course">
-              <img src="{{ asset('bootstrap/images/photoshop.jpg') }}" alt="Image placeholder">
+              <img src="{{ asset('bootstrap/images/php.png') }}" alt="Image placeholder">
               <h2>PHP</h2>
               <p>Enroll Now</p>
             </a>
           </div>
           <div class="col-lg-2 col-md-4 col-sm-6 col-12">
             <a href="course-single.html" class="course">
-              <img src="{{ asset('bootstrap/images/reactjs.jpg') }}" alt="Image placeholder">
+              <img src="{{ asset('bootstrap/images/nodejs.png') }}" alt="Image placeholder">
               <h2>Node JS</h2>
               <p>Enroll Now</p>
             </a>
@@ -106,14 +106,14 @@
         <div class="row top-course">
           <div class="col-md-4 col-sm-6 col-12">
             <a href="{{ route('phpCourse')}}" class="course">
-              <img src="{{ asset('bootstrap/images/photoshop.jpg') }}" alt="Image placeholder">
+              <img src="{{ asset('bootstrap/images/php.png') }}" alt="Image placeholder">
               <h2>PHP</h2>
               <p>Enroll Now</p>
             </a>
           </div>
           <div class="col-md-4 col-sm-6 col-12">
             <a href="{{ route('nodeJSCourse')}}" class="course">
-              <img src="{{ asset('bootstrap/images/reactjs.jpg') }}" alt="Image placeholder">
+              <img src="{{ asset('bootstrap/images/nodejs.png') }}" alt="Image placeholder">
               <h2>Node JS</h2>
               <p>Enroll Now</p>
             </a>
@@ -124,102 +124,6 @@
     </section>
     <!-- END section -->
 
-    <section class="site-section">
-      <div class="container">
-        <div class="row justify-content-center mb-5">
-          <div class="col-md-7 text-center">
-            <h2>Meet Your Instructors</h2>
-            <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum magnam illum maiores adipisci pariatur, eveniet.</p>
-          </div>
-        </div>
-        <section class="school-features text-dark d-flex">
-
-          <div class="inner">
-            <div class="media d-block feature text-center">
-              <img src="{{ asset('bootstrap/images/person_1.jpg') }}" alt="Image placeholder" class="mb-3">
-              <div class="media-body">
-                <h3 class="mt-0">Rhea Smith</h3>
-                <p class="instructor-meta">WordPress Expert</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora fuga suscipit numquam esse saepe quam, eveniet iure assumenda dignissimos aliquam!</p>
-              </div>
-            </div>
-
-            <div class="media d-block feature text-center">
-              <img src="{{ asset('bootstrap/images/person_2.jpg') }}" alt="Image placeholder" class="mb-3">
-              <div class="media-body">
-                <h3 class="mt-0">Gregg White</h3>
-                <p class="instructor-meta">HTML4, CSS3 Expert</p>
-                <p>Delectus fuga voluptatum minus amet, mollitia distinctio assumenda voluptate quas repellat eius quisquam odio. Aliquam, laudantium, optio? Error velit, alias.</p>
-              </div>
-            </div>
-
-            <div class="media d-block feature text-center">
-              <img src="{{ asset('bootstrap/images/person_3.jpg') }}" alt="Image placeholder" class="mb-3">
-              <div class="media-body">
-                <h3 class="mt-0">Rob Gold</h3>
-                <p class="instructor-meta">JS Expert</p>
-                <p>Delectus fuga voluptatum minus amet, mollitia distinctio assumenda voluptate quas repellat eius quisquam odio. Aliquam, laudantium, optio? Error velit, alias.</p>
-              </div>
-            </div>
-
-
-            <div class="media d-block feature text-center">
-              <img src="{{ asset('bootstrap/images/person_4.jpg') }}" alt="Image placeholder" class="mb-3">
-              <div class="media-body">
-                <h3 class="mt-0">Wennie Poe</h3>
-                <p class="instructor-meta">Angular JS Expert</p>
-                <p>Harum, adipisci, aspernatur. Vero repudiandae quos ab debitis, fugiat culpa obcaecati, voluptatibus ad distinctio cum soluta fugit sed animi eaque?</p>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        <section class="school-features text-dark last d-flex">
-
-          <div class="inner">
-            <div class="media d-block feature text-center">
-              <img src="{{ asset('bootstrap/images/person_1.jpg') }}" alt="Image placeholder" class="mb-3">
-              <div class="media-body">
-                <h3 class="mt-0">Rhea Smith</h3>
-                <p class="instructor-meta">WordPress Expert</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora fuga suscipit numquam esse saepe quam, eveniet iure assumenda dignissimos aliquam!</p>
-              </div>
-            </div>
-
-            <div class="media d-block feature text-center">
-              <img src="{{ asset('bootstrap/images/person_2.jpg') }}" alt="Image placeholder" class="mb-3">
-              <div class="media-body">
-                <h3 class="mt-0">Gregg White</h3>
-                <p class="instructor-meta">Photoshop Expert</p>
-                <p>Delectus fuga voluptatum minus amet, mollitia distinctio assumenda voluptate quas repellat eius quisquam odio. Aliquam, laudantium, optio? Error velit, alias.</p>
-              </div>
-            </div>
-
-            <div class="media d-block feature text-center">
-              <img src="{{ asset('bootstrap/images/person_3.jpg') }}" alt="Image placeholder" class="mb-3">
-              <div class="media-body">
-                <h3 class="mt-0">Rob Gold</h3>
-                <p class="instructor-meta">Web Design Expert</p>
-                <p>Delectus fuga voluptatum minus amet, mollitia distinctio assumenda voluptate quas repellat eius quisquam odio. Aliquam, laudantium, optio? Error velit, alias.</p>
-              </div>
-            </div>
-
-
-            <div class="media d-block feature text-center">
-              <img src="{{ asset('bootstrap/images/person_4.jpg') }}" alt="Image placeholder" class="mb-3">
-              <div class="media-body">
-                <h3 class="mt-0">Wennie Poe</h3>
-                <p class="instructor-meta">React JS Expert</p>
-                <p>Harum, adipisci, aspernatur. Vero repudiandae quos ab debitis, fugiat culpa obcaecati, voluptatibus ad distinctio cum soluta fugit sed animi eaque?</p>
-              </div>
-            </div>
-          </div>
-        </section>
-
-
-      </div>
-    </section>
-    <!-- END section -->
   
     <footer class="site-footer" style="background-image: url(bootstrap/images/big_image_3.jpg);">
       <div class="container">

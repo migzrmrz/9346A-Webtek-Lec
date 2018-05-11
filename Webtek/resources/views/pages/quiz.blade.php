@@ -29,14 +29,14 @@
           <div class="col-md-4 col-sm-6 col-12">
             <a href="{{ route('htmlQuiz') }}" class="blog-entry">
               <img src="{{ asset('bootstrap/images/img_1.jpg') }}" alt="Image placeholder">
-              <h2>College vs. ELearning</h2>
+              <h2>HTML Quiz</h2>
               <p>January 3, 2018</p>
             </a>
           </div>
           <div class="col-md-4 col-sm-6 col-12">
-            <a href="blog-single.html" class="blog-entry">
+            <a href="{{ route('cssQuiz') }}" class="blog-entry">
               <img src="{{ asset('bootstrap/images/img_2.jpg') }}" alt="Image placeholder">
-              <h2>Learn How To Develop WordPress Plugin</h2>
+              <h2>CSS Quiz</h2>
               <p>January 3, 2018</p>
             </a>
           </div>
