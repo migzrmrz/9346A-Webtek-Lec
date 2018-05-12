@@ -3,42 +3,43 @@
 @section('content')
 
     <section class="site-hero overlay" data-stellar-background-ratio="0.5" style="background-image: url(bootstrap/images/big_image_1.jpg);">
-        <div class="container">
-          <div class="row align-items-center site-hero-inner justify-content-center">
-            <div class="col-md-8 text-center">
-  
-              <div class="mb-5 element-animate">
-                <h1>PHP</h1>
-              </div>
+      <div class="container">
+        <div class="row align-items-center site-hero-inner justify-content-center">
+          <div class="col-md-8 text-center">
+
+            <div class="mb-5 element-animate">
+              <h1>PHP</h1>
             </div>
           </div>
         </div>
-      </section>
+      </div>
+    </section>
+    <section class="site-section">
+      <div class="container">
+        
+          <div class="media d-block feature">
 
-      <section class ="">
+          <center><h1>Terminology overview</h1></center><br>
+          <p> <h5>What is an API?</h5> An Application Programming Interface, or API, defines the classes, methods, functions and variables that your application will need to call in order to carry out its desired task. In the case of PHP applications that need to communicate with databases the necessary APIs are usually exposed via PHP extensions.</p>
+
+          <p>APIs can be procedural or object-oriented. With a procedural API you call functions to carry out tasks, with the object-oriented API you instantiate classes and then call methods on the resulting objects. Of the two the latter is usually the preferred interface, as it is more modern and leads to better organized code.</p>
+          
+          <p><h5>What is a Connector?</h5> In the MySQL documentation, the term connector refers to a piece of software that allows your application to connect to the MySQL database server. MySQL provides connectors for a variety of languages, including PHP.
+          PHP application needs to communicate with a database server you will need to write PHP code to perform such activities as connecting to the database server, querying the database and other database-related functions. Software is required to provide the API that your PHP application will use, and also handle the communication between your application and the database server, possibly using other intermediate libraries where necessary. This software is known generically as a connector, as it allows your application to connect to a database server.
+          </p>
+
+          <p><h5>What is a Driver?</h5> A driver is a piece of software designed to communicate with a specific type of database server. The driver may also call a library, such as the MySQL Client Library or the MySQL Native Driver. These libraries implement the low-level protocol used to communicate with the MySQL database server.
+          </p>
+
+          <p><h5>What is an Extension?</h5>An extension typically exposes an API to the PHP programmer, to allow its facilities to be used programmatically. However, some extensions which use the PHP extension framework do not expose an API to the PHP programmer.</p>
+          
+          </div><br>
+       
+
+     
         <div class="media d-block feature">
 
-        <h3>Terminology overview</h3> 
-        <p> <h5>What is an API?</h5> An Application Programming Interface, or API, defines the classes, methods, functions and variables that your application will need to call in order to carry out its desired task. In the case of PHP applications that need to communicate with databases the necessary APIs are usually exposed via PHP extensions.</p>
-
-        <p>APIs can be procedural or object-oriented. With a procedural API you call functions to carry out tasks, with the object-oriented API you instantiate classes and then call methods on the resulting objects. Of the two the latter is usually the preferred interface, as it is more modern and leads to better organized code.</p>
-        
-        <p><h5>What is a Connector?</h5> In the MySQL documentation, the term connector refers to a piece of software that allows your application to connect to the MySQL database server. MySQL provides connectors for a variety of languages, including PHP.
-        PHP application needs to communicate with a database server you will need to write PHP code to perform such activities as connecting to the database server, querying the database and other database-related functions. Software is required to provide the API that your PHP application will use, and also handle the communication between your application and the database server, possibly using other intermediate libraries where necessary. This software is known generically as a connector, as it allows your application to connect to a database server.
-        </p>
-
-        <p><h5>What is a Driver?</h5> A driver is a piece of software designed to communicate with a specific type of database server. The driver may also call a library, such as the MySQL Client Library or the MySQL Native Driver. These libraries implement the low-level protocol used to communicate with the MySQL database server.
-        </p>
-
-        <p><h5>What is an Extension?</h5>An extension typically exposes an API to the PHP programmer, to allow its facilities to be used programmatically. However, some extensions which use the PHP extension framework do not expose an API to the PHP programmer.</p>
-        
-        </div>
-      </section>
-
-      <section class ="">
-        <div class="media d-block feature">
-
-            <h3> PHP BASICS </h3>
+            <center><h1> PHP BASICS </h1></center><br>
             
             <div> <h5> CLASS </h5>
             <p> Basic class definitions begin with the keyword class, followed by a class name, followed by a pair of curly braces which enclose the definitions of the properties and methods belonging to the class. </p>
@@ -65,15 +66,15 @@
             </div> 
 
         </div>
-    </section>
+    
 
 
-      <section class ="">
+      <section class ="site-section bg-light">
         <div class="media d-block feature">
-            
-            <div><h5>List of Keywords</h5> 
-            <p>These words have special meaning in PHP. Some of them represent things which look like functions, some look like constants, and so on - but they're not, really: they are language constructs. You cannot use any of the following words as constants, class names, function or method names. Using them as variable names is generally OK, but could lead to confusion.</p>
-            
+            <div>
+              <center><h1>List of Keywords</h1></center>
+              <p>These words have special meaning in PHP. Some of them represent things which look like functions, some look like constants, and so on - but they're not, really: they are language constructs. You cannot use any of the following words as constants, class names, function or method names. Using them as variable names is generally OK, but could lead to confusion.</p>
+            </div>
 
             <table style="width:100%">
                 <tr>
@@ -154,12 +155,119 @@
                   <td>while</td>
                 </tr>
               </table>
-            </div> 
+            </div>
+          </section>
+          {{-- <section class="school-features text-dark d-flex">
+              <div class="inner">
+                <div class="media d-block feature">
+                  <div class="media-body">
+                    <h3 class="mt-0">__halt_compiler()</h3>
+                    <p></p>
+                  </div>
+                </div>
+                <div class="media d-block feature">
+                  <div class="media-body">
+                      <h3 class="mt-0">abstract</h3>
+                      <p></p>
+                  </div>
+                </div>
+                <div class="media d-block feature">
+                  <div class="media-body">
+                      <h3 class="mt-0">and</h3>
+                      <p></p>
+                  </div>
+                </div>
+                <div class="media d-block feature">
+                  <div class="media-body">
+                      <h3 class="mt-0">array()</h3>
+                      <p></p>
+                  </div>
+                </div>
+                <div class="media d-block feature">
+                  <div class="media-body">
+                      <h3 class="mt-0">as</h3>
+                      <p></p>
+                  </div>
+                </div>
+                <div class="media d-block feature">
+                  <div class="media-body">
+                      <h3 class="mt-0">break</h3>
+                      <p></p>
+                  </div>
+                </div>
+                <div class="media d-block feature">
+                  <div class="media-body">
+                      <h3 class="mt-0">callable</h3>
+                      <p></p>
+                  </div>
+                </div>
 
-
-
-        </div>
-        </section>
-   
-   
+                <div class="media d-block feature">
+                  <div class="media-body">
+                      <h3 class="mt-0">case</h3>
+                      <p></p>
+                  </div>
+                </div>
+                <div class="media d-block feature">
+                  <div class="media-body">
+                      <h3 class="mt-0">catch</h3>
+                      <p></p>
+                  </div>
+                </div>
+                <div class="media d-block feature">
+                  <div class="media-body">
+                      <h3 class="mt-0">class</h3>
+                      <p></p>
+                  </div>
+                </div>
+                <div class="media d-block feature">
+                  <div class="media-body">
+                      <h3 class="mt-0">clone</h3>
+                      <p></p>
+                  </div>
+                </div>
+                <div class="media d-block feature">
+                  <div class="media-body">
+                      <h3 class="mt-0">const</h3>
+                      <p></p>
+                  </div>
+                </div>
+                <div class="media d-block feature">
+                  <div class="media-body">
+                      <h3 class="mt-0">continue</h3>
+                      <p></p>
+                  </div>
+                </div>
+                <div class="media d-block feature">
+                  <div class="media-body">
+                      <h3 class="mt-0">declare</h3>
+                      <p></p>
+                  </div>
+                </div>
+                <div class="media d-block feature">
+                  <div class="media-body">
+                    <h3 class="mt-0">Learn anywhere in the world</h3>
+                    <p>Delectus fuga voluptatum minus amet, mollitia distinctio assumenda voluptate quas repellat eius quisquam odio. Aliquam, laudantium, optio? Error velit, alias.</p>
+                  </div>
+                </div>
+    
+                <div class="media d-block feature">
+                  <div class="media-body">
+                    <h3 class="mt-0">Creative learning video</h3>
+                    <p>Delectus fuga voluptatum minus amet, mollitia distinctio assumenda voluptate quas repellat eius quisquam odio. Aliquam, laudantium, optio? Error velit, alias.</p>
+                  </div>
+                </div>
+    
+    
+                <div class="media d-block feature">
+                  <div class="media-body">
+                    <h3 class="mt-0">Audio learning</h3>
+                    <p>Harum, adipisci, aspernatur. Vero repudiandae quos ab debitis, fugiat culpa obcaecati, voluptatibus ad distinctio cum soluta fugit sed animi eaque?</p>
+                  </div>
+                </div>
+              </div>
+            </section> --}}
+      </div>
+    </section>
+    
 @endsection
