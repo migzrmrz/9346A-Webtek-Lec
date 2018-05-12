@@ -74,7 +74,7 @@
                 <p>Attackers usually tries to find the vulnerabilities of each software. Whether the version of the software is old or new the hackers will always find vulnerabilities and exploit it.</p>
                 <p>For example, if a web application is using an older version and fails to update it for years, then the attacker would have an easier time breaking through the security measures and exploit each vulnerability. </p>
 
-<center><h1>A4:INSUFFICIENT LOGGING AND MONITORING</h1></center><br>
+<center><h1>A10:INSUFFICIENT LOGGING AND MONITORING</h1></center><br>
                
                 
                 <p>Monitoring hacking attempts and detecting breaches takes too much time to do. This is why most organizations are no longer doing this as often as possible. </p>
