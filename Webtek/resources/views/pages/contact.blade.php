@@ -65,7 +65,7 @@
           <div class="col-lg-1 order-lg-2"></div>
           <div class="col-lg-4 order-lg-1 order-2 mb-lg-0 mb-5">
             <blockquote class="testimonial">
-              &ldquo; Email us with any questions or inquiries. We are happy to answer your questions and set up a meeting with you. &rdquo;
+              &ldquo; Your questions and comments are important to us. Email us with any questions or inquiries. We are happy to answer your questions. We've got everything covered for your needs. &rdquo;
             </blockquote>
           </div>
         </div>
@@ -79,7 +79,7 @@
         <div class="row mb-5">
           <div class="col-md-4">
             <h3>About</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi, accusantium optio unde perferendis eum illum voluptatibus dolore tempora, consequatur minus asperiores temporibus reprehenderit.</p>
+            <p>This website is a project of Saint Louis University- Baguio City to share knowledge about the included topics like: PHP, NodeJS, JSP and AJAX.</p>
           </div>
           <div class="col-md-6 ml-auto">
             <div class="row">

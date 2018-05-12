@@ -130,7 +130,7 @@
         <div class="row mb-5">
           <div class="col-md-4">
             <h3>About</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi, accusantium optio unde perferendis eum illum voluptatibus dolore tempora, consequatur minus asperiores temporibus reprehenderit.</p>
+            <p>This website is a project of Saint Louis University- Baguio City to share knowledge about the included topics like: PHP, NodeJS, JSP and AJAX.</p>
           </div>
           <div class="col-md-6 ml-auto">
             <div class="row">
