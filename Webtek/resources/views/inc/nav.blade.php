@@ -27,7 +27,7 @@
 
             </li>
 
-            <li class="nav-item dropdown">
+<!--             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="dropdown05" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Categories</a>
               <div class="dropdown-menu" aria-labelledby="dropdown04">
                 <a class="dropdown-item" href="{{route('htmlCourse')}}">HTML</a>
@@ -38,8 +38,7 @@
                 <a class="dropdown-item" href="{{route('jspCourse')}}">JSP</a>
                 <a class="dropdown-item" href="{{route('javaServletCourse')}}">Java Servlet</a>
               </div>
-
-            </li>
+            </li> -->
             <li class="nav-item">
               <a class="nav-link" href="{{route('quiz')}}">Quiz</a>
             </li>
