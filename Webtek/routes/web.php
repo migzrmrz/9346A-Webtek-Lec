@@ -34,7 +34,7 @@ Route::get('/jsCourse', 'PagesController@jsCourse')->name('jsCourse');
 Route::get('/nodeJSCourse', 'PagesController@nodeJSCourse')->name('nodeJSCourse');
 Route::get('/jspCourse', 'PagesController@jspCourse')->name('jspCourse');
 Route::get('/javaServletCourse', 'PagesController@javaServletCourse')->name('javaServletCourse');
-
+Route::get('/OWASPcourse', 'PagesController@OWASPcourse')->name('OWASPcourse');
 
 Auth::routes();
 

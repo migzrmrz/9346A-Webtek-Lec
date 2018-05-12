@@ -22,6 +22,7 @@
                 <a class="dropdown-item" href="{{route('nodeJSCourse')}}">NodeJS</a>
                 <a class="dropdown-item" href="{{route('jspCourse')}}">JSP</a>
                 <a class="dropdown-item" href="{{route('javaServletCourse')}}">Java Servlet</a>
+                <a class="dropdown-item" href="{{route('OWASPcourse')}}">OWASP</a>
               </div>
 
             </li>

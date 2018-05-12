@@ -103,6 +103,10 @@ class PagesController extends Controller
     {
         return view('pages.javaServletCourse');
     }
+    public function OWASPcourse()
+    {
+        return view('pages.OWASP');
+    }
 
 
 }
