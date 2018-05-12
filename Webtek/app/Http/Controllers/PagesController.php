@@ -69,6 +69,13 @@ class PagesController extends Controller
         return view('pages.htmlQuestionsPage')->with('questions', $questions)->with('choices', $choices);
     }
 
+    public function cssQuestionsPage()
+    {   
+        $questions = HtmlQuestions::all();
+        $choices = HtmlChoice::all();
+        return view('pages.cssQuestionsPage')->with('questions', $questions)->with('choices', $choices);
+    }
+
     public function htmlCourse()
     {
         return view('pages.htmlCourse');

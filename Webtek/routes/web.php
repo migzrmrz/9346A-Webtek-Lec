@@ -26,6 +26,7 @@ Route::get('/', 'PagesController@home')->name('home');
 Route::get('/htmlQuiz', 'PagesController@htmlQuiz')->name('htmlQuiz');
 Route::get('/cssQuiz', 'PagesController@cssQuiz')->name('cssQuiz');
 Route::get('/htmlQuestionsPage', 'PagesController@htmlQuestionsPage')->name('htmlQuestions');
+Route::get('/cssQuestionsPage', 'PagesController@cssQuestionsPage')->name('cssQuestions');
 Route::get('/htmlFinal', 'PagesController@htmlFinal')->name('htmlFinal');
 Route::get('/htmlCourse', 'PagesController@htmlCourse')->name('htmlCourse');
 Route::get('/cssCourse', 'PagesController@cssCourse')->name('cssCourse');
