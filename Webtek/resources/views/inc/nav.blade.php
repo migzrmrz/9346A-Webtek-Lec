@@ -15,11 +15,11 @@
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="{{ url('/courses')}}" id="dropdown04" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Online Courses</a>
               <div class="dropdown-menu" aria-labelledby="dropdown04">
-                <a class="dropdown-item" href="{{ url('/courses')}}">HTML</a>
-                <a class="dropdown-item" href="{{ url('/courses')}}">CSS</a>
-                <a class="dropdown-item" href="{{ url('/courses')}}">PHP</a>
-                <a class="dropdown-item" href="{{ url('/courses')}}">Javascript</a>
-                <a class="dropdown-item" href="{{ url('/courses')}}">NodeJS</a>
+                <a class="dropdown-item" href="{{route('htmlCourse')}}">HTML</a>
+                <a class="dropdown-item" href="{{route('cssCourse')}}">CSS</a>
+                <a class="dropdown-item" href="{{route('phpCourse')}}">PHP</a>
+                <a class="dropdown-item" href="{{route('jsCourse')}}">Javascript</a>
+                <a class="dropdown-item" href="{{route('nodeJSCourse')}}">NodeJS</a>
               </div>
 
             </li>
