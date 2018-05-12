@@ -8,7 +8,7 @@
             <div class="col-md-8 text-center">
   
               <div class="mb-5 element-animate">
-                <h1>A1: INJECTION</h1>
+                <h1>OWASP</h1>
               </div>
             </div>
           </div>
@@ -17,7 +17,7 @@
     <section class="site-section">
         <div class="container">
             <div class="media d-block feature">
-                <center><h1>Injection</h1></center><br>
+                <center><h1>A1:INJECTION</h1></center><br>
                   <p>Injection attacks is a type of attack that involves obtaining of sensitive data (passwords, usernames, credit card numbers, etc.). Injection attacks has been 1st in the Top 10 OWASP web application vulnerabilities for many years and considered as the most dangerous among the vulnerabilities. Confidentiality, Authentication, Authorization and Integrity are the main consequences of injections. Generally, when attackers use injection, they target clients and insert malicious codes into the input fields to trick the database into sending back sensitive data and gives the attacker the ability to read and manipulate the sensitive data in the database. </p>
                   <p>Injection also gives the attacker administrative control over the database (such as inserting, deleting and shutting down the database). There are multiple types of injections such as Code Injection, Carriage Return and Line Feed Injection (CRLF), Cross-site Scripting (XSS), Email (Mail Command/STMP) injection, Host header injection, Lightweight Directory Access Protocol (LDAP) injection, OS Command Injection, XPath injection, SQL Injection (SQLi) and many more. SQL injection is the most common talked about type of injection which uses SQL commands in an input type to change the execution of programmed SQL commands in the web application.</p>
                   <br>
@@ -74,7 +74,7 @@
                 <p>Attackers usually tries to find the vulnerabilities of each software. Whether the version of the software is old or new the hackers will always find vulnerabilities and exploit it.</p>
                 <p>For example, if a web application is using an older version and fails to update it for years, then the attacker would have an easier time breaking through the security measures and exploit each vulnerability. </p>
 
-<center><h1>A10:INSUFFICIENT LOGGING AND MONITORING</h1></center><br>
+<center><h1>A4:INSUFFICIENT LOGGING AND MONITORING</h1></center><br>
                
                 
                 <p>Monitoring hacking attempts and detecting breaches takes too much time to do. This is why most organizations are no longer doing this as often as possible. </p>
