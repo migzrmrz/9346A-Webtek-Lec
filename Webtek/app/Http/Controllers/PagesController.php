@@ -10,6 +10,10 @@ use Illuminate\Http\Request;
 use App\HtmlQuestions;
 use App\HtmlChoice;
 
+use App\CssQuestions;
+use App\CssChoice;
+
+
 class PagesController extends Controller
 {
     public function index()
@@ -71,8 +75,8 @@ class PagesController extends Controller
 
     public function cssQuestionsPage()
     {   
-        $questions = HtmlQuestions::all();
-        $choices = HtmlChoice::all();
+        $questions = CssQuestions::all();
+        $choices = CssChoice::all();
         return view('pages.cssQuestionsPage')->with('questions', $questions)->with('choices', $choices);
     }
 
