@@ -40,7 +40,7 @@
 
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="{{ url('/quiz')}}">Quiz</a>
+              <a class="nav-link" href="{{route('quiz')}}">Quiz</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="{{ url('/about')}}">About</a>

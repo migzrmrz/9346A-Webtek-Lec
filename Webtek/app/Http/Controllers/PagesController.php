@@ -57,6 +57,11 @@ class PagesController extends Controller
         return view('pages.htmlQuiz');
     }
 
+    public function cssQuiz()
+    {
+        return view('pages.cssQuiz');
+    }
+
     public function htmlQuestionsPage()
     {   
         $questions = HtmlQuestions::all();
