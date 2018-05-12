@@ -65,9 +65,8 @@
           <div class="col-lg-1 order-lg-2"></div>
           <div class="col-lg-4 order-lg-1 order-2 mb-lg-0 mb-5">
             <blockquote class="testimonial">
-              &ldquo; Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt incidunt nihil ab cumque molestiae commodi. &rdquo;
+              &ldquo; Email us with any questions or inquiries. We are happy to answer your questions and set up a meeting with you. &rdquo;
             </blockquote>
-            <p>&mdash; John Doe, Certified ReactJS Student</p>
           </div>
         </div>
       </div>
