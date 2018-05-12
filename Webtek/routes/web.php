@@ -31,6 +31,8 @@ Route::get('/cssCourse', 'PagesController@cssCourse')->name('cssCourse');
 Route::get('/phpCourse', 'PagesController@phpCourse')->name('phpCourse');
 Route::get('/jsCourse', 'PagesController@jsCourse')->name('jsCourse');
 Route::get('/nodeJSCourse', 'PagesController@nodeJSCourse')->name('nodeJSCourse');
+Route::get('/jspCourse', 'PagesController@jspCourse')->name('jspCourse');
+Route::get('/javaServletCourse', 'PagesController@javaServletCourse')->name('javaServletCourse');
 
 
 Auth::routes();

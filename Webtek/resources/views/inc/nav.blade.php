@@ -20,18 +20,22 @@
                 <a class="dropdown-item" href="{{route('phpCourse')}}">PHP</a>
                 <a class="dropdown-item" href="{{route('jsCourse')}}">Javascript</a>
                 <a class="dropdown-item" href="{{route('nodeJSCourse')}}">NodeJS</a>
+                <a class="dropdown-item" href="{{route('jspCourse')}}">JSP</a>
+                <a class="dropdown-item" href="{{route('javaServletCourse')}}">Java Servlet</a>
               </div>
 
             </li>
 
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="dropdown05" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Categories</a>
-                <div class="dropdown-menu" aria-labelledby="dropdown04">
-                <a class="dropdown-item" href="{{ url('/courses')}}">HTML</a>
-                <a class="dropdown-item" href="{{ url('/courses')}}">CSS</a>
-                <a class="dropdown-item" href="{{ url('/courses')}}">PHP</a>
-                <a class="dropdown-item" href="{{ url('/courses')}}">Javascript</a>
-                <a class="dropdown-item" href="{{ url('/courses')}}">NodeJS</a>
+              <div class="dropdown-menu" aria-labelledby="dropdown04">
+                <a class="dropdown-item" href="{{route('htmlCourse')}}">HTML</a>
+                <a class="dropdown-item" href="{{route('cssCourse')}}">CSS</a>
+                <a class="dropdown-item" href="{{route('phpCourse')}}">PHP</a>
+                <a class="dropdown-item" href="{{route('jsCourse')}}">Javascript</a>
+                <a class="dropdown-item" href="{{route('nodeJSCourse')}}">NodeJS</a>
+                <a class="dropdown-item" href="{{route('jspCourse')}}">JSP</a>
+                <a class="dropdown-item" href="{{route('javaServletCourse')}}">Java Servlet</a>
               </div>
 
             </li>

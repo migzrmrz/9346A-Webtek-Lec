@@ -89,4 +89,15 @@ class PagesController extends Controller
         return view('pages.nodeJSCourse');
     }
 
+    public function jspCourse()
+    {
+        return view('pages.jspCourse');
+    }
+
+    public function javaServletCourse()
+    {
+        return view('pages.javaServletCourse');
+    }
+
+
 }
