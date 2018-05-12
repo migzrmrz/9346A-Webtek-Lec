@@ -10,7 +10,7 @@
             <div class="mb-5 element-animate">
               <h1>Learn From Doing</h1>
               <p class="lead">Learn something new every day with Webtek!</p>
-              <p><a href="#" class="btn btn-primary">Learn Today!</a></p>
+              <p><a href="{{route('htmlCourse')}}" class="btn btn-primary">Learn Today!</a></p>
             </div>
 
             
