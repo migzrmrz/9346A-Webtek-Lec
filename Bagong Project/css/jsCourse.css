@@ -1,0 +1,16 @@
+h3 {
+	border: 10px double gray;
+    padding: 10px;
+    
+	font-family: "arial black", Gadget, sans-serif;
+	text-align: center;
+}
+.white {
+    list-style: square inside;
+    border: 5px solid black;
+    background-color: white;
+    box-shadow: 5px 10px #888888;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif, red;
+
+
+}
