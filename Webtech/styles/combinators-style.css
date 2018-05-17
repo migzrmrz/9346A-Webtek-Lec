@@ -1,0 +1,15 @@
+.samp {
+    padding-left: 5%;
+}
+#descendant div p {
+    color: coral;
+}
+#child div > p {
+    color: orange;
+}
+#adjacent div + p {
+    color: burlywood;
+}
+#general div ~ p {
+    color: bisque;
+}

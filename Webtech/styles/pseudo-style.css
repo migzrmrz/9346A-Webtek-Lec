@@ -1,0 +1,85 @@
+.samp {
+    padding-left: 5%;
+}
+#link a:link {
+    color: orange;
+}
+#visited a:visited {
+    color: pink;
+}
+#hover a:hover {
+    color: red;
+}
+#active a:active {
+    color: yellow;
+}
+#focus input {
+    background-color: gray;
+    color: black;
+    border: #00ace6 2px;
+    padding: 5px;
+}
+#focus input:focus {
+    background-color: white;
+}
+#target div {
+    display: none;
+}
+#target div:target {
+    display:block;
+}
+#lang p:lang(fr) {
+    color: darkblue;
+    background-color: deepskyblue;
+}
+#enabled input:enabled {
+    background-color: yellowgreen;
+}
+#disabled input:disabled {
+    background-color: palevioletred;
+}
+#checked input:checked {
+    height: 25px;
+    width: 25px;
+}
+#first-child p:first-child {
+    color: sandybrown;
+}
+#last-child p:last-child {
+    color: greenyellow;
+}
+#only-child p:only-child {
+    color: cyan;
+}
+#nth-child p:nth-child(2n+1) {
+    color: dodgerblue;
+}
+#nth-last-child p:nth-last-child(3n+1) {
+    color: dodgerblue;
+}
+#first-of-type p:first-of-type {
+    color: fuchsia;
+}
+#last-of-type p:last-of-type {
+    color: indianred;
+}
+#only-of-type p:only-of-type {
+    color: aquamarine;
+}
+#nth-of-type p:nth-of-type(2) {
+    color: burlywood;
+}
+#nth-last-of-type p:nth-last-of-type(1) {
+    color: deeppink;
+}
+#empty div:empty {
+    background-color: coral;
+    width: 150px;
+    height: 30px;
+}
+#not :not(p) {
+    color: darkorange;
+}
+#not pre {
+    color: white;
+}

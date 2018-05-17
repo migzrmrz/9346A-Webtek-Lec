@@ -1,0 +1,16 @@
+.samp {
+    padding-left: 5%;
+}
+#first-letter p::first-letter {
+    color: coral;
+    font-size: 30px;
+}
+#first-line p::first-line {
+    color: orange;
+}
+#before p::before {
+    content: url('pictures/tardis.gif');
+}
+#after p::after {
+    content: url('pictures/tardis.gif');
+}

@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto|Dosis:600|Nunito:600');
+
+body {
+    margin: 0;
+    height:50%;
+}
+
+p, li {
+    font-family: 'roboto', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    font-family: 'nunito', sans-serif;
+    color: white;
+}
+
+#logo {
+    width: 15%;
+    margin-left: 10%;
+    position: absolute;
+}
+
+header {
+    top: 0;
+    right: 0;
+    width: 100%;
+    background-color: #14181a;
+}
+
+header nav {
+    display: inline-block;
+    margin-left: 27%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+header ul {
+    list-style-type: none;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+header li {
+    float: left;
+}
+
+header li a {
+    display: block;
+    text-align: center;
+    padding: 20px;
+    border-right: solid;
+    border-color: #2e3a43;
+    border-width: thin;
+}
+
+header li a:first-child {
+    border-left: solid;
+    border-color: #2e3a43;
+    border-width: thin;
+}
+
+header li a:hover:not(.active) {
+    background-color: #2e3a43;
+}
+
+header .active {
+    background-color: #20b8ff;
+    color: #14181a;
+}
+
+footer {
+    width: 100%;
+    text-align: center;
+    background-color: #1b2126;
+    border-top: dotted;
+    border-color: #2e3a43;
+    overflow: hidden;
+    color: white;
+}
+
+footer a {
+    color: #00ace6;
+}
+
+@media only screen and (max-width: 625px){
+    #logo {
+        position: relative;
+        width: 40%;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+    
+    header nav {
+        margin-left: initial;
+    }
+    
+    header li a {
+        padding: 20px 9px; 
+    }
+}
