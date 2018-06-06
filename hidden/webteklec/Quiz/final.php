@@ -14,7 +14,7 @@
   <link href="../css/responsive.css" rel="stylesheet">
 
   <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700' rel='stylesheet' type='text/css'>
-  <link rel="shortcut icon" href="../images/icon.png">
+  <link rel="shortcut icon" href="../images/user.png">
 </head><!--/head-->
 
 <body>
