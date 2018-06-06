@@ -1,17 +1,17 @@
 <?php include 'db.php'; ?>
 <?php session_start(); ?>
 <?php
-	$number = (int) $_GET['n'];
-	//Questions
-	$query = "SELECT * FROM questions WHERE  question_number = $number";
-	$result = $mysqli->query($query) or die($mysqli->error.___Line___);
-	$question = $result->fetch_assoc();
-	$query = "SELECT * FROM choices WHERE  question_number = $number";
-	$choices = $mysqli->query($query) or die($mysqli->error.___Line___);
-	//number of questions
-	$query = "SELECT * FROM `choices` WHERE question_number = '2'";
-	$results = $mysqli->query($query) or die($mysqli->error.___Line___);
-	$total = $results->num_rows;
+  $number = (int) $_GET['n'];
+  //Questions
+  $query = "SELECT * FROM questions WHERE  question_number = $number";
+  $result = $mysqli->query($query) or die($mysqli->error.___Line___);
+  $question = $result->fetch_assoc();
+  $query = "SELECT * FROM choices WHERE  question_number = $number";
+  $choices = $mysqli->query($query) or die($mysqli->error.___Line___);
+  //number of questions
+  $query = "SELECT * FROM `choices` WHERE question_number = '2'";
+  $results = $mysqli->query($query) or die($mysqli->error.___Line___);
+  $total = $results->num_rows;
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -34,7 +34,6 @@
 <body>
 
   <header id="home">
-  	<img class="banner-quiz" src="../images/quiz-banner.png">
     <div class="main-nav">
         <div class="container">
           <div class="navbar-header">
@@ -54,99 +53,56 @@
               <li class="dropdown menu__item">
           <a href="#" class="dropdown-toggle menu__link" data-toggle="dropdown">Topics<b class="caret"></b></a>
           <ul class="dropdown-menu agile_short_dropdown">
-             <li><a href="jsp.html">Java Servlets and JSPs</a></li>
-             <li><a href="php.html">PHP</a></li>
-             <li><a href="nodejs.html">Node.js</a></li>
-             <li><a href="owasp.html">OWASP</a></li>
+            <li><a href="../php.html">PHP</a></li>
+             <li><a href="../servlets.html">Servlet</a></li>
+             <li><a href="../nodejs.html">Node.js</a></li>
+             <li><a href="../jsp.html">JSP</a></li>
+             <li><a href="../owasp.html">OWASP</a></li>
           </ul>
         </li>
               <li class="scroll"><a href="../quiz.html">Take our Quiz</a></li>                     
-              <li class="scroll"><a href="#about-us">Our Team</a></li>    
+              <li class="scroll"><a href="../index.html">Our Team</a></li>    
             </ul>
           </div>
         </div>
     </div><!--/#main-nav-->
   </header><!--/#home-->
-
-
     
-  	<div id="intro">
+    <div id="intro">
       <div class="container">
-        main>
-		SCORE: <?php echo $_SESSION['score'] ?>pts
-			<div class="container">
-				<div class="current">Question <?php echo $question['question_number']; ?> of <?php echo $_SESSION['total'] ?></div>
-				<p class="question">
-					<?php echo $question['text']; ?>
-				</p>
-				<form method="post" action="process.php">
-					<ul class="choices">
-						<?php while($row = $choices->fetch_assoc()): ?>
-							<li><input name="choice" type="radio" value="<?php echo $row['id'] ?>" /><?php echo $row['text']; ?></li>
-						<?php endwhile; ?>
-					</ul>
-					<input type="submit" value="Submit" />
-					<input type="hidden" name="number" value="<?php echo $number; ?>" />
-			</div>
-		</main>
-      </div>
+        <div class="quiz-container">
+          <span class="float-title">Servlet</span>
+          <p> SCORE: <bold><?php echo $_SESSION['score'] ?> pts </bold></p>
+         <!--  <div class="current">Question <?php echo $question['question_number']; ?> of <?php echo $_SESSION['total'] ?></div> -->
+          <p class="question">
+            <?php echo $question['text']; ?>
+          </p>
+          <form method="post" action="process.php">
+            <ul class="choices">
+              <?php while($row = $choices->fetch_assoc()): ?>
+                <li><input name="choice" type="radio" value="<?php echo $row['id'] ?>" /><?php echo $row['text']; ?></li>
+              <?php endwhile; ?>
+            </ul>
+            <input type="submit" value="Submit" />
+            <input type="hidden" name="number" value="<?php echo $number; ?>" />
+         </div>
 
-            <section class="site-section bg-light">
-        <div class="container">
-            <div class="row justify-content-center mb-5">
-            <div class="col-md-12 text-center">
-                <h2>Learn more from our Quiz</h2>
-                <p class="lead">Click on the link to take a quiz. Feel free to take any quizzes below: </p>
-            </div>
-            </div>
-            <div class="row blog-entries">
-                <div class="col-md-6 col-sm-6 col-12 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
-                    <a href="Quiz/jspQuiz.php" class="blog-entry">
-                    <img src="../images/jsp.jpg" alt="Image placeholder">
-                    <h2>JSP Quiz</h2>
-                    </a>
-                </div>
-        
-                <div class="col-md-6 col-sm-6 col-12 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="400ms"
-                    <a href="Quiz/servletQuiz.php" class="blog-entry">
-                    <img src="../images/Java-Servlets.png" alt="Image placeholder">
-                    <h2>Java Servlet Quiz</h2>
-                    </a>
-                </div>
-            </div>
-            <div class="row blog-entries">
-                <div class="col-md-6 col-sm-6 col-12 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="500ms">
-                    <a href="Quiz/nodejsQuiz.php" class="blog-entry">
-                    <img src="../images/nodejs_logo.png" alt="Image placeholder">
-                    <h2>Node JS Quiz</h2>
-                    </a>
-                </div>
-                <div class="col-md-6 col-sm-6 col-12 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="600ms">
-                    <a href="Quiz/phpQuiz.php" class="blog-entry">
-                    <img src="../images/php.png" alt="Image placeholder">
-                    <h2>PHP Quiz</h2>
-                    </a>
-                </div>
-            </div>
+
+      <section class="learning-button">
+        <div class="caption">
+          <a class="btn toggle-btn" href="../servlets.html">Go Back to Lessons</a>
         </div>
       </section>
-
-
-	  <section class="learning-button">
-	    <div class="caption">
-	      <a class="btn toggle-btn" href="php.html">Go Back to Lessons</a>
-	    </div>
-	  </section>
-	</div>
+  </div>
 
     <footer id="footer">
-    <div class="footer-top wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
+    <!-- <div class="footer-top wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
       <div class="container text-center">
         <div class="footer-logo">
-          <a href="index.html"><img class="img-responsive" src="../images/logo.png" alt=""></a>
+          <a href="../index.html"><img class="img-responsive" src="../images/logo.png" alt=""></a>
         </div>
       </div>
-    </div>
+    </div> -->
     <div class="footer-bottom">
       <div class="container">
         <div class="row">
