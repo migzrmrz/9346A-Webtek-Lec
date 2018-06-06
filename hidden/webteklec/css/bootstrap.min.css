@@ -3289,7 +3289,7 @@ select[multiple].input-group-sm>.form-control,select[multiple].input-group-sm>.i
 }
 .nav .open>a,.nav .open>a:focus,.nav .open>a:hover{
     background-color:#9a9a9a;
-    border-color:#337ab7
+    border-color:#337ab7;
 }
 .nav .nav-divider{
     height:1px;
@@ -5210,6 +5210,7 @@ button.close{
 }
 .carousel-inner>.item>a>img,.carousel-inner>.item>img{
     line-height:1
+    
 }
 @media all and (transform-3d),(-webkit-transform-3d){
     .carousel-inner>.item{
