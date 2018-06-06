@@ -8,6 +8,11 @@
 }
 
 @font-face {
+    font-family: slider-font;
+    src: url('../fonts/Stingray.otf');
+}
+
+@font-face {
     font-family: modern-sans;
     src: url('../fonts/Modern_Sans_Light.otf');
 }
@@ -19,6 +24,23 @@ body {
   background-color: #fff;
 }
 
+#portfolio{
+  padding-bottom: 50px;
+}
+
+.learning-button{
+  padding: 0;
+  margin-bottom: 20px;
+}
+.learning-button .caption{
+    text-align: center;
+}
+
+.learning-button .caption .btn-start{
+  margin: 30px auto;
+    width: 50%;
+    color: black;
+}
 h1.animated.fadeInLeftBig.show-mobile{
   display: none;
 }
@@ -151,19 +173,21 @@ section {
   left: 0;
   right: 0;
   text-align: center;
-  text-transform: uppercase;
   z-index: 15;
   font-size: 18px;
   font-weight: 300;
   color: #fff;
-  padding: 0 50px;
+  padding: 0 80px;
 }
 
 #home-slider .caption h1 {
   color: #fff;
-  font-size: 50px;
+  font-size: 60px;
   font-weight: 700;
-  margin:0 20px 30px ;
+  margin:0 20px 50px;
+  padding: 0 50px;
+  font-family: 'slider-font', sans-serif;
+
 }
 
 
@@ -960,7 +984,8 @@ ul.address {
 
 .footer-top {
   position: relative;
-  padding:30px 0
+    padding: 20px 0 0px;
+    margin-bottom: -30px;
 }
 
 #footer .footer-bottom {
