@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home</title>
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/animate.min.css" rel="stylesheet"> 
+  <link href="css/font-awesome.min.css" rel="stylesheet">
+  <link href="css/lightbox.css" rel="stylesheet">
+  <link href="css/main.css" rel="stylesheet">
+  <link id="css-preset" href="css/presets/preset1.css" rel="stylesheet">
+  <link href="css/responsive.css" rel="stylesheet">
+
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700' rel='stylesheet' type='text/css'>
+  <link rel="shortcut icon" href="images/icon.png">
+</head><!--/head-->
+
+<body>
+
+  <!--.preloader-->
+  <div class="preloader"> <i class="fa fa-circle-o-notch fa-spin"></i></div>
+  <!--/.preloader-->
+
+  <header id="home">
+    <div id="home-slider" class="carousel slide carousel-fade" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="item active" style="background-image: url(images/slider/1.jpg)">
+          <div class="caption">
+            <h1 class="animated fadeInLeftBig">Welcome to <span>Web Systems and Technologies!</span></h1>
+            <a data-scroll class="btn btn-start animated fadeInUpBig" href="#intro">Start now</a>
+          </div>
+        </div>
+        <div class="item" style="background-image: url(images/slider/2.jpg)">
+          <div class="caption">
+            <h1 class="animated fadeInLeftBig">Meet Extraordinary <span>People</span></h1>
+            <a data-scroll class="btn btn-start animated fadeInUpBig" href="#portfolio">Start now</a>
+          </div>
+        </div>
+        <div class="item" style="background-image: url(images/slider/3.jpg)">
+          <div class="caption">
+            <h1 class="animated fadeInLeftBig">Meet our Awesome <span>Team</span></h1>
+            <a data-scroll class="btn btn-start animated fadeInUpBig" href="#team">Start now</a>
+          </div>
+        </div>
+      </div>
+      <a class="left-control" href="#home-slider" data-slide="prev"><i class="fa fa-angle-left"></i></a>
+      <a class="right-control" href="#home-slider" data-slide="next"><i class="fa fa-angle-right"></i></a>
+
+      <a id="tohash" href="#services"><i class="fa fa-angle-down"></i></a>
+
+    </div><!--/#home-slider-->
+	<div class="main-nav">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html">
+            <h1><img class="img-responsive" src="images/logo.png" alt="logo"></h1>
+          </a>                    
+        </div>
+        <div class="collapse navbar-collapse">
+          <ul class="nav navbar-nav navbar-right">                 
+            <li class="scroll"><a href="index.html">Home</a></li>
+            <li class="dropdown menu__item">
+				<a href="#" class="dropdown-toggle menu__link" data-toggle="dropdown">Finals<b class="caret"></b></a>
+				<ul class="dropdown-menu agile_short_dropdown">
+				   <li><a href="jsp.html">Java Servlets and JSPs</a></li>
+                   <li><a href="php.html">PHP</a></li>
+                   <li><a href="nodejs.html">Node.js</a></li>
+                   <li><a href="owasp.html">OWASP</a></li>
+				</ul>
+			</li>
+            <li class="scroll"><a href="#about-us">About Us</a></li>                     
+            <li class="scroll"><a href="#team">Team</a></li>
+            <li class="scroll"><a href="#news">News</a></li>     
+          </ul>
+        </div>
+      </div>
+    </div><!--/#main-nav-->
+  </header><!--/#home-->
+    
+  <section id="intro">
+    <div class="container">
+      <div class="heading wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
+        <div class="row">
+          <div class="text-center col-sm-8 col-sm-offset-2">
+            <h2>TERMINOLOGIES</h2>
+            <p>Here are some of the terminologies that we have learned.</p>
+          </div>
+        </div> 
+      </div>
+      <div class="text-center our-services">
+        <div class="row">
+          <div class="col-sm-4 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
+            <div class="service-icon">
+              <i class="fa fa-rss"></i>
+            </div>
+            <div class="service-info">
+              <h3>Internet</h3>
+              <p>A global system of interconnected computer networks that use the standard Internet Protocol Suite (TCP/IP).</p>
+            </div>
+          </div>
+          <div class="col-sm-4 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="550ms">
+            <div class="service-icon">
+              <i class="fa fa-globe"></i>
+            </div>
+            <div class="service-info">
+              <h3>World Wide Web</h3>
+              <p>Way of accesing information over the medium of the internet.</p>
+            </div>
+          </div>
+          <div class="col-sm-4 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="450ms">
+            <div class="service-icon">
+              <i class="fa fa-user"></i>
+            </div>
+            <div class="service-info">
+              <h3>Front-End Development</h3>
+              <p>A way to produce modify, and maintenance of websites and web application user interfaces.</p>
+            </div>
+          </div>
+          <div class="col-sm-4 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="650ms">
+            <div class="service-icon">
+              <i class="fa fa-users"></i>
+            </div>
+            <div class="service-info">
+              <h3>Client-Side Web Scripting</h3>
+              <p>Allows programs (i.e. scripts to be downloaded from a web server.</p>
+            </div>
+          </div>
+          <div class="col-sm-4 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="750ms">
+            <div class="service-icon">
+              <i class="fa fa-server"></i>
+            </div>
+            <div class="service-info">
+              <h3>Server-Side Web Scripting</h3>
+              <p>It employs scripts on the web server.</p>
+            </div>
+          </div>
+          <div class="col-sm-4 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="850ms">
+            <div class="service-icon">
+              <i class="fa fa-key"></i>
+            </div>
+            <div class="service-info">
+              <h3>Web Application Security</h3>
+              <p>Branch of Information Security that deals with security of websites.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section><!--/#intro-->
+  <section id="about-us" class="parallax">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-6">
+          <div class="about-info wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
+            <h2>About us</h2>
+              <p>Course Description: Web Systems and Technologies</p>
+              <p>Course Code: 9346A</p>
+              <p>Class Hours: 2:00 - 3:00 WS</p>
+              <p>The course website's purpose is to share the knowledge that we have learned throughout the semester.</p>
+          </div>
+        </div>
+        <div class="col-sm-6">
+          <div class="our-skills wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
+            <div class="single-skill wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
+              <p class="lead">User Experiances</p>
+              <div class="progress">
+                <div class="progress-bar progress-bar-primary six-sec-ease-in-out" role="progressbar"  aria-valuetransitiongoal="95">95%</div>
+              </div>
+            </div>
+            <div class="single-skill wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="400ms">
+              <p class="lead">Web Design</p>
+              <div class="progress">
+                <div class="progress-bar progress-bar-primary six-sec-ease-in-out" role="progressbar"  aria-valuetransitiongoal="75">75%</div>
+              </div>
+            </div>
+            <div class="single-skill wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="500ms">
+              <p class="lead">Programming</p>
+              <div class="progress">
+                <div class="progress-bar progress-bar-primary six-sec-ease-in-out" role="progressbar"  aria-valuetransitiongoal="50">50%</div>
+              </div>
+            </div>
+            <div class="single-skill wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
+              <p class="lead">Fun</p>
+              <div class="progress">
+                <div class="progress-bar progress-bar-primary six-sec-ease-in-out" role="progressbar"  aria-valuetransitiongoal="85">85%</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section><!--/#about-us-->
+
+  <section id="portfolio">
+    <div class="container">
+      <div class="row">
+        <div class="heading text-center col-sm-8 col-sm-offset-2 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
+          <h2>Extraordinary People</h2>
+            <p> "Success is not final; failure is not fatal: It is the courage to continue that counts." - Winston S. Churchill</p>
+        </div>
+      </div> 
+    </div>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-sm-3">
+          <div class="folio-item wow fadeInRightBig" data-wow-duration="1000ms" data-wow-delay="300ms">
+            <div class="folio-image">
+              <img class="img-responsive" src="images/portfolio/1.jpg" alt="">
+            </div>
+            <div class="overlay">
+              <div class="overlay-content">
+                <div class="overlay-text">
+                  <div class="folio-info">
+                    <h3>Vinton Cerf</h3>
+                    <p>Father of the Internet</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-3">
+          <div class="folio-item wow fadeInLeftBig" data-wow-duration="1000ms" data-wow-delay="400ms">
+            <div class="folio-image">
+              <img class="img-responsive" src="images/portfolio/2.jpg" alt="">
+            </div>
+            <div class="overlay">
+              <div class="overlay-content">
+                <div class="overlay-text">
+                  <div class="folio-info">
+                    <h3>Tim-Berners Lee</h3>
+                    <p>Father of the Web</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-3">
+          <div class="folio-item wow fadeInRightBig" data-wow-duration="1000ms" data-wow-delay="500ms">
+            <div class="folio-image">
+              <img class="img-responsive" src="images/portfolio/3.jpg" alt="">
+            </div>
+            <div class="overlay">
+              <div class="overlay-content">
+                <div class="overlay-text">
+                  <div class="folio-info">
+                    <h3>Håkon Wium Lie</h3>
+                    <p>Proposed the concept of Cascading Style Sheets</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-3">
+          <div class="folio-item wow fadeInLeftBig" data-wow-duration="1000ms" data-wow-delay="600ms">
+            <div class="folio-image">
+              <img class="img-responsive" src="images/portfolio/4.jpg" alt="">
+            </div>
+            <div class="overlay">
+              <div class="overlay-content">
+                <div class="overlay-text">
+                  <div class="folio-info">
+                    <h3>Bert Bos</h3>
+                    <p>Written a book about Cascading Style Sheets</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-3">
+          <div class="folio-item wow fadeInRightBig" data-wow-duration="1000ms" data-wow-delay="700ms">
+            <div class="folio-image">
+              <img class="img-responsive" src="images/portfolio/5.jpg" alt="">
+            </div>
+            <div class="overlay">
+              <div class="overlay-content">
+                <div class="overlay-text">
+                  <div class="folio-info">
+                    <h3>Brendan Eich</h3>
+                    <p>Inventor of JavaScript</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-3">
+          <div class="folio-item wow fadeInLeftBig" data-wow-duration="1000ms" data-wow-delay="800ms">
+            <div class="folio-image">
+              <img class="img-responsive" src="images/portfolio/6.jpg" alt="">
+            </div>
+            <div class="overlay">
+              <div class="overlay-content">
+                <div class="overlay-text">
+                  <div class="folio-info">
+                    <h3>Rasmus Lerdorf</h3>
+                    <p>Created the PHP Scripting Language</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-3">
+          <div class="folio-item wow fadeInRightBig" data-wow-duration="1000ms" data-wow-delay="900ms">
+            <div class="folio-image">
+              <img class="img-responsive" src="images/portfolio/7.jpg" alt="">
+            </div>
+            <div class="overlay">
+              <div class="overlay-content">
+                <div class="overlay-text">
+                  <div class="folio-info">
+                    <h3>Ryan Dahl</h3>
+                    <p>Created the Node.js Scripting Language</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-3">
+          <div class="folio-item wow fadeInLeftBig" data-wow-duration="1000ms" data-wow-delay="1000ms">
+            <div class="folio-image">
+              <img class="img-responsive" src="images/portfolio/8.jpg" alt="">
+            </div>
+            <div class="overlay">
+              <div class="overlay-content">
+                <div class="overlay-text">
+                  <div class="folio-info">
+                    <h3>James Gosling</h3>
+                    <p>Father of Java</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="portfolio-single-wrap">
+      <div id="portfolio-single">
+      </div>
+    </div><!-- /#portfolio-single-wrap -->
+  </section><!--/#portfolio-->
+
+   <section id="team">
+    <div class="container">
+      <div class="row">
+        <div class="heading text-center col-sm-8 col-sm-offset-2 wow fadeInUp" data-wow-duration="1200ms" data-wow-delay="300ms">
+          <h2>The Team</h2>
+          <p>We are the students of Saint Louis University who are currently taking up Bachelor of Science in Information Technology. Enrolled to the course "Web Systems and Technology".</p>
+        </div>
+      </div>
+      <div class="team-members">
+        <div class="row">
+          <div class="col-sm-3">
+            <div class="team-member wow flipInY" data-wow-duration="1000ms" data-wow-delay="300ms">
+              <div class="member-image">
+                <img class="img-responsive" src="images/team/1.jpg" alt="Joshua">
+              </div>
+              <div class="member-info">
+                <h3>Joshua Abubo</h3>
+                <h4>BSIT-4</h4>
+                  <p>Contact number: </p>
+                  <p>Email Address: </p>
+              </div>
+              <div class="social-icons">
+                <ul>
+                  <li><a class="facebook" href="https://www.facebook.com/tootipatooti"><i class="fa fa-facebook"></i></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-3">
+            <div class="team-member wow flipInY" data-wow-duration="1000ms" data-wow-delay="500ms">
+              <div class="member-image">
+                <img class="img-responsive" src="images/team/2.jpg" alt="Mari">
+              </div>
+              <div class="member-info">
+                <h3>Marileus Bernardez</h3>
+                <h4>BSIT-4</h4>
+                <p>Contact number: 
+                <p>Email Address:</p>
+              </div>
+              <div class="social-icons">
+                <ul>
+                  <li><a class="facebook" href="https://www.facebook.com/marileusbernardez"><i class="fa fa-facebook"></i></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-3">
+            <div class="team-member wow flipInY" data-wow-duration="1000ms" data-wow-delay="800ms">
+              <div class="member-image">
+                <img class="img-responsive" src="images/team/3.jpg" alt="Carl">
+              </div>
+              <div class="member-info">
+                <h3>Carl Dumo</h3>
+                <h4>BSIT-4</h4>
+                <p>Contact number: 09062165610</p>
+                <p>Email Address: cjdumz.it@gmail.com</p>
+              </div>
+              <div class="social-icons">
+                <ul>
+                  <li><a class="facebook" href="https://www.facebook.com/carljasperdumo"><i class="fa fa-facebook"></i></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-3">
+            <div class="team-member wow flipInY" data-wow-duration="1000ms" data-wow-delay="1100ms">
+              <div class="member-image">
+                <img class="img-responsive" src="images/team/4.jpg" alt="Migz">
+              </div>
+              <div class="member-info">
+                <h3>Migule Ramirez</h3>
+                <h4>BSIT-4</h4>
+                <p>Contact number: </p>
+                <p>Email Address: </p>
+              </div>
+              <div class="social-icons">
+                <ul>
+                  <li><a class="facebook" href="https://www.facebook.com/migzrmrz"><i class="fa fa-facebook"></i></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-3">
+            <div class="team-member wow flipInY" data-wow-duration="1000ms" data-wow-delay="1100ms">
+              <div class="member-image">
+                <img class="img-responsive" src="images/team/5.jpg" alt="Janriel">
+              </div>
+              <div class="member-info">
+                <h3>Janriel Testado</h3>
+                <h4>BSIT-4</h4>
+                <p>Contact number: </p>
+                <p>Email Address: </p>
+              </div>
+              <div class="social-icons">
+                <ul>
+                  <li><a class="facebook" href="https://www.facebook.com/janriel.gascon"><i class="fa fa-facebook"></i></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-3">
+            <div class="team-member wow flipInY" data-wow-duration="1000ms" data-wow-delay="1100ms">
+              <div class="member-image">
+                <img class="img-responsive" src="images/team/5.jpg" alt="Jorgia">
+              </div>
+              <div class="member-info">
+                <h3>Jorgia De Alban</h3>
+                <h4>BSIT-4</h4>
+                <p>Contact number: </p>
+                <p>Email Address: </p>
+              </div>
+              <div class="social-icons">
+                <ul>
+                  <li><a class="facebook" href="https://www.facebook.com/kritine.dealban"><i class="fa fa-facebook"></i></a></li>
+                </ul>
+              </div>
+            </div>
+          </div> 
+        </div>
+      </div>            
+    </div>
+  </section><!--/#team-->
+
+  <footer id="footer">
+    <div class="footer-top wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
+      <div class="container text-center">
+
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-6">
+            <p>&copy; 2018 Web Systems and Technologies.</p>
+          </div>
+          <div class="col-sm-6">
+            <p class="pull-right">All Rights Reserved.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script type="text/javascript" src="js/jquery.js"></script>
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=true"></script>
+  <script type="text/javascript" src="js/jquery.inview.min.js"></script>
+  <script type="text/javascript" src="js/wow.min.js"></script>
+  <script type="text/javascript" src="js/mousescroll.js"></script>
+  <script type="text/javascript" src="js/smoothscroll.js"></script>
+  <script type="text/javascript" src="js/jquery.countTo.js"></script>
+  <script type="text/javascript" src="js/lightbox.min.js"></script>
+  <script type="text/javascript" src="js/main.js"></script>
+
+</body>
+</html>

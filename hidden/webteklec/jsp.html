@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Finals</title>
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/animate.min.css" rel="stylesheet"> 
+  <link href="css/font-awesome.min.css" rel="stylesheet">
+  <link href="css/lightbox.css" rel="stylesheet">
+  <link href="css/main.css" rel="stylesheet">
+  <link id="css-preset" href="css/presets/preset1.css" rel="stylesheet">
+  <link href="css/responsive.css" rel="stylesheet">
+
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700' rel='stylesheet' type='text/css'>
+  <link rel="shortcut icon" href="images/icon.png">
+</head><!--/head-->
+
+<body>
+
+  <!--.preloader-->
+  <div class="preloader"> <i class="fa fa-circle-o-notch fa-spin"></i></div>
+  <!--/.preloader-->
+
+  <header id="home">
+    <div id="home-slider" class="carousel slide carousel-fade" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="item active" style="background-image: url(images/slider/1.jpg)">
+          <div class="caption">
+            <h1 class="animated fadeInLeftBig">Finals <span>Web Systems and Technologies</span></h1>
+            <a data-scroll class="btn btn-start animated fadeInUpBig" href="#midterms-intro">Start now</a>
+          </div>
+        </div>
+        <div class="item" style="background-image: url(images/slider/3.jpg)">
+          <div class="caption">
+            <h1 class="animated fadeInLeftBig">Meet our Awesome <span>Team</span></h1>
+            <a data-scroll class="btn btn-start animated fadeInUpBig" href="#team">Start now</a>
+          </div>
+        </div>
+      </div>
+      <a class="left-control" href="#home-slider" data-slide="prev"><i class="fa fa-angle-left"></i></a>
+      <a class="right-control" href="#home-slider" data-slide="next"><i class="fa fa-angle-right"></i></a>
+
+      <a id="tohash" href="#services"><i class="fa fa-angle-down"></i></a>
+
+    </div><!--/#home-slider-->
+   <div class="main-nav">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html">
+            <h1><img class="img-responsive" src="images/logo.png" alt="logo"></h1>
+          </a>                    
+        </div>
+        <div class="collapse navbar-collapse">
+          <ul class="nav navbar-nav navbar-right">                 
+            <li class="scroll"><a href="index.html">Home</a></li>
+            <li class="dropdown menu__item">
+				<a href="#" class="dropdown-toggle menu__link" data-toggle="dropdown">Finals<b class="caret"></b></a>
+				<ul class="dropdown-menu agile_short_dropdown">
+				   <li><a href="jsp.html">Java Servlets and JSPs</a></li>
+                   <li><a href="php.html">PHP</a></li>
+                   <li><a href="nodejs.html">Node.js</a></li>
+                   <li><a href="owasp.html">OWASP</a></li>
+				</ul>
+			</li>
+            <li class="scroll"><a href="#about-us">About Us</a></li>                     
+            <li class="scroll"><a href="#team">Team</a></li>
+            <li class="scroll"><a href="#news">News</a></li>     
+          </ul>
+        </div>
+      </div>
+    </div><!--/#main-nav-->
+  </header><!--/#home-->
+<div class="container">  <!-- wraps and defines overall page width, centers it -->
+    
+                <!-- ARTICLE -->
+                <article>
+                <section>
+                    <div class ="page-header">
+                <h1 id="javascript">JavaServer Pages</h1>
+                    </div>
+                    <div class ="row1">
+                    <p>Java Server Page (JSP) is a technology for controlling the content or appearance of Web pages through the use of servlets, small programs that are specified in the Web page and run on the Web server to modify the Web page before it is sent to the user who requested it. </p>
+                    </div>
+                </section>
+                    
+                   <section>
+                       <div class ="page-header">
+                       <h2 id="datatypes">JSP and Servlet Containers</h2>
+                       </div>
+                       <div class ="row">
+                       <p>This section will show the different types of servlets that are supported by almost all operating systems</p>
+                           <br>
+                       </div>
+                       <div class ="row1">
+                        <details>
+                            <summary>JSP Servlets</summary>
+                            <li><strong>Tomcat</strong></li>
+                                <p>Runs on almost all operating systems that support JDK 1.3 or later.</p>
+                            <li><strong>Macromedia Run</strong></li>
+                                <p>JRun is a servlet and JSP engine that can be used in standalone mode for development or plugged into most common commercial Web servers for deployment. It is free for development purposes, but you must purchase a license before deploying with it. It is popular among developers looking for easier deployment compared to Tomcat.</p>
+                            <li><strong>Caucho Resin</strong></li>
+                                <p>Resin is a fast servlet and JSP engine with extensive XML support.</p>
+                            <li><strong>New Atlanta ServletExec.</strong></li>
+                                <p> ServletExec is another popular servlet and JSP engine that can be used in standalone mode for development or, for deployment, plugged into the Microsoft IIS, Apache, and Sun ONE servers.</p>
+                            <li><strong>Jetty</strong></li>
+                                <p>Jetty is an open-source server that supports servlets and JSP technology and is free for both development and deployment. It is often used as a complete standalone server (rather than integrated inside a non-Java Web server), even for deployment.</p>
+                       </details>
+                       </div>
+                    </section>
+                    
+                    <section>
+                        <div class ="page-header">
+                        <h3 id="datatypes">JSP Elements</h3>
+                        </div>
+                        <div class="row">
+                        <p>These will show the different types of JSP Elements being used.</p>
+                       <details>
+                            <summary>JSP Elements</summary>
+                            <li><strong>JSP Comment</strong></li>
+                            <p>JSP Comment is used when you are creating a JSP page and want to put in comments about what you are doing.</p>
+                           <code><%-- comment --%></%--></code>
+                            <li><strong>JSP Directive</strong></li>
+                            <p>JSP Directive gives special instruction to Web Container at the time of page translation.</p>
+                           <code><%@ directive %></%@></code>
+                            <li><strong>JSP Declaration</strong></li>
+                            <p>If declared inside a declaration tag, it means the declaration is made inside the Servlet class but outside the service(or any other) method. You can declare static member, instance variable and methods inside Declaration Tag. </p>
+                           <code><%! declarations %></%!></code>
+                            <li><strong>JSP Scriptlet</strong></li>
+                            <p>Allows you to write java code inside JSP page.</p>
+                           <code><% scriplets %></%></code>
+                            <li><strong>JSP Expression</strong></li>
+                            <p>Is used to print out java language expression that is put between the tags.</p>
+                           <code><%= expression %></%></code>
+                        </details>
+                                </div>
+                                </section>
+                    
+                    <section>
+                        <div class="page-header">
+                        <h4 id="datatypes">JSP Actions</h4>
+                        </div>
+                        <div class="row">
+                        <p>These actions use constructs in XML syntax to control the behavior of the servlet engine.</p>
+                            <details>
+                                <summary>JSP Actions</summary>
+                                <li><strong>jsp:include</strong></li>
+                                <p>Includes a file at the time the page is requested.</p>
+                                <li><strong>jsp:useBean</strong></li>
+                                <p>Finds or instantiates a JavaBean.</p>
+                                <li><strong>jsp:setProperty</strong></li>
+                                <p>Sets the property of a JavaBean.</p>
+                                <li><strong>jsp:getProperty</strong></li>
+                                <p>Inserts the property of a JavaBean into the output.</p>
+                                <li><strong>jsp:forward</strong></li>
+                                <p>Forwards the requester to a new page.</p>
+                                <li><strong>jsp:plugin</strong></li>
+                                <p>Generates browser-specific code that makes an OBJECT or EMBED tag for the Java plugin.</p>
+                                <li><strong>jsp:element</strong></li>
+                                <p>Defines XML elements dynamically.</p>
+                                <li><strong>jsp:attribute</strong></li>
+                                <p>Defines dynamically-defined XML element's attribute.</p>
+                                <li><strong>jsp:body</strong></li>
+                                <p>Defines dynamically-defined XML element's body.</p>
+                                <li><strong>jsp:text</strong></li>
+                                <p>Used to write template text in JSP pages and documents.</p>
+                            </details>
+                        </div>
+                    </section>
+                    
+                    <section>
+                        <div class="page-header">
+                        <h5 id="datatypes">Implicit Scripting Objects</h5>
+                        </div>
+                        <div class="row">
+                        <p>This section will show the different scripting objects being used in JSP</p>
+                            <details>
+                                <summary>Implicit Scripting Objects</summary>
+                                <li><strong>request</strong></li>
+                                <li><strong>response</strong></li>
+                                <li><strong>out</strong></li>
+                                <li><strong>pageContext</strong></li>
+                                <li><strong>session</strong></li>
+                                <li><strong>application</strong></li>
+                                <li><strong>config</strong></li>
+                                <li><strong>page</strong></li>
+                                <li><strong>exception</strong></li>
+                            </details>
+                        </div>
+                    </section>
+                    
+                    <section>
+                        <div class="page-header">
+                        <h5 id="datatypes">Implicit EL Objects</h5>
+                        </div>
+                        <div class="row">
+                        <p>This section will show the different EL objects being used in JSP</p>
+                            <details>
+                                <summary>Implicit EL Objects</summary>
+                                <li><strong>pageContext</strong></li>
+                                <li><strong>pageScope</strong></li>
+                                <li><strong>requestScope</strong></li>
+                                <li><strong>sessionScope</strong></li>
+                                <li><strong>applicationScope</strong></li>
+                                <li><strong>param, paramValues</strong></li>
+                                <li><strong>header, headerValues</strong></li>
+                                <li><strong>cookie</strong></li>
+                                <li><strong>initparam</strong></li>
+                            </details>
+                        </div>
+                    </section>
+            
+               <!-- //content -->
+<!-- bootstrap-pop-up -->
+	<div class="modal video-modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModal">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					JAVASCRIPT INTRODUCTION
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>						
+				</div>
+				<section>
+					<div class="modal-body">
+						<img src="images/javascript.jpg" alt="www" class="img-responsive" />
+						<p>This page covers the understanding on how JavaScipt works and how it was originated. Also, it also provides the information about the features, data types, keywords, functions, and document object models (its collections, properties, and methods).</p>
+                    </div>
+				</section>
+            </div>
+		</div>
+	</div>
+<!-- //bootstrap-pop-up -->
+<!-- footer -->
+	<div class="footer">
+		<div class="container">
+			<div class="col-md-4 w3layouts_footer_grid">
+			</div>
+			<div class="col-md-8 w3layouts_footer_grid">
+				<ul class="w3l_footer_nav">
+					<li><a href="index.html">Home</a></li>
+					<li><a href="glossary.html">Glossary</a></li>
+					<li><a href="references.html">References</a></li>
+				</ul>
+                <p>© 2017 Web Systems and Technologies. All Rights Reserved.</p>
+			</div>
+			<div class="clearfix"> </div>
+		</div>
+	</div>
+<!-- //footer -->
+<!-- start-smoth-scrolling -->
+<script type="text/javascript" src="js/move-top.js"></script>
+<script type="text/javascript" src="js/easing.js"></script>
+<script type="text/javascript">
+	jQuery(document).ready(function($) {
+		$(".scroll").click(function(event){		
+			event.preventDefault();
+			$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+		});
+	});
+</script>
+<!-- start-smoth-scrolling -->
+<!-- for bootstrap working -->
+	<script src="js/bootstrap.js"></script>
+<!-- //for bootstrap working -->
+<!-- here stars scrolling icon -->
+	<script type="text/javascript">
+		$(document).ready(function() {
+			/*
+				var defaults = {
+				containerID: 'toTop', // fading element id
+				containerHoverID: 'toTopHover', // fading element hover id
+				scrollSpeed: 1200,
+				easingType: 'linear' 
+				};
+			*/
+								
+			$().UItoTop({ easingType: 'easeOutQuart' });
+								
+			});
+	</script>
+<!-- //here ends scrolling icon -->
+</body>
+</html>

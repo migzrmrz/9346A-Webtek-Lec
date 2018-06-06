@@ -1,0 +1,540 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Prelims</title>
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/animate.min.css" rel="stylesheet"> 
+  <link href="css/font-awesome.min.css" rel="stylesheet">
+  <link href="css/lightbox.css" rel="stylesheet">
+  <link href="css/main.css" rel="stylesheet">
+  <link id="css-preset" href="css/presets/preset1.css" rel="stylesheet">
+  <link href="css/responsive.css" rel="stylesheet">
+
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700' rel='stylesheet' type='text/css'>
+  <link rel="shortcut icon" href="images/icon.png">
+</head><!--/head-->
+
+<body>
+
+  <!--.preloader-->
+  <div class="preloader"> <i class="fa fa-circle-o-notch fa-spin"></i></div>
+  <!--/.preloader-->
+
+  <header id="home">
+    <div id="home-slider" class="carousel slide carousel-fade" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="item active" style="background-image: url(images/slider/1.jpg)">
+          <div class="caption">
+            <h1 class="animated fadeInLeftBig">Finals <span>Web Systems and Technologies</span></h1>
+            <a data-scroll class="btn btn-start animated fadeInUpBig" href="#prelims-intro">Start now</a>
+          </div>
+        </div>
+        <div class="item" style="background-image: url(images/slider/3.jpg)">
+          <div class="caption">
+            <h1 class="animated fadeInLeftBig">Meet our Awesome <span>Team</span></h1>
+            <a data-scroll class="btn btn-start animated fadeInUpBig" href="#team">Start now</a>
+          </div>
+        </div>
+      </div>
+      <a class="left-control" href="#home-slider" data-slide="prev"><i class="fa fa-angle-left"></i></a>
+      <a class="right-control" href="#home-slider" data-slide="next"><i class="fa fa-angle-right"></i></a>
+
+      <a id="tohash" href="#services"><i class="fa fa-angle-down"></i></a>
+
+    </div><!--/#home-slider-->
+    <div class="main-nav">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html">
+            <h1><img class="img-responsive" src="images/logo.png" alt="logo"></h1>
+          </a>                    
+        </div>
+        <div class="collapse navbar-collapse">
+          <ul class="nav navbar-nav navbar-right">                 
+            <li class="scroll"><a href="index.html">Home</a></li>
+            <li class="dropdown menu__item">
+				<a href="#" class="dropdown-toggle menu__link" data-toggle="dropdown">Finals<b class="caret"></b></a>
+				<ul class="dropdown-menu agile_short_dropdown">
+				   <li><a href="jsp.html">Java Servlets and JSPs</a></li>
+                   <li><a href="php.html">PHP</a></li>
+                   <li><a href="nodejs.html">Node.js</a></li>
+                   <li><a href="owasp.html">OWASP</a></li>
+				</ul>
+			</li>
+            <li class="scroll"><a href="#about-us">About Us</a></li>                     
+            <li class="scroll"><a href="#team">Team</a></li>
+            <li class="scroll"><a href="#news">News</a></li>     
+          </ul>
+        </div>
+      </div>
+    </div><!--/#main-nav-->
+  </header><!--/#home-->
+<div class = "container">
+ <article>
+                <h1 class = "page-header" id="">Servlets</h1>
+                    <div class = "row">
+                    <p>&bull; Java Object based on the Servlet API</p>
+                    <p>&bull; Runs in a server application to answer client requests; technically, servlets are not tied to a specific client-server protocol, but they are most
+                    commonly used with HTTP and the term „servlet‟ is often used in the context of an “HTTP Servlet”</p>
+                    <p>&bull; Web-tier components in the Java EE architecture.</p>
+                    <p>&bull; Runs in, and is managed by, a web-tier container called the "Servlet Container"</p>
+                    <p>&bull; Mapped to URLs to which clients send requests
+                    <p>&bull; Typically asked with (among other things)</p>
+                    </div>
+                    <div class = "row1">
+                    <p>&raquo; Processing and/or storing data submitted vial HTML forms</p>
+                    <p>&raquo; Generating dynamic content</p>
+                    </div>
+                    <br>
+                    <table class="table-fill table-bordered row1">
+                                       <thead>
+                                            <tr>
+                                            <th class="text-left">javax.servlet</th>
+                                            <th class="text-left">javax.servlet.http</th>
+                                        </thead>
+                                        <tbody class="table-hover">
+                                            <tr>                                         
+                                            <td class="text-left">
+                                                <code>Servlet</code> <code>GenericServlet</code>
+                                                <code>ServletRequest</code> <code>ServletResponse</code>
+                                                <code>ServletContext</code>
+                                                <code>ServletConfig</code>
+                                                <code>RequestDispatcher</code>
+                                            </td>
+            
+                                            <td class="text-left">
+                                                <code>HttpServlet</code>
+                                                <code>HttpServletRequest</code>
+                                                <code>HttpServletResponse</code>
+                                                <code>HttpSession</code>
+                                                <code>Cookie</code>
+                                            </td>
+                                            
+                                          </tr>
+                                        </tbody>
+                                    </table>
+                    <br>
+                    <p class = "row">&bull; Servlet Processing</p>
+                        <div class = "row1">
+                            <p>&raquo; Client sends a request to a web server URL that is mapped to a servlet. Web server passes on the request to the servlet container</p>
+                            <p>&raquo; Servlet container checks if servlet is already loaded</p>
+                            <p>&raquo; If it is not yet loaded, servlet container loads the servlet class and instantiates the servlet, and calls its <code>init</code> method</p>
+                            <p>&raquo; Servlet container invokes the servlet‟s <code>service</code> method, passing request and response objects as arguments</p>
+                            <p>&raquo; Servlet processes the request using the response object to create the response, which is returned by the servlet container to the
+                            web server, which in turn sends the response to the client</p>
+                            <p>&raquo; Subsequent request to the servlet will not require servlet re-instantiation, unless the servlet has been unloaded; before a servlet is unloaded, the servlet container invokes its <code>destroy</code> method.</p>
+                        </div>
+                    <p class = "row">&bull; <code>init(config)</code></p>
+                        <p class = "row1">&raquo; Invoked once on the servlet by the servlet container when the servlet is instantiated; can be used by the servlet for one-time startup
+                        initialization</p>
+                    <p class = "row">&bull; <code>service(request, response)</code></p>
+                        <p class = "row1">&raquo; Invoked each time the servlet is called upon to process a request (typically on a separate thread for each call)</p>
+                        <p class = "row1">&raquo; In HttpServlet, the default Service implementation maps the call to a specific doXXX() method (e.g. doGet, doPost) which is
+                        typically overridden to affect the servlet‟s functionality</p>
+                    <p class = "row">&bull; <code>Destroy()</code></p>
+                        <p class = "row1">&raquo; Invoked on the servlet by the servlet container when the servlet is to be unloaded (e.g. when the application is stopped or
+                        undeployed); can be used by the servlet for clean-up processing (e.g. resource deallocation)</p>
+                    <p class = "row">&bull; Servlet Request Processing(<code>HttpServletRequest</code>)</p>
+                        <p class = "row1">&raquo; Retrieving user-supplied request parameters</p>
+                        <p class = "row1">&raquo; Retrieving request header values </p>
+                        <p class = "row">&bull; Servlet Response Processing (<code>HttpServletRequest</code>)</p>
+                        <p class = "row1">&raquo; Setting response status code</p>
+                        <p class = "row1">&raquo; Setting response headers</p>
+                        <p class = "row1">&raquo; Obtaining output object for sending the response</p>
+                    <p class = "row">&bull; Servlet Request Dispatching (<code>RequestDispatcher</code>)</p>
+                        <p class = "row1">&raquo; Obtain a RequestDispatcher to a resource (static or dynamic) from the request object</p>
+                    <br>
+                            <pre class = "row2">
+                            <code>RequestDispatcher rqstDsp;
+                            rqstDsp = request.getRequestDispatcher(res);</code>
+                            </pre>
+                        <p class = "row1">&raquo; Include the dispatcher resource (or its output) in the current response; one or more resources can be included (e.g. use for banners,footers, etc.)</p>
+                    <br>
+                            <pre class = "row2">
+                            <code>rqstDsp.include(request, response);</code>
+                            </pre>
+                         <p class = "row1">&raquo; Forwards the processing of the current request to the dispatcher resource; the servlet processing the current request must not generate a response ( e.g. use in MVC “controller” servlets)</p>
+                    <br>
+                            <pre class = "row2">
+                            <code>rqstDsp.forward(request, response);</code>
+                            </pre>
+                    <p class = "row">&bull; Session Tracking (<code>HttpSession</code>)</p>
+                        <p class = "row1">&raquo; Session tracking support is implemented either cookies or URL-rewriting</p>
+                        <p class = "row1">&raquo; Obtaining session object from the current request</p>
+                    <br>
+                            <pre class = "row2">
+                            <code>HttpSession session;
+                            session = request.getSession(createNew);</code>
+                            </pre>
+                    <p class = "row">&bull; Obtaining session information (<code>HttpSession</code>)</p>
+                    <br>
+                        <pre class = "row2">
+                <code>getCreationTime(), getLastAccessedTime(), getMaxInactiveInternal(), 
+                         getId(), isNew(), setMaxInactiveInterval(int val)</code>
+                            </pre>
+                    <p class = "row">&bull; destroying sessions</p>
+                    <br>
+                        <pre class = "row2">
+                            <code>invalidate()</code>
+                            </pre>
+                    <p class = "row">&bull; URL-rewriting (<code>HttpServletResponse</code>)</p>
+                    <br>
+                        <pre class = "row2">
+                            <code>encodeURL(String url), encodeRedirectURL(String url)</code>
+                            </pre>
+            </article>
+            
+            <article>
+                    <h3 class = "page-header">Web Context (ServletContext)</h3>
+                    <p class = "row">&bull; a web application is associated with a context, which is an object that provides methods that servlets use to communicate with the servlet container</p>
+                    <p class = "row">&bull; obtaining the servlet context (<code>HttpServlet</code>)</p>
+                    <br>
+                        <pre class = "row2">
+                            <code>ServletContext context;
+                            context = this.getServletContext();</code>
+                        </pre>
+                    <p class = "row">&bull; obtaining context information (<code>ServletContext</code>)</p>
+                    <br>
+                        <pre class = "row2">
+        <code>getServerInfo(), getContextPath(), getRealPath(), getResource(), getResourceAsStream(), 
+    getMimeType, getInitParameter(), getInitParameterNames(), getRequestDispatcher(), getContext()</code>
+                        </pre>
+                    
+            </article>
+            
+            <article>
+                    <h3 class = "page-header">Servlet Configuration (ServletConfig)</h3>
+                    <pre class = "row2">
+            <code>getServletName(), getServletContext(), getInitParameter(), getInitParameterNames()</code>
+                    </pre>
+            </article>
+            
+            <article>
+                    <h3 class = "page-header">Information sharing using scope objects</h3>
+                    <p class = "row">&bull; A request may be processed by several web application components (e.g. through calls to <code>RequestDispatcher forward/include</code>) and
+                    there may be a need for one component to communicate information to the other components in the request processing chain.</p>
+                    <p class = "row">&bull; A client session typically consists of multiple requests, which due to the stateless nature of HTTP, will appear to the application as being
+                    “unrelated” to one another; the <code>HttpSession</code> object can be used to “relate” these requests together, but there may still be a need to share
+                    information created in one request with a subsequent request</p>
+                    <p class = "row">&bull; Different web application components may require access to common resources or information (e.g. page counters, shared database connection).</p>
+                    <p class = "row">&bull; Information sharing is accomplished by creating attribute objects and exposing these objects in the appropriate scope.</p>
+                    <p class = "row">&bull; Scopes:</p>
+                        <p class = "row1">&raquo; Request scope (<code>HttpServletRequest</code>)</p>
+                        <p class = "row1">&raquo; Session scope (<code>HttpSession</code>)</p>
+                        <p class = "row1">&raquo; Web Application or Web Context scope (<code>ServletContext</code>)</p>
+                        <p class = "row1">&raquo; Page scope (local objects in a servlet)</p>
+                    <p class = "row">&bull; Creating, accessing, and removing attribute objects</p>
+                    <br>
+                    <pre class = "row2"> <code>setAttribute (String attrName, Object attrValue) getAttribute (String attrName) getAttributeNames()                                  removeAttribute (String attrName)</code>
+                    </pre>
+            </article>
+            
+            <article>
+                    <h3 class = "page-header">Listeners</h3>
+                        <p class = "row">&bullet; java objects used to "subscribe" to application "events" in order to be "notified" when these events occur</p>
+                    <br>
+                    <div class = "row1">
+                        <details>
+                        <summary>context-related events</summary>
+                            <dd>&bull; context initialized, context destroyed, context attribute changes</dd>
+                        </details>
+                        <details>
+                        <summary>session-related events</summary>
+                            <dd>&bull; session created, session destroyed, session attribute changes</dd>
+                        </details>
+                        <details>
+                        <summary>request-related events</summary>
+                            <dd>&bull; request initialized, request destroyed, request attribute changes</dd>
+                        </details>
+                    </div>
+            </article>
+            <br>
+            <table class="table-fill table-bordered row2">
+               <thead>
+                    <tr>
+                    <th class="text-left">javax.servlet</th>
+                    <th class="text-left">javax.servlet.http</th>
+                </thead>
+                <tbody class="table-hover">
+                    <tr>                                         
+                    <td class="text-left">
+                        <code>ServletContextListener</code> 
+                        <code>ServletContextAttributeListener</code>
+                        <code>ServletRequestListener</code>
+                        <code>ServletRequestAttributeListener</code>
+                    </td>
+
+                    <td class="text-left">
+                        <code>HttpSessionListener</code>
+                        <code>HttpSessionAttributeListener</code>
+                    </td>
+                  </tr>
+                </tbody>
+            </table>
+            <article>
+                <h3 class = "page-header">Filters</h3>
+                    <p class = "row">&bull; Java objects used to intercept incoming requests and outgoing responses in order to perform various tasks such as:</p>
+            </article>
+            <br>
+            <table class = "borderless-table row1">
+                <tbody>
+                    <tr>
+                    <td>Authentication & Access Control</td>
+                    <td>Logging & Auditing</td>
+                    <td>Caching & Data Compression</td>
+                    <td>Content Transformation</td>
+                    </tr>
+                    
+                </tbody>
+            </table>
+            <br>
+                <p class = "row">&bull; javax.servlet</p>
+                    <p class = "row1">&raquo; Filter</p>
+                    <p class = "row1">&raquo; FilterChain</p>
+                    <p class = "row1">&raquo; FilterConfig</p>
+    <br>
+          </article>
+    </div>
+  <section id="about-us" class="parallax">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-6">
+          <div class="about-info wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
+            <h2>About us</h2>
+              <p>Course Description: Web Systems and Technologies</p>
+              <p>Course Code: 9427A</p>
+              <p>Class Hours: 1:00-2:00 TF</p>
+              <p>The course website's purpose is to share the knowledge that we have learned throughout the semester.</p>
+          </div>
+        </div>
+        <div class="col-sm-6">
+          <div class="our-skills wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
+            <div class="single-skill wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
+              <p class="lead">User Experiances</p>
+              <div class="progress">
+                <div class="progress-bar progress-bar-primary six-sec-ease-in-out" role="progressbar"  aria-valuetransitiongoal="95">95%</div>
+              </div>
+            </div>
+            <div class="single-skill wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="400ms">
+              <p class="lead">Web Design</p>
+              <div class="progress">
+                <div class="progress-bar progress-bar-primary six-sec-ease-in-out" role="progressbar"  aria-valuetransitiongoal="75">75%</div>
+              </div>
+            </div>
+            <div class="single-skill wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="500ms">
+              <p class="lead">Programming</p>
+              <div class="progress">
+                <div class="progress-bar progress-bar-primary six-sec-ease-in-out" role="progressbar"  aria-valuetransitiongoal="50">50%</div>
+              </div>
+            </div>
+            <div class="single-skill wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
+              <p class="lead">Fun</p>
+              <div class="progress">
+                <div class="progress-bar progress-bar-primary six-sec-ease-in-out" role="progressbar"  aria-valuetransitiongoal="85">85%</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section><!--/#about-us-->
+
+  <section id="portfolio">
+    <div class="container">
+      <div class="row">
+        <div class="heading text-center col-sm-8 col-sm-offset-2 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
+          <h2>Extraordinary People</h2>
+            <p> "Success is not final; failure is not fatal: It is the courage to continue that counts." - Winston S. Churchill</p>
+        </div>
+      </div> 
+    </div>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-sm-3">
+          <div class="folio-item wow fadeInRightBig" data-wow-duration="1000ms" data-wow-delay="300ms">
+            <div class="folio-image">
+              <img class="img-responsive" src="images/portfolio/1.jpg" alt="">
+            </div>
+            <div class="overlay">
+              <div class="overlay-content">
+                <div class="overlay-text">
+                  <div class="folio-info">
+                    <h3>Vinton Cerf</h3>
+                    <p>Father of the Internet</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-3">
+          <div class="folio-item wow fadeInLeftBig" data-wow-duration="1000ms" data-wow-delay="400ms">
+            <div class="folio-image">
+              <img class="img-responsive" src="images/portfolio/2.jpg" alt="">
+            </div>
+            <div class="overlay">
+              <div class="overlay-content">
+                <div class="overlay-text">
+                  <div class="folio-info">
+                    <h3>Tim-Berners Lee</h3>
+                    <p>Father of the Web</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-3">
+          <div class="folio-item wow fadeInRightBig" data-wow-duration="1000ms" data-wow-delay="500ms">
+            <div class="folio-image">
+              <img class="img-responsive" src="images/portfolio/3.jpg" alt="">
+            </div>
+            <div class="overlay">
+              <div class="overlay-content">
+                <div class="overlay-text">
+                  <div class="folio-info">
+                    <h3>Håkon Wium Lie</h3>
+                    <p>Proposed the concept of Cascading Style Sheets</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-3">
+          <div class="folio-item wow fadeInLeftBig" data-wow-duration="1000ms" data-wow-delay="600ms">
+            <div class="folio-image">
+              <img class="img-responsive" src="images/portfolio/4.jpg" alt="">
+            </div>
+            <div class="overlay">
+              <div class="overlay-content">
+                <div class="overlay-text">
+                  <div class="folio-info">
+                    <h3>Bert Bos</h3>
+                    <p>Written a book about Cascading Style Sheets</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-3">
+          <div class="folio-item wow fadeInRightBig" data-wow-duration="1000ms" data-wow-delay="700ms">
+            <div class="folio-image">
+              <img class="img-responsive" src="images/portfolio/5.jpg" alt="">
+            </div>
+            <div class="overlay">
+              <div class="overlay-content">
+                <div class="overlay-text">
+                  <div class="folio-info">
+                    <h3>Brendan Eich</h3>
+                    <p>Inventor of JavaScript</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-3">
+          <div class="folio-item wow fadeInLeftBig" data-wow-duration="1000ms" data-wow-delay="800ms">
+            <div class="folio-image">
+              <img class="img-responsive" src="images/portfolio/6.jpg" alt="">
+            </div>
+            <div class="overlay">
+              <div class="overlay-content">
+                <div class="overlay-text">
+                  <div class="folio-info">
+                    <h3>Rasmus Lerdorf</h3>
+                    <p>Created the PHP Scripting Language</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-3">
+          <div class="folio-item wow fadeInRightBig" data-wow-duration="1000ms" data-wow-delay="900ms">
+            <div class="folio-image">
+              <img class="img-responsive" src="images/portfolio/7.jpg" alt="">
+            </div>
+            <div class="overlay">
+              <div class="overlay-content">
+                <div class="overlay-text">
+                  <div class="folio-info">
+                    <h3>Ryan Dahl</h3>
+                    <p>Created the Node.js Scripting Language</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-3">
+          <div class="folio-item wow fadeInLeftBig" data-wow-duration="1000ms" data-wow-delay="1000ms">
+            <div class="folio-image">
+              <img class="img-responsive" src="images/portfolio/8.jpg" alt="">
+            </div>
+            <div class="overlay">
+              <div class="overlay-content">
+                <div class="overlay-text">
+                  <div class="folio-info">
+                    <h3>James Gosling</h3>
+                    <p>Father of Java</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="portfolio-single-wrap">
+      <div id="portfolio-single">
+      </div>
+    </div><!-- /#portfolio-single-wrap -->
+  </section><!--/#portfolio-->
+
+
+  <footer id="footer">
+    <div class="footer-top wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
+      <div class="container text-center">
+        <div class="footer-logo">
+          <a href="index.html"><img class="img-responsive" src="images/logo.png" alt=""></a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-6">
+            <p>&copy; 2017 Web Systems and Technologies.</p>
+          </div>
+          <div class="col-sm-6">
+            <p class="pull-right">All Rights Reserved.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script type="text/javascript" src="js/jquery.js"></script>
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=true"></script>
+  <script type="text/javascript" src="js/jquery.inview.min.js"></script>
+  <script type="text/javascript" src="js/wow.min.js"></script>
+  <script type="text/javascript" src="js/mousescroll.js"></script>
+  <script type="text/javascript" src="js/smoothscroll.js"></script>
+  <script type="text/javascript" src="js/jquery.countTo.js"></script>
+  <script type="text/javascript" src="js/lightbox.min.js"></script>
+  <script type="text/javascript" src="js/main.js"></script>
+
+</body>
+</html>

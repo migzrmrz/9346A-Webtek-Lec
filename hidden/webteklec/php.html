@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FINALS</title>
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/animate.min.css" rel="stylesheet"> 
+  <link href="css/font-awesome.min.css" rel="stylesheet">
+  <link href="css/lightbox.css" rel="stylesheet">
+  <link href="css/main.css" rel="stylesheet">
+  <link id="css-preset" href="css/presets/preset1.css" rel="stylesheet">
+  <link href="css/responsive.css" rel="stylesheet">
+
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700' rel='stylesheet' type='text/css'>
+  <link rel="shortcut icon" href="images/icon.png">
+</head><!--/head-->
+
+<body>
+
+  <!--.preloader-->
+  <div class="preloader"> <i class="fa fa-circle-o-notch fa-spin"></i></div>
+  <!--/.preloader-->
+
+  <header id="home">
+    <div id="home-slider" class="carousel slide carousel-fade" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="item active" style="background-image: url(images/slider/1.jpg)">
+          <div class="caption">
+            <h1 class="animated fadeInLeftBig">Prelims <span>Web Systems and Technologies</span></h1>
+            <a data-scroll class="btn btn-start animated fadeInUpBig" href="#finals-intro">Start now</a>
+          </div>
+        </div>
+        <div class="item" style="background-image: url(images/slider/3.jpg)">
+          <div class="caption">
+            <h1 class="animated fadeInLeftBig">Meet our Awesome <span>Team</span></h1>
+            <a data-scroll class="btn btn-start animated fadeInUpBig" href="#team">Start now</a>
+          </div>
+        </div>
+      </div>
+      <a class="left-control" href="#home-slider" data-slide="prev"><i class="fa fa-angle-left"></i></a>
+      <a class="right-control" href="#home-slider" data-slide="next"><i class="fa fa-angle-right"></i></a>
+
+      <a id="tohash" href="#services"><i class="fa fa-angle-down"></i></a>
+
+    </div><!--/#home-slider-->
+   <div class="main-nav">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html">
+            <h1><img class="img-responsive" src="images/logo.png" alt="logo"></h1>
+          </a>                    
+        </div>
+        <div class="collapse navbar-collapse">
+          <ul class="nav navbar-nav navbar-right">                 
+            <li class="scroll"><a href="index.html">Home</a></li>
+            <li class="dropdown menu__item">
+				<a href="#" class="dropdown-toggle menu__link" data-toggle="dropdown">Finals<b class="caret"></b></a>
+				<ul class="dropdown-menu agile_short_dropdown">
+				   <li><a href="jsp.html">Java Servlets and JSPs</a></li>
+                   <li><a href="php.html">PHP</a></li>
+                   <li><a href="nodejs.html">Node.js</a></li>
+                   <li><a href="owasp.html">OWASP</a></li>
+				</ul>
+			</li>
+            <li class="scroll"><a href="#about-us">About Us</a></li>                     
+            <li class="scroll"><a href="#team">Team</a></li>
+            <li class="scroll"><a href="#news">News</a></li>     
+          </ul>
+        </div>
+      </div>
+    </div><!--/#main-nav-->
+  </header><!--/#home-->
+    
+  <section id="finals-intro">
+    <div class="container">
+      <div class="heading wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
+        <div class="row">
+          <div class="col-sm-8 col-sm-offset-2">
+            <div class ="page-header">
+                <h1 id="javascript">Hypertext Preprocessor (PHP)</h1>
+            </div>
+                <p>&bull; Rasmus Lerdorf unleashed the first version of PHP way back in 1994.</p>
+                <p>&bull; Recursive acronym for "PHP: Hypertext Preprocessor", it is one of the simplest server-side language, it was primarily designed for web development.</p>
+                <h2 id="javascript">Basic PHP Syntax</h2>
+                <p>&bull; A PHP script can be placed anywhere in the document.</p>
+                <p>&bull; A PHP script starts with <u>&lt;?php</u> and ends with <u>?&gt;</u></p>
+                <p>&bull; The default file extension for PHP files is ".php".</p>
+                <p>&bull; A PHP file normally contains HTML tags, and some PHP scripting code.</p>
+                <p>&bull; Classes, functions, class constructors, class methods, keyworkds and constructs are NOT sensitive in PHP. However, variables, constants, array keys, class properties and class constants are case-sensitive.</p>
+                <h2 class = "page-header" id="keywords">PHP Data Types</h2>
+                   <center>
+                          <table class = "borderless-table">
+                            <tbody>
+                                 <tr>
+                                    <td>String</td>
+                                    <td>Integer</td>
+                                    <td>Float (also called double)</td>
+                                    <td>Boolean</td>
+                                    <td>Array</td>
+                                    <td>Object</td>
+                                    <td>NULL</td>
+                                    <td>Resource</td>
+                                </tr>
+                              </tbody>
+                       </table>
+                    </center>
+                <br>
+                <p>&bull; Several Ways of Commenting in PHP</p>
+                <pre>
+                <code>
+                    &lt;?php 
+                       // This is a single-line comment
+
+                        # This is also a single-line comment
+
+                        /*
+                        This is a multiple-lines comment block
+                        */
+
+                        // You can also use comments to leave out parts of a code line
+                        $sum = 9 /* + 5 */ + 97;
+                        echo $sum;
+                    ?&gt;
+                </code>
+                </pre>
+                <article>
+            <div class ="page-header">
+                <h1 id="javascript">Superglobals</h1>
+            </div>
+                    <details>
+						<summary><code>PHP $GLOBALS</code></summary>
+                        <dd>This variable is used to access global variables from anywhere in the PHP script.</dd>
+                        <pre>
+                            <code>
+                     &lt;?php 
+                         $x = 100;
+                         $y = 20; 
+                            function addition() {
+                             $GLOBALS['z'] = $GLOBALS['x'] - $GLOBALS['y'];
+                            }
+                            addition();
+                            echo $z;
+                    ?&gt;
+                            </code>
+                        </pre>
+                    </details>
+                    <details>
+						<summary><code>PHP $_SERVER</code></summary>
+                        <dd>This variable holds the information about the headers, paths, and script locations.</dd>
+                    <pre>
+                            <code>
+                     &lt;?php 
+                         echo $_SERVER['SERVER_NAME'];
+                    ?&gt;
+                            </code>
+                        </pre>
+					</details>
+                    <details>
+						<summary><code>PHP $_GET</code></summary>
+                        <dd>This variable is used to collect forms sent in the URL.</dd>
+                    <pre>
+                            <code>
+         &lt;?php 
+            echo $_GET['http://stackoverflow.com/questions/5884807/get-url-parameter-in-php'];
+        ?&gt;
+                            </code>
+                        </pre>
+					</details>
+                    <details>
+						<summary><code>PHP $_POST</code></summary>
+                        <dd>This variable is used to handle form data and pass variables.</dd>
+                        <pre>
+                            <code>
+                     &lt;?php 
+                         echo "Welcome ". $_POST['name']. " to your tape.";
+                    ?&gt;
+                            </code>
+                        </pre>
+					</details>
+                    <details>
+						<summary><code>PHP $_FILES</code></summary>
+                        <dd>This variable will contain all the uploaded file information.</dd>
+                        <pre>
+                            <code>
+                     &lt;?php 
+                         if ($_FILES["fileToUpload"]["size"] > 1000000) {
+                         echo "Sorry, your file is too large.";
+                         $uploadOk = 0;
+                    ?&gt;
+                            </code>
+                        </pre>
+					</details>
+                    <details>
+						<summary><code>PHP $_COOKIE</code></summary>
+                        <dd>This variable is being set when the page loads.</dd>
+                        <pre>
+                            <code>
+         &lt;?php 
+            if (!isset($_COOKIE['visited'])) {
+                setcookie('visited', true, time() + 3600 * 72); // Save a cookie for 3 day
+        ?&gt;
+                            </code>
+                        </pre>
+					</details>
+                    <details>
+						<summary><code>PHP $_SESSION</code></summary>
+						<dd>This variable stores all the session variable values.</dd>
+                <pre>
+                <code>
+                &lt;?php 
+                    // starts the session
+                    session_start();
+                    // stores session data
+                    $_SESSION["username"] = "Jamie";
+                ?&gt;
+                </code>
+                </pre>
+					</details>
+                    <details>
+						<summary><code>PHP $_REQUEST</code></summary>
+						<dd>Using this variable is quite harmful, because you can be vunerable to a cross-site script attack.</dd>
+                        <dd>It contains the contents of $_GET, $_POST and $_COOKIE.</dd>
+                <pre>
+                <code>
+                &lt;?php 
+                    $name=$_REQUEST['SirJo'];  
+                    echo $name; 
+                ?&gt;
+                </code>
+                </pre>
+					</details>
+                    <details>
+						<summary><code>PHP $_ENV</code></summary>
+						<dd>This variable is used to return the environment variables from the web server.<dd>
+					</details>
+                    </article>
+          </div>
+        </div> 
+      </div>
+    </div>
+  </section><!--/#intro-->
+
+  
+  <footer id="footer">
+    <div class="footer-top wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
+      <div class="container text-center">
+        <div class="footer-logo">
+          <a href="index.html"><img class="img-responsive" src="images/logo.png" alt=""></a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-6">
+            <p>&copy; 2017 Web Systems and Technologies.</p>
+          </div>
+          <div class="col-sm-6">
+            <p class="pull-right">All Rights Reserved.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script type="text/javascript" src="js/jquery.js"></script>
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=true"></script>
+  <script type="text/javascript" src="js/jquery.inview.min.js"></script>
+  <script type="text/javascript" src="js/wow.min.js"></script>
+  <script type="text/javascript" src="js/mousescroll.js"></script>
+  <script type="text/javascript" src="js/smoothscroll.js"></script>
+  <script type="text/javascript" src="js/jquery.countTo.js"></script>
+  <script type="text/javascript" src="js/lightbox.min.js"></script>
+  <script type="text/javascript" src="js/main.js"></script>
+
+</body>
+</html>

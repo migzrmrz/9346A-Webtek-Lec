@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Finals</title>
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/animate.min.css" rel="stylesheet"> 
+  <link href="css/font-awesome.min.css" rel="stylesheet">
+  <link href="css/lightbox.css" rel="stylesheet">
+  <link href="css/main.css" rel="stylesheet">
+  <link id="css-preset" href="css/presets/preset1.css" rel="stylesheet">
+  <link href="css/responsive.css" rel="stylesheet">
+
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700' rel='stylesheet' type='text/css'>
+  <link rel="shortcut icon" href="images/icon.png">
+</head><!--/head-->
+
+<body>
+
+  <!--.preloader-->
+  <div class="preloader"> <i class="fa fa-circle-o-notch fa-spin"></i></div>
+  <!--/.preloader-->
+
+  <header id="home">
+    <div id="home-slider" class="carousel slide carousel-fade" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="item active" style="background-image: url(images/slider/1.jpg)">
+          <div class="caption">
+            <h1 class="animated fadeInLeftBig">Finals <span>Web Systems and Technologies</span></h1>
+            <a data-scroll class="btn btn-start animated fadeInUpBig" href="#midterms-intro">Start now</a>
+          </div>
+        </div>
+        <div class="item" style="background-image: url(images/slider/3.jpg)">
+          <div class="caption">
+            <h1 class="animated fadeInLeftBig">Meet our Awesome <span>Team</span></h1>
+            <a data-scroll class="btn btn-start animated fadeInUpBig" href="#team">Start now</a>
+          </div>
+        </div>
+      </div>
+      <a class="left-control" href="#home-slider" data-slide="prev"><i class="fa fa-angle-left"></i></a>
+      <a class="right-control" href="#home-slider" data-slide="next"><i class="fa fa-angle-right"></i></a>
+
+      <a id="tohash" href="#services"><i class="fa fa-angle-down"></i></a>
+
+    </div><!--/#home-slider-->
+    <div class="main-nav">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html">
+            <h1><img class="img-responsive" src="images/logo.png" alt="logo"></h1>
+          </a>                    
+        </div>
+        <div class="collapse navbar-collapse">
+          <ul class="nav navbar-nav navbar-right">                 
+            <li class="scroll"><a href="index.html">Home</a></li>
+            <li class="dropdown menu__item">
+				<a href="#" class="dropdown-toggle menu__link" data-toggle="dropdown">Finals<b class="caret"></b></a>
+				<ul class="dropdown-menu agile_short_dropdown">
+				   <li><a href="jsp.html">Java Servlets and JSPs</a></li>
+                   <li><a href="php.html">PHP</a></li>
+                   <li><a href="nodejs.html">Node.js</a></li>
+                   <li><a href="owasp.html">OWASP</a></li>
+				</ul>
+			</li>
+            <li class="scroll"><a href="#about-us">About Us</a></li>                     
+            <li class="scroll"><a href="#team">Team</a></li>
+            <li class="scroll"><a href="#news">News</a></li>     
+          </ul>
+        </div>
+      </div>
+    </div><!--/#main-nav-->
+  </header><!--/#home-->
+<div class="container">  <!-- wraps and defines overall page width, centers it -->
+    
+                <!-- ARTICLE -->
+                <article>
+                <section>
+                    <div class ="page-header">
+                <h1 id="javascript">Open Web Application Security Project (OWASP)</h1>
+                    </div>
+                    <div class ="row1">
+                    <p>The OWASP Top Ten is a list of the 10 most dangerous current Web application security flaws, along with effective methods of dealing with those flaws. OWASP (Open Web Application Security Project) is an organization that provides unbiased and practical, cost-effective information about computer and Internet applications.</p>
+                    </div>
+                </section>
+                    
+                   <section>
+                       <div class ="page-header">
+                       <h2 id="datatypes">Top 10 OWASP 2017 Security Risks</h2>
+                       </div>
+                       <div class ="row">
+                       <p>These are the Top 10 OWASP Security Risks of 2017</p>
+                           <br>
+                       </div>
+                       <div class ="row1">
+                        <details>
+                            <summary>OWASP Security Risks</summary>
+                            <li><strong>1. Infection</strong></li>
+                                <p>Injection flaws, such as SQL, OS, XXE, and LDAP injection occur when untrusted data is sent to an interpreter as part of a command or query. The attacker’s hostile data can trick the interpreter into executing unintended commands or accessing data without proper authorization.</p>
+                            <li><strong>2. Broken Authentication and Session Management</strong></li>
+                                <p>Application functions related to authentication and session management are often implemented incorrectly, allowing attackers to compromise passwords, keys, or session tokens, or to exploit other implementation flaws to assume other users’ identities (temporarily or permanently).</p>
+                            <li><strong>3. Cross-Site Scripting (XSS)</strong></li>
+                                <p>XSS flaws occur whenever an application includes untrusted data in a new web page without proper validation or escaping, or updates an existing web page with user supplied data using a browser API that can create JavaScript. XSS allows attackers to execute scripts in the victim’s browser which can hijack user sessions, deface web sites, or redirect the user to malicious sites.</p>
+                            <li><strong>4. Broken Access Control</strong></li>
+                                <p>Restrictions on what authenticated users are allowed to do are not properly enforced. Attackers can exploit these flaws to access unauthorized functionality and/or data, such as access other users' accounts, view sensitive files, modify other users’ data, change access rights, etc.</p>
+                            <li><strong>5. Security Misconfiguration</strong></li>
+                                <p>Good security requires having a secure configuration defined and deployed for the application, frameworks, application server, web server, database server, platform, etc. Secure settings should be defined, implemented, and maintained, as defaults are often insecure. Additionally, software should be kept up to date.</p>
+                            <li><strong>6. Sensitive Data Exposure</strong></li>
+                                <p>Many web applications and APIs do not properly protect sensitive data, such as financial, healthcare, and PII. Attackers may steal or modify such weakly protected data to conduct credit card fraud, identity theft, or other crimes. Sensitive data deserves extra protection such as encryption at rest or in transit, as well as special precautions when exchanged with the browser.</p>
+                            <li><strong>7. Insufficient Attack Protection</strong></li>
+                                <p>The majority of applications and APIs lack the basic ability to detect, prevent, and respond to both manual and automated attacks. Attack protection goes far beyond basic input validation and involves automatically detecting, logging, responding, and even blocking exploit attempts. Application owners also need to be able to deploy patches quickly to protect against attacks.</p>
+                            <li><strong>8. Cross Site Request Forgery (XSRF)</strong></li>
+                                <p>A CSRF attack forces a logged-on victim’s browser to send a forged HTTP request, including the victim’s session cookie and any other automatically included authentication information, to a vulnerable web application. Such an attack allows the attacker to force a victim’s browser to generate requests the vulnerable application thinks are legitimate requests from the victim.</p>
+                            <li><strong>9. Using Components with Known Vulnerabilities</strong></li>
+                                <p>Components, such as libraries, frameworks, and other software modules, run with the same privileges as the application. If a vulnerable component is exploited, such an attack can facilitate serious data loss or server takeover. Applications and APIs using components with known vulnerabilities may undermine application defenses and enable various attacks and impacts.</p>
+                            <li><strong>10. Underprotected APIs</strong></li>
+                                <p>Modern applications often involve rich client applications and APIs, such as JavaScript in the browser and mobile apps, that connect to an API of some kind (SOAP/XML, REST/JSON, RPC, GWT, etc.). These APIs are often unprotected and contain numerous vulnerabilities.</p>
+                       </details>
+                       </div>
+                    </section>
+                    
+                   
+               <!-- //content -->
+<!-- bootstrap-pop-up -->
+	<div class="modal video-modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModal">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					JAVASCRIPT INTRODUCTION
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>						
+				</div>
+				<section>
+					<div class="modal-body">
+						<img src="images/javascript.jpg" alt="www" class="img-responsive" />
+						<p>This page covers the understanding on how JavaScipt works and how it was originated. Also, it also provides the information about the features, data types, keywords, functions, and document object models (its collections, properties, and methods).</p>
+                    </div>
+				</section>
+            </div>
+		</div>
+	</div>
+<!-- //bootstrap-pop-up -->
+<!-- footer -->
+	<div class="footer">
+		<div class="container">
+			<div class="col-md-4 w3layouts_footer_grid">
+			</div>
+			<div class="col-md-8 w3layouts_footer_grid">
+				<ul class="w3l_footer_nav">
+					<li><a href="index.html">Home</a></li>
+					<li><a href="glossary.html">Glossary</a></li>
+					<li><a href="references.html">References</a></li>
+				</ul>
+                <p>© 2017 Web Systems and Technologies. All Rights Reserved.</p>
+			</div>
+			<div class="clearfix"> </div>
+		</div>
+	</div>
+<!-- //footer -->
+<!-- start-smoth-scrolling -->
+<script type="text/javascript" src="js/move-top.js"></script>
+<script type="text/javascript" src="js/easing.js"></script>
+<script type="text/javascript">
+	jQuery(document).ready(function($) {
+		$(".scroll").click(function(event){		
+			event.preventDefault();
+			$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+		});
+	});
+</script>
+<!-- start-smoth-scrolling -->
+<!-- for bootstrap working -->
+	<script src="js/bootstrap.js"></script>
+<!-- //for bootstrap working -->
+<!-- here stars scrolling icon -->
+	<script type="text/javascript">
+		$(document).ready(function() {
+			/*
+				var defaults = {
+				containerID: 'toTop', // fading element id
+				containerHoverID: 'toTopHover', // fading element hover id
+				scrollSpeed: 1200,
+				easingType: 'linear' 
+				};
+			*/
+								
+			$().UItoTop({ easingType: 'easeOutQuart' });
+								
+			});
+	</script>
+<!-- //here ends scrolling icon -->
+</body>
+</html>
