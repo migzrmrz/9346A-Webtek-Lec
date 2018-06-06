@@ -6,17 +6,12 @@
 	<title>Quiz</title>
 </head>
 <body>
-		<header>
-			<div class="container">
-				<h1>PHP Quiz</h1>
-			</div>
-		</header>
 		<main>
 			<div class="container">
 				<h2>You're Done!</h2>
 					<p>You have completed the test</p>
 					<p>Final Score: <?php echo $_SESSION['score']; ?></p>
-					<a href="question.php?n=1" class="start">Retake Quiz</a>
+					<a href="../index.html" class="start">Back to Main Page</a>
 			</div>
 		</main>
 		<footer>
