@@ -27,8 +27,9 @@
       <div class="carousel-inner">
         <div class="item active" style="background-image: url(images/slider/1.jpg)">
           <div class="caption">
-            <h1 class="animated fadeInLeftBig">Welcome to <span>Web Systems and Technologies!</span></h1>
-            <a data-scroll class="btn btn-start animated fadeInUpBig" href="#intro">Start Learning</a>
+            <h1 class="animated fadeInLeftBig hide-mobile">Welcome to <span>Web Systems and Technologies!</span></h1>
+            <h1 class="animated fadeInLeftBig show-mobile">Welcome to <span>WebTech!</span></h1>
+            <a data-scroll class="btn btn-start animated fadeInUpBig" href="jsp.html">Start Learning</a>
           </div>
         </div>
         <div class="item" style="background-image: url(images/slider/2.jpg)">
@@ -67,16 +68,16 @@
           <ul class="nav navbar-nav navbar-right">                 
             <li class="scroll"><a href="index.html">Home</a></li>
             <li class="dropdown menu__item">
-				<a href="#" class="dropdown-toggle menu__link" data-toggle="dropdown">Finals<b class="caret"></b></a>
+				<a href="#" class="dropdown-toggle menu__link" data-toggle="dropdown">Topics<b class="caret"></b></a>
 				<ul class="dropdown-menu agile_short_dropdown">
 				   <li><a href="jsp.html">Java Servlets and JSPs</a></li>
-                   <li><a href="php.html">PHP</a></li>
-                   <li><a href="nodejs.html">Node.js</a></li>
-                   <li><a href="owasp.html">OWASP</a></li>
+           <li><a href="php.html">PHP</a></li>
+           <li><a href="nodejs.html">Node.js</a></li>
+           <li><a href="owasp.html">OWASP</a></li>
 				</ul>
 			</li>
-            <li class="scroll"><a href="quiz.html">Quiz</a></li>                     
-            <li class="scroll"><a href="#team">Team</a></li>    
+            <li class="scroll"><a href="quiz.html">Take our Quiz</a></li>                     
+            <li class="scroll"><a href="#about-us">Our Team</a></li>    
           </ul>
         </div>
       </div>
@@ -88,50 +89,14 @@
       <div class="heading wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
         <div class="row">
           <div class="text-center col-sm-8 col-sm-offset-2">
-            <h2>TERMINOLOGIES</h2>
-            <p>Here are some of the terminologies that we have learned.</p>
+            <h2>TERMINOLOGIES YOU NEED TO KNOW</h2>
+            <p>Here are some of the terminologies that you have to take note off about Web Systems and Technologies.</p>
           </div>
         </div> 
       </div>
       <div class="text-center our-services">
         <div class="row">
-          <div class="col-sm-4 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
-            <div class="service-icon">
-              <i class="fa fa-rss"></i>
-            </div>
-            <div class="service-info">
-              <h3>Internet</h3>
-              <p>A global system of interconnected computer networks that use the standard Internet Protocol Suite (TCP/IP).</p>
-            </div>
-          </div>
-          <div class="col-sm-4 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="550ms">
-            <div class="service-icon">
-              <i class="fa fa-globe"></i>
-            </div>
-            <div class="service-info">
-              <h3>World Wide Web</h3>
-              <p>Way of accesing information over the medium of the internet.</p>
-            </div>
-          </div>
-          <div class="col-sm-4 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="450ms">
-            <div class="service-icon">
-              <i class="fa fa-user"></i>
-            </div>
-            <div class="service-info">
-              <h3>Front-End Development</h3>
-              <p>A way to produce modify, and maintenance of websites and web application user interfaces.</p>
-            </div>
-          </div>
-          <div class="col-sm-4 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="650ms">
-            <div class="service-icon">
-              <i class="fa fa-users"></i>
-            </div>
-            <div class="service-info">
-              <h3>Client-Side Web Scripting</h3>
-              <p>Allows programs (i.e. scripts to be downloaded from a web server.</p>
-            </div>
-          </div>
-          <div class="col-sm-4 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="750ms">
+          <div class="col-sm-4 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
             <div class="service-icon">
               <i class="fa fa-server"></i>
             </div>
@@ -140,7 +105,45 @@
               <p>It employs scripts on the web server.</p>
             </div>
           </div>
-          <div class="col-sm-4 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="850ms">
+          <div class="col-sm-4 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
+            <div class="service-icon">
+              <i class="fa fa-rss"></i>
+            </div>
+            <div class="service-info">
+              <h3>Internet</h3>
+              <p>A global system of interconnected computer networks that use the standard Internet Protocol Suite (TCP/IP).</p>
+            </div>
+          </div>
+          <div class="col-sm-4 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
+            <div class="service-icon">
+              <i class="fa fa-user"></i>
+            </div>
+            <div class="service-info">
+              <h3>Front-End Development</h3>
+              <p>A way to produce modify, and maintenance of websites and web application user interfaces.</p>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-4 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="650ms">
+            <div class="service-icon">
+              <i class="fa fa-globe"></i>
+            </div>
+            <div class="service-info">
+              <h3>World Wide Web</h3>
+              <p>Way of accesing information over the medium of the internet.</p>
+            </div>
+          </div>
+          <div class="col-sm-4 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="700ms">
+            <div class="service-icon">
+              <i class="fa fa-users"></i>
+            </div>
+            <div class="service-info">
+              <h3>Client-Side Web Scripting</h3>
+              <p>Allows programs (i.e. scripts to be downloaded from a web server.</p>
+            </div>
+          </div>
+          <div class="col-sm-4 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="750ms">
             <div class="service-icon">
               <i class="fa fa-key"></i>
             </div>
@@ -150,6 +153,8 @@
             </div>
           </div>
         </div>
+
+        </div>
       </div>
     </div>
   </section><!--/#intro-->
@@ -158,16 +163,12 @@
       <div class="row">
         <div class="col-sm-6">
           <div class="about-info wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
-            <h2>About us</h2>
-              <p>Course Description: Web Systems and Technologies</p>
-              <p>Course Code: 9346A</p>
-              <p>Class Hours: 2:00 - 3:00 WS</p>
-              <p>The course website's purpose is to share the knowledge that we have learned throughout the semester.</p>
+           
           </div>
         </div>
         <div class="col-sm-6">
           <div class="our-skills wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
-            <div class="single-skill wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
+            <!-- <div class="single-skill wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
               <p class="lead">User Experiances</p>
               <div class="progress">
                 <div class="progress-bar progress-bar-primary six-sec-ease-in-out" role="progressbar"  aria-valuetransitiongoal="95">95%</div>
@@ -190,25 +191,89 @@
               <div class="progress">
                 <div class="progress-bar progress-bar-primary six-sec-ease-in-out" role="progressbar"  aria-valuetransitiongoal="85">85%</div>
               </div>
-            </div>
+            </div> -->
           </div>
         </div>
       </div>
     </div>
+          <div class="row">
+        <div class="heading text-center col-sm-8 col-sm-offset-2 wow fadeInUp" data-wow-duration="1200ms" data-wow-delay="300ms">
+          <h2>Meet our team</h2>
+          <p>We are the students of Saint Louis University who are currently taking up Bachelor of Science in Information Technology. We want to share the knowledge we've learned from this course with you. If you have any further questions, please don’t hesitate to contact us.</p>
+        </div>
+      </div>
+      <div class="team-members">
+        <div class="row">
+          <div class="col-sm-4">
+            <div class="team-member wow flipInY" data-wow-duration="1000ms" data-wow-delay="500ms">
+              <div class="member-image">
+                <img class="img-responsive" src="images/user.png" alt="Mari">
+              </div>
+              <div class="member-info">
+                <h3>Marileus Bernardez</h3>
+                <h4>BSIT-4</h4>
+                <p class="member-detail">Contact number: 
+                <p class="member-detail">Email Address:</p>
+              </div>
+              <div class="social-icons">
+                <ul>
+                  <li><a class="facebook" href="https://www.facebook.com/marileusbernardez"><i class="fa fa-facebook"></i></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="team-member wow flipInY" data-wow-duration="1000ms" data-wow-delay="800ms">
+              <div class="member-image">
+                <img class="img-responsive" src="images/user.png" alt="Carl">
+              </div>
+              <div class="member-info">
+                <h3>Carl Dumo</h3>
+                <h4>BSIT-4</h4>
+                <p class="member-detail">Contact number: 09062165610</p>
+                <p class="member-detail">Email Address: cjdumz.it@gmail.com</p>
+              </div>
+              <div class="social-icons">
+                <ul>
+                  <li><a class="facebook" href="https://www.facebook.com/carljasperdumo"><i class="fa fa-facebook"></i></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="team-member wow flipInY" data-wow-duration="1000ms" data-wow-delay="1100ms">
+              <div class="member-image">
+                <img class="img-responsive" src="images/user.png" alt="Migz">
+              </div>
+              <div class="member-info">
+                <h3>Migule Ramirez</h3>
+                <h4>BSIT-4</h4>
+                <p class="member-detail">Contact number: </p>
+                <p class="member-detail">Email Address: </p>
+              </div>
+              <div class="social-icons">
+                <ul>
+                  <li><a class="facebook" href="https://www.facebook.com/migzrmrz"><i class="fa fa-facebook"></i></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>   
   </section><!--/#about-us-->
 
   <section id="portfolio">
     <div class="container">
       <div class="row">
         <div class="heading text-center col-sm-8 col-sm-offset-2 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
-          <h2>Extraordinary People</h2>
-            <p> "Success is not final; failure is not fatal: It is the courage to continue that counts." - Winston S. Churchill</p>
+          <h2>People you need to know</h2>
+            <p> IT would not be the same without the contributions of these pioneering men.</p>
         </div>
       </div> 
     </div>
     <div class="container-fluid">
       <div class="row">
-        <div class="col-sm-3">
+        <div class="col-sm-4">
           <div class="folio-item wow fadeInRightBig" data-wow-duration="1000ms" data-wow-delay="300ms">
             <div class="folio-image">
               <img class="img-responsive" src="images/portfolio/1.jpg" alt="">
@@ -225,7 +290,7 @@
             </div>
           </div>
         </div>
-        <div class="col-sm-3">
+        <div class="col-sm-4">
           <div class="folio-item wow fadeInLeftBig" data-wow-duration="1000ms" data-wow-delay="400ms">
             <div class="folio-image">
               <img class="img-responsive" src="images/portfolio/2.jpg" alt="">
@@ -242,7 +307,7 @@
             </div>
           </div>
         </div>
-        <div class="col-sm-3">
+        <div class="col-sm-4">
           <div class="folio-item wow fadeInRightBig" data-wow-duration="1000ms" data-wow-delay="500ms">
             <div class="folio-image">
               <img class="img-responsive" src="images/portfolio/3.jpg" alt="">
@@ -327,23 +392,6 @@
             </div>
           </div>
         </div>
-        <div class="col-sm-3">
-          <div class="folio-item wow fadeInLeftBig" data-wow-duration="1000ms" data-wow-delay="1000ms">
-            <div class="folio-image">
-              <img class="img-responsive" src="images/portfolio/8.jpg" alt="">
-            </div>
-            <div class="overlay">
-              <div class="overlay-content">
-                <div class="overlay-text">
-                  <div class="folio-info">
-                    <h3>James Gosling</h3>
-                    <p>Father of Java</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
       </div>
     </div>
     <div id="portfolio-single-wrap">
@@ -352,140 +400,26 @@
     </div><!-- /#portfolio-single-wrap -->
   </section><!--/#portfolio-->
 
-   <section id="team">
-    <div class="container">
-      <div class="row">
-        <div class="heading text-center col-sm-8 col-sm-offset-2 wow fadeInUp" data-wow-duration="1200ms" data-wow-delay="300ms">
-          <h2>The Team</h2>
-          <p>We are the students of Saint Louis University who are currently taking up Bachelor of Science in Information Technology. Enrolled to the course "Web Systems and Technology".</p>
-        </div>
-      </div>
-      <div class="team-members">
-        <div class="row">
-          <div class="col-sm-3">
-            <div class="team-member wow flipInY" data-wow-duration="1000ms" data-wow-delay="300ms">
-              <div class="member-image">
-                <img class="img-responsive" src="images/team/1.jpg" alt="Joshua">
-              </div>
-              <div class="member-info">
-                <h3>Joshua Abubo</h3>
-                <h4>BSIT-4</h4>
-                  <p>Contact number: </p>
-                  <p>Email Address: </p>
-              </div>
-              <div class="social-icons">
-                <ul>
-                  <li><a class="facebook" href="https://www.facebook.com/tootipatooti"><i class="fa fa-facebook"></i></a></li>
-                </ul>
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-3">
-            <div class="team-member wow flipInY" data-wow-duration="1000ms" data-wow-delay="500ms">
-              <div class="member-image">
-                <img class="img-responsive" src="images/team/2.jpg" alt="Mari">
-              </div>
-              <div class="member-info">
-                <h3>Marileus Bernardez</h3>
-                <h4>BSIT-4</h4>
-                <p>Contact number: 
-                <p>Email Address:</p>
-              </div>
-              <div class="social-icons">
-                <ul>
-                  <li><a class="facebook" href="https://www.facebook.com/marileusbernardez"><i class="fa fa-facebook"></i></a></li>
-                </ul>
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-3">
-            <div class="team-member wow flipInY" data-wow-duration="1000ms" data-wow-delay="800ms">
-              <div class="member-image">
-                <img class="img-responsive" src="images/team/3.jpg" alt="Carl">
-              </div>
-              <div class="member-info">
-                <h3>Carl Dumo</h3>
-                <h4>BSIT-4</h4>
-                <p>Contact number: 09062165610</p>
-                <p>Email Address: cjdumz.it@gmail.com</p>
-              </div>
-              <div class="social-icons">
-                <ul>
-                  <li><a class="facebook" href="https://www.facebook.com/carljasperdumo"><i class="fa fa-facebook"></i></a></li>
-                </ul>
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-3">
-            <div class="team-member wow flipInY" data-wow-duration="1000ms" data-wow-delay="1100ms">
-              <div class="member-image">
-                <img class="img-responsive" src="images/team/4.jpg" alt="Migz">
-              </div>
-              <div class="member-info">
-                <h3>Migule Ramirez</h3>
-                <h4>BSIT-4</h4>
-                <p>Contact number: </p>
-                <p>Email Address: </p>
-              </div>
-              <div class="social-icons">
-                <ul>
-                  <li><a class="facebook" href="https://www.facebook.com/migzrmrz"><i class="fa fa-facebook"></i></a></li>
-                </ul>
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-3">
-            <div class="team-member wow flipInY" data-wow-duration="1000ms" data-wow-delay="1100ms">
-              <div class="member-image">
-                <img class="img-responsive" src="images/team/5.jpg" alt="Janriel">
-              </div>
-              <div class="member-info">
-                <h3>Janriel Testado</h3>
-                <h4>BSIT-4</h4>
-                <p>Contact number: </p>
-                <p>Email Address: </p>
-              </div>
-              <div class="social-icons">
-                <ul>
-                  <li><a class="facebook" href="https://www.facebook.com/janriel.gascon"><i class="fa fa-facebook"></i></a></li>
-                </ul>
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-3">
-            <div class="team-member wow flipInY" data-wow-duration="1000ms" data-wow-delay="1100ms">
-              <div class="member-image">
-                <img class="img-responsive" src="images/team/5.jpg" alt="Jorgia">
-              </div>
-              <div class="member-info">
-                <h3>Jorgia De Alban</h3>
-                <h4>BSIT-4</h4>
-                <p>Contact number: </p>
-                <p>Email Address: </p>
-              </div>
-              <div class="social-icons">
-                <ul>
-                  <li><a class="facebook" href="https://www.facebook.com/kritine.dealban"><i class="fa fa-facebook"></i></a></li>
-                </ul>
-              </div>
-            </div>
-          </div> 
-        </div>
-      </div>            
+  <section class="learning-button">
+    <div class="caption">
+      <a data-scroll class="btn btn-start animated fadeInUpBig" href="#portfolio">Start Learning with our Lessons</a>
     </div>
-  </section><!--/#team-->
+  </section>
+
 
   <footer id="footer">
     <div class="footer-top wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
       <div class="container text-center">
-
+        <div class="footer-logo">
+          <a href="index.html"><img class="img-responsive" src="images/logo.png" alt=""></a>
+        </div>
       </div>
     </div>
     <div class="footer-bottom">
       <div class="container">
         <div class="row">
           <div class="col-sm-6">
-            <p>&copy; 2018 Web Systems and Technologies.</p>
+            <p>&copy; 2018 Saint Louis University | School of Computing and Information Sciences</p>
           </div>
           <div class="col-sm-6">
             <p class="pull-right">All Rights Reserved.</p>

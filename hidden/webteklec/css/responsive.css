@@ -37,12 +37,31 @@
 	body {
 		font-size: 14px;
 	}
+
+
 	#home-slider .caption h1 {
-		font-size: 40px;
+	  color: #fff;
+	  font-size: 30px;
+	  font-weight: 700;
+	  margin-bottom: 30px;
+	  padding: 0 50px;
 	}
-	#home-slider .caption {
-		font-size: 15px;
-		padding: 0 30px;
+
+	h1.animated.fadeInLeftBig.show-mobile{
+		display: block;
+	}
+
+	h1.animated.fadeInLeftBig.hide-mobile{
+		display: none;
+	}
+
+	#home-slider.show-mobile{
+		display: block;
+	}
+
+
+	#home-slider.hide-mobile{
+		display: hidden;
 	}
 	.left-control, .right-control {
 		font-size: 20px;

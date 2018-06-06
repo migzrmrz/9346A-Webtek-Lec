@@ -2,7 +2,20 @@
 /*************************
 *******Typography******
 **************************/
+@font-face {
+    font-family: header-font;
+    src: url('../fonts/Just_tell.otf');
+}
 
+@font-face {
+    font-family: slider-font;
+    src: url('../fonts/Stingray.otf');
+}
+
+@font-face {
+    font-family: modern-sans;
+    src: url('../fonts/Modern_Sans_Light.otf');
+}
 body {
   font-family: 'Open Sans', sans-serif;
   font-size: 14px;
@@ -11,8 +24,35 @@ body {
   background-color: #fff;
 }
 
+#portfolio{
+  padding-bottom: 50px;
+}
+
+.learning-button{
+  padding: 0;
+  margin-bottom: 20px;
+}
+.learning-button .caption{
+    text-align: center;
+}
+
+.learning-button .caption .btn-start{
+  margin: 30px auto;
+    width: 50%;
+    color: black;
+}
+h1.animated.fadeInLeftBig.show-mobile{
+  display: none;
+}
+.carousel h1{
+  color: #333;
+  font-size: 24px;
+  font-family: sans-serif;
+}
+
 h1, h2, h3, h4, h5, h6 {
   color: #333;
+  font-family: 'header-font', sans-serif;
 }
 
 h2 {
@@ -133,19 +173,24 @@ section {
   left: 0;
   right: 0;
   text-align: center;
-  text-transform: uppercase;
   z-index: 15;
   font-size: 18px;
   font-weight: 300;
   color: #fff;
+  padding: 0 80px;
 }
 
 #home-slider .caption h1 {
   color: #fff;
   font-size: 60px;
   font-weight: 700;
-  margin-bottom: 30px;
+  margin:0 20px 50px;
+  padding: 0 50px;
+  font-family: 'slider-font', sans-serif;
+
 }
+
+
 
 .caption .btn-start {
   color: #fff;
@@ -266,7 +311,7 @@ section {
 }
 
 .navbar-brand h1 {
-  margin-top: 5px;
+  margin-top: 0px;
 }
 
 /*************************
@@ -283,29 +328,21 @@ section {
   width: 90px;  
   -webkit-transition: background-color 0.2s ease;
   transition: background-color 0.2s ease;
+  transition: transform .2s; 
+    background-color: green;
+    transition: transform .2s; 
+    margin: 0 auto;
 }
 
 .our-services .col-sm-4:hover .service-icon {
   background-color: #333;
+  transform: scale(1.5);
 }
 
 .our-services .col-sm-4 {
-  border-right:1px solid #f2f2f2;
-  border-bottom:1px solid #f2f2f2;
   padding-bottom: 50px;
 }
 
-.our-services .col-sm-4:nth-child(4), 
-.our-services .col-sm-4:nth-child(5), 
-.our-services .col-sm-4:nth-child(6) {
-  border-bottom:0;
-  padding-top: 60px;
-}
-
-.our-services .col-sm-4:nth-child(3), 
-.our-services .col-sm-4:nth-child(6) {
-  border-right:0;
-}
 
 .service-info h3 {
   margin-top: 35px;
@@ -362,13 +399,25 @@ section {
 **************************/
 
 #portfolio .container-fluid, 
-#portfolio .col-sm-3  {
+#portfolio .col-sm-4  {
   overflow: hidden;
-  padding: 0;
+  padding: 10px;
 }
 
+#portfolio .container-fluid, 
+#portfolio .col-sm-3  {
+  overflow: hidden;
+  padding: 10px;
+}
+
+
+
+#portfolio .row{
+  padding: 0 60px;
+}
 #portfolio .folio-item {
   position: relative;
+  border: 2px solid grey;
 }
 
 #portfolio .overlay {
@@ -496,6 +545,12 @@ section {
   margin-bottom: 25px;
 }
 
+.team-members .row{
+    margin-right: 0;
+    margin-left: 0;
+    padding: 0 60px;
+}
+
 .social-icons {
   margin-top:30px;
   text-align: center;
@@ -540,6 +595,21 @@ section {
   font-size: 14px;
 }
 
+.member-image img{
+  display: block;
+    max-width: 100%;
+    height: auto;
+    width: 120px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+
+.member-detail{
+  color: white;
+}
+
+
 .team-member:hover .social-icons ul li a.facebook {
   background-color: #3b5999;
 }
@@ -558,6 +628,7 @@ section {
 
 #team .img-responsive {
   width: 100%;
+  height: 40%;
 }
 
 .member-info h3 {
@@ -908,16 +979,23 @@ ul.address {
 
 #footer {
   color:#fff;
+  background-color: #807e7e;
 }
 
 .footer-top {
   position: relative;
-  padding:30px 0
+    padding: 20px 0 0px;
+    margin-bottom: -30px;
 }
 
 #footer .footer-bottom {
-  background-color: #fff;
+  background-color: #807e7e;
   padding: 20px 0 10px;
+  color: white;
+}
+
+#footer .footer-bottom p{
+  color: white;
 }
 
 #footer .footer-bottom a:hover {
@@ -973,7 +1051,7 @@ ul.address {
 
 /*Texts*/
 p {
-	font-family: 'Pangolin', cursive;
+	font-family: 'modern-sans', sans-serif;
 	font-size: 16px;
 	font-style: normal;
 	font-variant: normal;

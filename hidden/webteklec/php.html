@@ -23,60 +23,40 @@
   <!--/.preloader-->
 
   <header id="home">
-    <div id="home-slider" class="carousel slide carousel-fade" data-ride="carousel">
-      <div class="carousel-inner">
-        <div class="item active" style="background-image: url(images/slider/1.jpg)">
-          <div class="caption">
-            <h1 class="animated fadeInLeftBig">Prelims <span>Web Systems and Technologies</span></h1>
-            <a data-scroll class="btn btn-start animated fadeInUpBig" href="#finals-intro">Start now</a>
+    <div class="main-nav">
+        <div class="container">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="index.html">
+              <h1><img class="img-responsive" src="images/logo.png" alt="logo"></h1>
+            </a>                    
           </div>
-        </div>
-        <div class="item" style="background-image: url(images/slider/3.jpg)">
-          <div class="caption">
-            <h1 class="animated fadeInLeftBig">Meet our Awesome <span>Team</span></h1>
-            <a data-scroll class="btn btn-start animated fadeInUpBig" href="#team">Start now</a>
-          </div>
-        </div>
-      </div>
-      <a class="left-control" href="#home-slider" data-slide="prev"><i class="fa fa-angle-left"></i></a>
-      <a class="right-control" href="#home-slider" data-slide="next"><i class="fa fa-angle-right"></i></a>
-
-      <a id="tohash" href="#services"><i class="fa fa-angle-down"></i></a>
-
-    </div><!--/#home-slider-->
-   <div class="main-nav">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="index.html">
-            <h1><img class="img-responsive" src="images/logo.png" alt="logo"></h1>
-          </a>                    
-        </div>
-        <div class="collapse navbar-collapse">
-          <ul class="nav navbar-nav navbar-right">                 
-            <li class="scroll"><a href="index.html">Home</a></li>
-            <li class="dropdown menu__item">
-        <a href="#" class="dropdown-toggle menu__link" data-toggle="dropdown">Finals<b class="caret"></b></a>
-        <ul class="dropdown-menu agile_short_dropdown">
-           <li><a href="jsp.html">Java Servlets and JSPs</a></li>
-                   <li><a href="php.html">PHP</a></li>
-                   <li><a href="nodejss.html">Node.js</a></li>
-                   <li><a href="owasp.html">OWASP</a></li>
-        </ul>
-      </li>
-            <li class="scroll"><a href="Quiz/index.php">QUIZ</a></li>                     
+          <div class="collapse navbar-collapse">
+            <ul class="nav navbar-nav navbar-right">                 
+              <li class="scroll"><a href="index.html">Home</a></li>
+              <li class="dropdown menu__item">
+          <a href="#" class="dropdown-toggle menu__link" data-toggle="dropdown">Topics<b class="caret"></b></a>
+          <ul class="dropdown-menu agile_short_dropdown">
+             <li><a href="jsp.html">Java Servlets and JSPs</a></li>
+             <li><a href="php.html">PHP</a></li>
+             <li><a href="nodejs.html">Node.js</a></li>
+             <li><a href="owasp.html">OWASP</a></li>
           </ul>
+        </li>
+              <li class="scroll"><a href="quiz.html">Take our Quiz</a></li>                     
+              <li class="scroll"><a href="#about-us">Our Team</a></li>    
+            </ul>
+          </div>
         </div>
-      </div>
     </div><!--/#main-nav-->
   </header><!--/#home-->
     
-  <section id="finals-intro">
+  <div id="finals-intro">
     <div class="container">
       <div class="heading wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
         <div class="row">
@@ -258,7 +238,7 @@
       <div class="container">
         <div class="row">
           <div class="col-sm-6">
-            <p>&copy; 2017 Web Systems and Technologies.</p>
+            <p>&copy; 2018 Saint Louis University | School of Computing and Information Sciences</p>
           </div>
           <div class="col-sm-6">
             <p class="pull-right">All Rights Reserved.</p>
