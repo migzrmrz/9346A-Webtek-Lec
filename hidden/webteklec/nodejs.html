@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Finals</title>
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/animate.min.css" rel="stylesheet"> 
+  <link href="css/font-awesome.min.css" rel="stylesheet">
+  <link href="css/lightbox.css" rel="stylesheet">
+  <link href="css/main.css" rel="stylesheet">
+  <link id="css-preset" href="css/presets/preset1.css" rel="stylesheet">
+  <link href="css/responsive.css" rel="stylesheet">
+
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700' rel='stylesheet' type='text/css'>
+  <link rel="shortcut icon" href="images/icon.png">
+</head><!--/head-->
+
+<body>
+
+  <!--.preloader-->
+  <div class="preloader"> <i class="fa fa-circle-o-notch fa-spin"></i></div>
+  <!--/.preloader-->
+
+  <header id="home">
+  
+    <div class="main-nav">
+        <div class="container">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="index.html">
+              <h1><img class="img-responsive" src="images/logo.png" alt="logo"></h1>
+            </a>                    
+          </div>
+          <div class="collapse navbar-collapse">
+            <ul class="nav navbar-nav navbar-right">                 
+              <li class="scroll"><a href="index.html">Home</a></li>
+              <li class="dropdown menu__item">
+          <a href="#" class="dropdown-toggle menu__link" data-toggle="dropdown">Topics<b class="caret"></b></a>
+          <ul class="dropdown-menu agile_short_dropdown">
+             <li><a href="jsp.html">Java Servlets and JSPs</a></li>
+             <li><a href="php.html">PHP</a></li>
+             <li><a href="nodejs.html">Node.js</a></li>
+             <li><a href="owasp.html">OWASP</a></li>
+          </ul>
+        </li>
+              <li class="scroll"><a href="quiz.html">Take our Quiz</a></li>                     
+              <li class="scroll"><a href="#about-us">Our Team</a></li>    
+            </ul>
+          </div>
+        </div>
+    </div><!--/#main-nav-->
+  </header><!--/#home-->
+    
+  <section id="midterms-intro">
+    <div class="container">
+      <div class="heading wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
+        <div class="row">
+          <div class="text-center col-sm-8 col-sm-offset-2">
+              <div class ="page-header">
+                <h1 id="javascript">Node.Js</h1>
+              </div>
+              <div class ="row1">
+                    <p>&bull; Node.js was developed by Ryan Dahl in 2009,thirteen years after the first server side-Javascript was released and instroduced. Node.js provides a library for Javascript modules that simplifies the development of web applications. Node.js is an open source environment for developing both serverside and the networking applications that are written in Javacript. These are some features of the Node.js.  Node.js is Asynchronous and event Driven, it is very fast beacuse it was build on Google chrome's V8 javascript engine so its library is very quick in excecution. It is also a single threaded but highly Scalable, and it liscensed that was released under the MIT license. These are some of the features of the node.js.
+                  </p>
+                   
+                </div> 
+              
+                <div class ="page-header1">
+                    
+                    <h2 id="datatypes">Node.js Frameworks</h2>
+                    <center>
+                    <table> 
+                        <tr>
+                        <td><p>&bull; Hapi.js</p></td>
+                        <td><p>&bull; Socket.io</p></td>
+                        <td><p>&bull; Express.js</p></td>
+                        <td><p>&bull; Mojito</p></td>
+                        <td><p>&bull; Meteor</p></td>
+                        </tr>
+                        <tr>
+                        <td><p>&bull; Derby</p></td>
+                        <td><p>&bull; Mean.js</p></td>
+                        <td><p>&bull; Sails.js</p></td>
+                        <td><p>&bull; Koa.js</p></td>
+                        <td><p>&bull; Total.js</p></td>
+                        </tr>
+                    </table>
+                        </center>
+                        
+                </div>
+              
+                <div class ="page-header">
+                       <h2 id="datatypes">Node.js HTTP module</h2>
+                       </div>
+                <div class ="row">
+                       <p>This section shows the HTTP module for node JS</p>
+                       <br>
+                 </div>
+                 <div class ="row1">
+                        <details>
+                            <summary>Class:http.Agent</summary>
+                            <p>Added in: v0.3.4</p>
+                            <p>An Agent is responsible for managing connection persistence and reuse for HTTP clients.</p>
+                            <li><strong>new Agent([options])</strong></li>
+                                <p>Added in: v0.3.4</p>
+                                <code>const http = require('http');
+                                <br>const keepAliveAgent = new http.Agent({ keepAlive: true });
+                                <br>options.agent = keepAliveAgent;
+                                <br>http.request(options, onResponseCallback);</code>
+                                <p>This code fragment will keep the socket/s on even if not in use.</p>
+                            <li><strong>agent.createConnection(options[, callback])</strong></li>
+                                <p>Added in: v0.11.4</p>
+                                <p>Produces a socket/stream to be used for HTTP requests.</p>
+                                <code>Boolean(9 > 10)</code>
+                                <p>This will return true because this time, 10 is greater than 9.</p>
+                            <li><strong>agent.destroy()</strong></li>
+                                <p>Added in: v0.11.4</p>
+                                <p>Destroy any sockets that are currently in use by the agent.</p>
+                            <li><strong>agent.freeSockets</strong></li>
+                                <p>v0.11.4</p>
+                                <p>An object which contains arrays of sockets currently awaiting use by the agent when keepAlive is enabled.</p>
+                            <li><strong>agent.getName(options)</strong></li>
+                                <p>Added in: v0.11.4</p>
+                                <p>Get a unique name for a set of request options, to determine whether a connection can be reused. For an HTTP agent, this returns host:port:localAddress. For an HTTPS agent, the name includes the CA, cert, ciphers, and other HTTPS/TLS-specific options that determine socket reusability.</p>
+                            <li><strong>agent.maxFreeSockets</strong></li>
+                                <p>Added in: v0.11.7</p>
+                                <p>By default set to 256. For agents with keepAlive enabled, this sets the maximum number of sockets that will be left open in the free state.</p>
+                            <li><strong>agent.maxSockets</strong></li>
+                                <p>Added in: v0.3.6</p>
+                                <p>By default set to Infinity. Determines how many concurrent sockets the agent can have open per origin. </p>
+                            <li><strong>agent.requests</strong></li>
+                                <p>Added in: v0.5.9</p>
+                                <p>An object which contains queues of requests that have not yet been assigned to sockets.</p>
+                            <li><strong>agent.sockets</strong></li>
+                                <p>Added in: v0.3.6</p>
+                                <p>An object which contains arrays of sockets currently in use by the agent.</p>
+                        </details>
+                 </div>
+              
+             
+                    
+                    <div class ="row1">
+                       <details>
+                            <summary>Class: http.ClientRequest</summary>
+                            <li><strong>Event: &lt;checkContinue&gt;</strong></li>
+                           <p>Added in: v0.3.0</p>
+                           <li><code>request</code> &lt;http.IncomingMessage&gt;</a></li>
+                           <li><code>response</code>&lt;http.ServerResponse&gt;</a></li>
+                           
+                           <p>Emitted each time a request with an HTTP Expect header is received, where the value is not <code>100-continue</code>. If this event is not listened for, the server will automatically respond with a 417 Expectation Failed as appropriate.  </p>
+                           <p>Handling this event involves calling response.writeContinue() if the client should continue to send the request body, or generating an appropriate HTTP response (e.g. 400 Bad Request) if the client should not continue to send the request body.</p>
+                           
+                           <li><strong>Event: 'checkExpectation'</strong></li>
+                           <p>Added in: v5.5.0</p>
+                           <li><code>request</code> &lt;http.ClientRequest&gt;</li>
+                           <li><code>response</code> &lt;http.ServerResponse&gt;</li>
+                           <p> Emitted each time a request with an HTTP Expect header is received, where the value is not 100-continue. If this event is not listened for, the server will automatically respond with a 417 Expectation Failed as appropriate.</p>
+                           
+                           <li><strong>Event: 'clientError'</strong></li>
+                           <li><code>exception </code>&lt;Error&gt;</li>
+                           <li><code>socket</code> &lt;net.socket&gt;</li>
+                           <p>If a client connection emits an 'error' event, it will be forwarded here. Listener of this event is responsible for closing/destroying the underlying socket. For example, one may wish to more gracefully close the socket with an HTTP '400 Bad Request' response instead of abruptly severing the connection.</p>
+                           
+                           <li><strong> Event: &lt;close&gt;</strong></li>
+                           <p>Added in: v0.1.4</p>
+                           <p>Emitted when the server closes.</p>
+                           
+                           <li><strong>Event: &lt;connect&gt;</strong></li>
+                           <p>Added in: v0.7.0</p>
+                           <li><code>request </code>&lt;http.IncomingMessage&gt; Arguments for the HTTP request, as it is in the 'request' event</li>
+                           <li><code>socket </code>&lt;net.Socket&gt; Network socket between the server and client</li>
+                           <li><code>head </code>&lt;Buffer&gt; The first packet of the tunneling stream (may be empty)</li>
+                           <p>Emitted each time a client requests an HTTP CONNECT method. If this event is not listened for, then clients requesting a CONNECT method will have their connections closed.</p>
+                           <p>After this event is emitted, the request's socket will not have a 'data' event listener, meaning it will need to be bound in order to handle data sent to the server on that socket.</p>
+                           
+                           <li><strong>server.close([callback])</strong></li>
+                           <p>Added in: v0.1.90</p>
+                           <li><code>callback </code>&lt;Function&gt;</li>
+                           <p>Stops the server from accepting new connections. See net.Server.close().</p>
+                           
+                           <li><strong>server.listen(handle[, callback])</strong></li>
+                           <p>Added in: v0.5.10</p>
+                           <li><code>handle </code>&lt;Object&gt;</li>
+                            <li><code>callback </code>&lt;Function&gt;</li>
+                           
+                           <p>This will cause the server to accept connections on the specified handle, but it is presumed that the file descriptor or handle has already been bound to a port or domain socket. Listening on a file descriptor is not supported on Windows.This function is asynchronous. Callback will be added as a listener for the 'listening' event.Return server.</p>
+                           
+                           
+                           <li><strong>server.listen(path[, callback])</strong></li>
+                           <p>Added in: v0.1.90</p>
+                           <li><code>path </code>&lt;string&gt;</li>
+                           <li><code>callback </code>&lt;Function&gt;</li>
+                           <p>This function is asynchronous. callback will be added as a listener for the 'listening' event. See also net.Server.listen(path).</p>
+
+                           <li><strong>server.listen([port][, hostname][, backlog][, callback])</strong></li>
+                           <p>Added in: v0.1.90</p>
+                          <li><code>port </code>&lt;number&gt;</li>
+                          <li><code>hostname </code>&lt;string&gt;</li>
+                          <li><code>backlog</code> &lt;number&gt;</li>
+                          <li><code>callback</code> &lt;Function&gt;</li>
+
+                          <p>Begin accepting connections on the specified port and hostname. If the hostname is omitted, the server will accept connections on the unspecified IPv6 address (::) when IPv6 is available, or the unspecified IPv4 address (0.0.0.0) otherwise.</p>
+                          <p>Omit the port argument, or use a port value of 0, to have the operating system assign a random port, which can be retrieved by using server.address().port after the 'listening' event has been emitted.</p>
+                          <p>backlog is the maximum length of the queue of pending connections. The actual length will be determined by the OS through sysctl settings such as tcp_max_syn_backlog and somaxconn on linux. The default value of this parameter is 511 (not 512).</p>
+                          <p>To listen to a unix socket, supply a filename instead of port and hostname.</p>
+                          <p>This function is asynchronous. callback will be added as a listener for the 'listening' event</p>
+
+                          <p><strong>server.listening</strong></p>
+                          <p>Added in: v5.7.0</p>
+                          <li>&lt;boolean&gt;</li>
+                          <p>A Boolean indicating whether or not the server is listening for connections.</p>
+
+                          <p><strong>server.maxHeadersCount</strong></p>
+                          <p>Added in: v0.7.0</p>
+                          <li>&lt;number&gt; Defaults to 2000.</li>
+                          <p>Limits maximum incoming headers count, equal to 2000 by default. If set to 0 - no limit will be applied.</p>
+
+                          <p><strong>server.setTimeout([msecs][, callback])</strong></p>
+                          <p>Added in: v0.9.12</p>
+                          <li><code>msecs</code> &lt;number&gt; Defaults to 120000 (2 minutes).</li>
+                          <li><code>callback </code>&lt;Function&gt;</li>
+                          <p>Sets the timeout value for sockets, and emits a 'timeout' event on the Server object, passing the socket as an argument, if a timeout occurs.</p>
+                          <p>If there is a 'timeout' event listener on the Server object, then it will be called with the timed-out socket as an argument.</p>
+                          <p>By default, the Server's timeout value is 2 minutes, and sockets are destroyed automatically if they time out. However, if a callback is assigned to the Server's 'timeout' event, timeouts must be handled explicitly.</p>
+
+                          <li><strong>server.timeout</strong></li>
+                          <p>Added in: v0.9.12</p>
+                          <li>&lt;number&gt; Defaults to 120000 (2 minutes).</li>
+                          <p>The number of milliseconds of inactivity before a socket is presumed to have timed out.</p>           
+                        </details>     
+                       </div>
+
+                        <div class ="row1">
+                       <details>
+                       <summary>Class: http.ServerResponse</summary>
+                       <p><strong>Event: 'close'</strong></p>
+                       <p>Added in: v0.6.7</p>
+                       <p>Indicates that the underlying connection was terminated before response.end() was called or able to flush.</p>
+
+                       <p><strong>Event: 'finish'</strong></p>
+                       <p>Added in: v0.3.6</p>
+                       <p>Emitted when the response has been sent. More specifically, this event is emitted when the last segment of the response headers and body have been handed off to the operating system for transmission over the network. It does not imply that the client has received anything yet.</p>
+
+                       <p><strong>response.addTrailers(headers)</strong></p>
+                       <p>Added in: v0.3.0</p>
+                       <li><code>headers</code> &lt;Object&gt;</li>
+                       <p>This method adds HTTP trailing headers (a header but at the end of the message) to the response.</p>
+                       <p>Trailers will only be emitted if chunked encoding is used for the response; if it is not (e.g. if the request was HTTP/1.0), they will be silently discarded.</p>
+
+                       <p><strong>response.end([data][, encoding][, callback])</strong></p>
+                       <p>Added in: v0.1.90</p>
+                      <li><code>data</code> |&lt;Buffer&gt;</a></li>
+                      <li><code>encoding</code> </li>
+                      <li><code>callback</code> &lt;Function&gt;</a></li>
+
+                      <p>This method signals to the server that all of the response headers and body have been sent; that server should consider this message complete. The method, response.end(), MUST be called on each response</p>
+
+                      <li><strong>response.finished</strong></li>
+                      <p>Added in: v0.0.2</p>
+                      <li>&lt;boolean&gt;</li>
+                      <p>Boolean value that indicates whether the response has completed. Starts as false. After response.end() executes, the value will be true.</p>
+
+                      <li><strong>response.getHeader(name)</strong></li>
+                      <p>Added in: v0.4.0</p>
+                      <li><code>name</code>&lt;String&gt;</li>
+                      <li><code>Returns:</code> &lt;String&gt;</li>
+                      <p>Reads out a header that's already been queued but not sent to the client. Note that the name is case insensitive.</p>
+
+                      <li><strong>response.getHeaderNames()</strong></li>
+                      <p>Added in: v7.7.0</p>
+                      <p>Returns an array containing the unique names of the current outgoing headers. All header names are lowercase.</p>
+
+                      <li><strong>response.getHeaders()</strong></li>
+                      <li><code>Returns</code>:&lt;Object&gt;</li>
+                      <p>Returns a shallow copy of the current outgoing headers. Since a shallow copy is used, array values may be mutated without additional calls to various header-related http module methods. The keys of the returned object are the header names and the values are the respective header values. All header names are lowercase.</p>
+
+                      <p><strong>response.hasHeader(name)</strong></p>
+                      <p>Added in: v7.7.0</p>
+                      <li><code>name</code>&lt;string&gt;</li> 
+                      <li><code>Returns</code>&lt;boolean&gt;</li>: 
+                      <p>Returns true if the header identified by name is currently set in the outgoing headers. Note that the header name matching is case-insensitive.</p>
+
+                      <p><strong>response.headersSent</strong></p>
+                      <p>Added in: v0.9.3</p>
+                      <p>&lt;boolean&gt;</p>
+                      <p>Boolean (read-only). True if headers were sent, false otherwise.</p>
+
+                      <p><strong>response.removeHeader(name)</strong></p>
+                      <p>Added in: v0.4.0</p>
+                      <li><code>name</code>&lt;string&gt;</li>
+                      <p>Removes a header that's queued for implicit sending.</p>
+                      <p><strong>response.sendDate</strong></p>
+                      <p>Added in: v0.7.5</p>
+                      <p>&lt;boolean&gt;</p>
+                      <p>When true, the Date header will be automatically generated and sent in the response if it is not already present in the headers. Defaults to true.</p>
+
+                      <p><strong>response.setHeader(name, value)</strong></p>
+                      <p>Added in: v0.4.0</p>
+                      <li><code>name</code>&lt;string&gt;</li>
+                      <li><code>value</code>&lt;string | &lt;string[]&gt;</li>
+                      <p>Sets a single header value for implicit headers. If this header already exists in the to-be-sent headers, its value will be replaced. Use an array of strings here to send multiple headers with the same name.</p>
+
+                      <li><strong>response.setTimeout(msecs[, callback])</strong></li>
+                      <p>Added in: v0.9.12</p>
+                      <li><code>msecs</code> &lt;number&gt;</li>
+                      <li><code>callback</code> &lt;Function&gt;</li>
+                      <p>Sets the Socket's timeout value to msecs. If a callback is provided, then it is added as a listener on the 'timeout' event on the response object.</p>
+                      <p>If no 'timeout' listener is added to the request, the response, or the server, then sockets are destroyed when they time out. If a handler is assigned to the request, the response, or the server's 'timeout' events, timed out sockets must be handled explicitly.</p>
+
+                      <p><strong>response.statusCode</strong></p>
+                      <p>Added in: v0.4.0</p>
+                      <li>&lt;number&gt;</li>
+                      <p>When using implicit headers (not calling response.writeHead() explicitly), this property controls the status code that will be sent to the client when the headers get flushed.</p>
+
+                      <p><strong>response.statusMessage</strong></p>
+                      <p>Added in: v0.11.8</p>
+                      <li>&lt;string&gt;</li>
+                      <p>When using implicit headers (not calling response.writeHead() explicitly), this property controls the status message that will be sent to the client when the headers get flushed. If this is left as undefined then the standard message for the status code will be used.</p>
+
+                      <p><strong>response.write(chunk[, encoding][, callback])</strong></p>
+                      <p>Added in: v0.1.29</p>
+                      <li><code>chunk</code>&lt;string&gt; | &lt;Buffer&gt;</li>
+                      <li><code>encoding</code>&lt;String&gt;</li>
+                      <li><code>callback</code>&lt;Function&gt;</li>
+                      <li>Returns: &lt;boolean&gt;</li>
+                      <p>If this method is called and response.writeHead() has not been called, it will switch to implicit header mode and flush the implicit headers.</p>
+
+                      <p><strong>response.writeContinue()</strong></p>
+                      <p>Added in: v0.3.0</p>
+                      <p>Sends a HTTP/1.1 100 Continue message to the client, indicating that the request body should be sent. See the 'checkContinue' event on Server.</p>
+
+                      <p><strong>response.writeHead(statusCode[, statusMessage][, headers])</strong></p>
+                      <li><code>statusCode</code>&lt;numbers&gt;</li>
+                      <li><code>statusMessage</code>&lt;string&gt;</li>
+                      <li><code>headers</code>&lt;object&gt;</li>
+                      <p>Sends a response header to the request. The status code is a 3-digit HTTP status code, like 404. The last argument, headers, are the response headers. Optionally one can give a human-readable statusMessage as the second argument.</p>
+
+                       </details>
+                       </div>
+
+                       <div>
+                         <details>
+                           <summary>Class: http.IncomingMessage</summary>
+                           <li><strong>Event: 'aborted'</strong></li>
+                           <p>Added in: v0.3.8</p>
+                           <p>Emitted when the request has been aborted by the client and the network socket has closed.</p>
+
+                           <li><strong>Event: 'close'</strong></li>
+                           <p>Added in: v0.4.2</p>
+                           <p>Indicates that the underlying connection was closed. Just like 'end', this event occurs only once per response.</p>
+
+                            <li><strong>message.destroy([error])</strong></li>
+                            <p>Added in: v0.3.0</p>
+                            <li><code>error</code>&lt;Error&gt;</li>
+                             <p>Calls destroy() on the socket that received the IncomingMessage. If error is provided, an 'error' event is emitted and error is passed as an argument to any listeners on the event.</p>
+                             
+                             <li><strong>message.headers</strong></li>
+                             <p>Added in: v0.1.5</p>
+                             <li>&lt;Object&gt;</li>
+                             <p>The request/response headers object.</p>
+                             
+                             
+                             <li><strong>message.httpVersion</strong></li>
+                             <p>Added in: v0.1.1</p>
+                             <li>&lt;String&gt;</li>
+                             <p>In case of server request, the HTTP version sent by the client. In the case of client response, the HTTP version of the connected-to server. Probably either '1.1' or '1.0'.</p>
+                             
+                             <p><strong>message.method</strong></p>
+                             <p>Added in: v0.1.1</p>
+                             <li>&lt;string&gt;</li>
+                             <p>The request method as a string. Read only. Example: 'GET', 'DELETE'.</p>
+                             
+                             <p><strong>message.rawHeaders</strong></p>
+                             <p>Added in: v0.11.6</p>
+                             <li>&lt;Array&gt;</li>
+                             <p>The raw request/response headers list exactly as they were received.</p>
+                             
+                             <p><strong>message.rawTrailers</strong></p>
+                             <p>Added in: v0.11.6</p>
+                             <li>&lt;Array&gt;</li>
+                             <p>The raw request/response trailer keys and values exactly as they were received. Only populated at the 'end' event.</p>
+                             
+                             <p><strong>message.setTimeout(msecs, callback)</strong></p>
+                             <p>Added in: v0.5.9</p>
+                             <li><code>msecs</code>&lt;number&gt;</li>
+                             <li><code>callback</code>&lt;Function&gt;</li>
+                             <p>Returns message.</p>
+                             
+                             <li><strong>message.socket</strong></li>
+                             <li>Added in: v0.3.0</li>
+                             <li>&lt;net.Socket&gt;</li>
+                             <p>The net.Socket object associated with the connection.</p>
+                             
+                             <li><strong>message.statusCode</strong></li>
+                             <p>Added in: v0.1.1</p>
+                             <li>&lt;number&gt;</li>
+                             <p>Only valid for response obtained from http.ClientRequest.</p>
+                             
+                             <p><strong>message.statusMessage</strong></p>
+                             <p>Added in: v0.11.10</p>
+                             <p>&lt;string&gt;</p>
+                             <p>The HTTP response status message (reason phrase). E.G. OK or Internal Server Error.</p>
+                             
+                             <p><strong>message.trailers</strong></p>
+                             <p>Added in: v0.3.0</p>
+                             <li>&lt;Object&gt;</li>
+                             <p>The request/response trailers object. Only populated at the 'end' event.</p>
+                         </details>
+                       </div>
+
+                        <div class ="row1">
+                       <details>
+                           <Summary>http.METHODS</Summary>
+                           <p>Added in: v0.11.8</p>
+                           <li>&lt;Array&gt;</li>
+                           <p>A list of the HTTP methods that are supported by the parser.</p>
+                            </details>
+                        </div>
+
+                          <div class ="row1">
+                       <details>
+                           <Summary>http.STATUS_CODES</Summary>
+                           <p>Added in: v0.1.22</p>
+                           <li>&lt;Object&gt;</li>
+                           <p>A collection of all the standard HTTP response status codes, and the short description of each. For example, http.STATUS_CODES[404] === 'Not Found'.</p>
+                            </details>
+                        </div>
+
+                    
+                           <div class ="row1">
+                       <details>
+                           <Summary>http.createServer([requestListener])</Summary>
+                           <p>Added in: v0.1.13</p>
+                           <li><code>requestListener</code>&lt;Function&gt;</li>
+                           <li>Returns: &lt;http.server&gt;</li>
+                           <p>Returns a new instance of http.Server.The requestListener is a function which is automatically added to the 'request' event.</p>
+                            </details>
+                        </div>
+                        
+                        <div class="rowl">
+                            <details><summary>http.get(options[, callback])</summary>
+                                <p>Added in: v0.3.6</p>
+                                <li><code>options</code>&lt;object&gt; |&lt;String&gt;</li>
+                                <li><code>method</code> always set to GET. Properties that are inherited from the prototype are ignored.</li>
+                                <li><code>callback</code>&lt;unction&gt;</li>
+                                <li>Returns: &lt;http.ClientRequest&gt;</li>
+                                <p>Since most requests are GET requests without bodies, Node.js provides this convenience method. The only difference between this method and http.request() is that it sets the method to GET and calls req.end() automatically. Note that response data must be consumed in the callback for reasons stated in http.ClientRequest section.</p>
+                            </details>
+                        </div>
+
+                        <div id="rowl">
+                            <details>
+                                <summary>http.globalAgent</summary>
+                                <p>Added in: v0.5.9</p>
+                                <li>&lt;http.Agent&gt;</li>
+                                <p>Global instance of Agent which is used as the default for all HTTP client requests.</p>
+                            </details>
+                        </div>
+
+</section><!--/#intro-->
+  
+
+  <footer id="footer">
+    <div class="footer-top wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
+      <div class="container text-center">
+        <div class="footer-logo">
+          <a href="index.html"><img class="img-responsive" src="images/logo.png" alt=""></a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-6">
+            <p>&copy; 2018 Saint Louis University | School of Computing and Information Sciences</p>
+          </div>
+          <div class="col-sm-6">
+            <p class="pull-right">All Rights Reserved.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script type="text/javascript" src="js/jquery.js"></script>
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=true"></script>
+  <script type="text/javascript" src="js/jquery.inview.min.js"></script>
+  <script type="text/javascript" src="js/wow.min.js"></script>
+  <script type="text/javascript" src="js/mousescroll.js"></script>
+  <script type="text/javascript" src="js/smoothscroll.js"></script>
+  <script type="text/javascript" src="js/jquery.countTo.js"></script>
+  <script type="text/javascript" src="js/lightbox.min.js"></script>
+  <script type="text/javascript" src="js/main.js"></script>
+
+</body>
+</html>

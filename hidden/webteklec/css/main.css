@@ -23,6 +23,67 @@ body {
   color: #666;
   background-color: #fff;
 }
+img.banner-quiz{
+  width: 100%;
+}
+.list-quiz{
+    padding: 0;
+    margin: 0;
+    margin-bottom: 32px;
+}
+
+.list-quiz li.odd{
+    list-style-type: none;
+    background-color: #e0dbdb;
+    padding: 10px;
+    margin-bottom: 5px;
+    width:50%;
+    border-radius: 5px;
+}
+
+.list-quiz li.even{
+    list-style-type: none;
+    background-color: #cac8c8;;
+    padding: 10px;
+    margin-bottom: 5px;
+    width:50%;
+    border-radius: 5px;
+}
+
+section.site-section.bg-light{
+      margin: 0 auto;
+    text-align: center;
+}
+a.btn.toggle-btn {
+    border: 1px solid grey;
+    color: black;
+    padding: 10px 70px;
+    border-radius: 8px;
+}
+a.btn.toggle-btn:hover{
+  background-color: grey;
+  color: white;
+  border: 1px solid black;
+  border-radius: 8px;
+}
+.col-md-6.col-sm-6.col-12.wow.fadeInUp.animated img{
+  width: 250px;
+}
+
+.col-md-6.col-sm-6.col-12 img{
+  width: 250px;
+}
+
+a.start{
+      border: 1px solid #807e7e;
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: grey;
+}
+
+.row.blog-entry img{
+  width: 250px;
+}
 
 #portfolio{
   padding-bottom: 50px;
