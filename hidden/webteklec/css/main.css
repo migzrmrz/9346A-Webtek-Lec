@@ -266,7 +266,7 @@ section {
 }
 
 .navbar-brand h1 {
-  margin-top: 5px;
+  margin-top: 0px;
 }
 
 /*************************
@@ -283,10 +283,15 @@ section {
   width: 90px;  
   -webkit-transition: background-color 0.2s ease;
   transition: background-color 0.2s ease;
+  transition: transform .2s; 
+    background-color: green;
+    transition: transform .2s; 
+    margin: 0 auto;
 }
 
 .our-services .col-sm-4:hover .service-icon {
   background-color: #333;
+  transform: scale(1.5);
 }
 
 .our-services .col-sm-4 {
