@@ -1,0 +1,185 @@
+Adobe AIR
+ - Adobe AIR(Adobe Integrated Runtime)  is a cross-operating-system runtime that lets developers combine HTML, JavaScript, Adobe Flash and Flex technologies,and ActionScript to deploy rich Internet applications (RIAs) on a broad range of devices including desktop computers, netbooks, tablets, smartphones, and TVs. AIR allows developers to use familiar tools such as Adobe Dreamweaver, Flash Builder Flash Catalyst, Flash Professional, or any text editor to build their applications and easily deliver a single application installer that works across operating systems.
+-- FAQ. (n.d.). Retrieved May 20, 2017, from http://www.adobe.com/products/air/faq.html
+
+
+AJAX
+ - Asynchronous JavaScript and XML is a web browser technology independent of web server software that creates faster, better, and more interactive web applications with the help of XML, HTML, CSS, and Java Script.
+-- T. (n.d.). What is AJAX? Retrieved May 20, 2017, from https://www.tutorialspoint.com/ajax/what_is_ajax.htm
+
+ANSI
+ - American National Standard Institute is a private non-profit organization that creates standards for the computer industry.
+-- What is ANSI? Webopedia Definition. (n.d.). Retrieved from http://www.webopedia.com/TERM/A/ANSI.html
+
+ASP
+ - Active Server Page is a server-side scripting environment that you can use to create and run dynamic, interactive Web server applications.
+-- Active Server Pages. (n.d.). Retrieved from https://msdn.microsoft.com/en-us/library/aa286483.aspx
+
+BOM
+ - Browser Object Model is used to interact with the browser.
+-- Browser Object Model - javatpoint. (n.d.). Retrieved May 20, 2017, from https://www.javatpoint.com/browser-object-model
+
+CFML
+ - ColdFusion Markup Language is a Web page markup language that allows a Web site developer to create pages with variable information (text or graphics) that is filled in dynamically in response to variables such as user input.
+-- What is CFML (ColdFusion Markup Language)? - Definition from WhatIs.com. (n.d.). Retrieved from http://searchoracle.techtarget.com/definition/CFML
+
+CGI
+ - Common Gateway Interface is a standard way for a Web server to pass a Web user's request to an application program and to receive data back to forward to the user.
+-- Common Gateway Interface (CGI). (n.d.). Retrieved from http://searchmicroservices.techtarget.com/definition/common-gateway-interface-CGI
+
+DHTML
+ - Dynamic HyperText Markup Language  is a collective term for a combination of Hypertext Markup Language (HTML) tags and options that can make Web pages more animated and interactive than previous versions of HTML.
+-- What is dynamic HTML? - Definition from WhatIs.com. (n.d.). Retrieved from http://searchmicroservices.techtarget.com/definition/dynamic-HTML
+
+DOM
+ - Document Object Model is a programming API for HTML and XML documents that defines the logical structure of the documents and the way a document is accessed and manipulated.
+-- What is the Document Object Model? (n.d.). Retrieved from https://www.w3.org/TR/WD-DOM/introduction.html
+
+DTD
+ - Document Type Definition is a specific document defining and constraining definition or set of statements that follow the rules of the Standard Generalized Markup Language (SGML) or of the Extensible Markup Language (XML), a subset of SGML.
+-- Document Type Definition (DTD). (n.d.). Retrieved from http://searchmicroservices.techtarget.com/definition/Document-Type-Definition-DTD
+
+EAR
+ - Enterprise Archive is a Java archive (JAR) file format used to package modules as single archive files to ensure the coherent deployment of different modules to application servers.
+-- What is an Enterprise Archive File (EAR)? - Definition from Techopedia (n.d.). Retrieved from https://www.techopedia.com/definition/26370/enterprise-archive-file-ear
+
+EIS
+ - Enterprise Information System is any kind of information system which improves the functions of an enterprise business processes by integration.
+-- Enterprise information system - Wikipedia. (n.d.). Retrieved May 20, 2017, from https://en.wikipedia.org/wiki/Enterprise_information_system
+
+EJB
+ - Enterprise Java Beans is a development architecture for building highly scalable and robust enterprise level applications to be deployed on J2EE compliant Application Server such as JBOSS, Web Logic etc.
+-- EJB Tutorial. (n.d.). Retrieved from http://www.tutorialspoint.com/ejb/
+
+EL
+ - is a special purpose programming language mostly used in Java web applications for embedding expressions into web pages.
+-- Unified Expression Language - Wikipedia. (n.d.). Retrieved May 20, 2017 from, https://en.wikipedia.org/wiki/Unified_Expression_Language
+
+IIS
+- is a flexible, general-purpose web server from Microsoft that runs on Windows systems to serve requested HTML pages or files.
+-- What is Internet Information Services (IIS)? - Definition from WhatIs.com. (n.d.). Retrieved from http://searchwindowsserver.techtarget.com/definition/IIS
+
+
+JavaBeans
+ -  is an object-oriented programming interface from Sun Microsystems that lets you build re-useable applications or program building blocks called components that can be deployed in a network on any major operating system platform.
+-- What is JavaBeans? - Definition from WhatIs.com. (n.d.). Retrieved from http://www.theserverside.com/definition/JavaBeans
+
+JSF
+ - Java Server Faces is a Java-based web application framework intended to simplify development integration of web-based user interfaces.
+-- JSF Tutorial. (n.d.). Retrieved from https://www.tutorialspoint.com/jsf/
+
+JSON
+ - JavaScript Object Notation is a lightweight data-interchange format. It is easy for humans to read and write. It is easy for machines to parse and generate.
+-- JSON. (n.d.). Retrieved from http://www.json.org/
+
+JSP 
+ - Java Server Page is a technology for controlling the content or appearance of Web pages through the use of servlets, small programs that are specified in the Web page and run on the Web server to modify the Web page before it is sent to the user who requested it.
+-- What is Java Server Page (JSP)? - Definition from WhatIs.com. (n.d.). Retrieved from http://www.theserverside.com/definition/Java-Server-Page-JSP
+
+JSTL
+ - JavaServer Pages Standard Tag Library is a collection of useful JSP tags which encapsulates the core functionality common to many JSP applications.
+-- JSP Standard Tag Library (JSTL) Tutorial. (n.d.). Retrieved from https://www.tutorialspoint.com/jsp/jsp_standard_tag_library.htm
+
+MVC
+ - Model - View - Controller is the name of a methodology or design pattern for successfully and efficiently relating the user interface to underlying data models.
+-- What is model-view-controller (MVC)? - Definition from WhatIs.com. (n.d.). Retrieved from http://whatis.techtarget.com/definition/model-view-controller-MVC
+
+Node .js
+ - Node.js is a JavaScript runtime built on Chrome's V8 JavaScript engine. Node.js uses an event-driven, non-blocking I/O model that makes it lightweight and efficient. Node.js' package ecosystem, npm, is the largest ecosystem of open source libraries in the world.
+-- Node.js. (n.d.). Retrieved from https://nodejs.org/en/
+
+PERL
+ - Perl is a general-purpose programming language originally developed for text manipulation and now used for a wide range of tasks including system administration, web development, network programming, GUI development, and more.
+-- Perl Introduction. (n.d.). Retrieved from https://www.tutorialspoint.com/perl/perl_introduction.htm
+
+PHP
+ - Hypertext Preprocessor is a widely-used open source general-purpose scripting language that is especially suited for web development and can be embedded into HTML.
+-- PHP: What is PHP? - Manual. (n.d.). Retrieved from http://php.net/manual/en/intro-whatis.php
+
+RDF
+ - Resource Description Framework is a general framework for describing website metadata, or "information about the information" on the website that provides interoperability between applications that exchange machine-understandable information on the Web.
+-- What is RDF - Resource Description Framework? Webopedia Definition. (n.d.). Retrieved from http://www.webopedia.com/TERM/R/RDF.html
+
+RIA
+ - Rich Internet Application  is a Web application designed to deliver the same features and functions normally associated with deskop applications.
+-- Rich Internet Application (RIA). (n.d.). Rterieved from http://searchmicroservices.techtarget.com/definition/Rich-Internet-Application-RIA
+
+RSS
+ - Really Simple Syndication is a method by which web content can be easily and quickly distributed when it is changed or newly entered into a website or web log.
+-- Definition of RSS - Really Simple Syndication. (n.d.). Retrieved from  https://www.thebalance.com/rss-really-simple-syndication-2866935
+
+Servlets
+ - Servlets is a Java programming language class that is used to extend the capabilities of servers that host applications accessed by means of a request-response programming model.
+-- What Is a Servlet? - The Java EE 5 Tutorial. (n.d.). Retrieved from http://docs.oracle.com/javaee/5/tutorial/doc/bnafe.html
+
+Scriptlets
+ - Scriptlet is a piece of software code that is used by a native Web page scripting language to perform a specific function or process.
+-- What is a Scriplet? - Definition from Techopedia. (n.d.). Retrieved from  https://www.techopedia.com/definition/23721/scriptlet
+
+SMIL
+ - Synchronized Multimedia Integration Language is a language that allows Web site creators to be able to easily define and synchronize multimedia elements (video, sound, still images) for Web presentation and interaction.
+-- SMIL (Synchronized Multimedia Integration Language). (n.d.). Retrieved from http://searchmicroservices.techtarget.com/definition/SMIL-Synchronized-Multimedia-Integration-Language
+
+SMX
+ - Server Macro Expansion  is a cross-platform dynamic HTML generation language. It is a high level language that is easier to learn than PHP or Perl, but is just as powerful for Web page creation.
+-- Server Macro Expansion - Freecode. (n.d.). Retrieved from http://freecode.com/projects/smx/
+
+SOAP
+ - Simple Object Access Protocol is an XML-based messaging protocol for exchanging information among computers.
+-- What is SOAP? (n.d.). Retrieved from  https://www.tutorialspoint.com/soap/what_is_soap.htm
+
+SVG
+ - Scalable Vector Graphics  is an XML-based vector image format for two-dimensional graphics with support for interactivity and animation.
+-- Scalable Vector Graphics - Wikipedia. (n.d.) Retrieved May 20, 2017, from https://en.wikipedia.org/wiki/Scalable_Vector_Graphics
+
+WAP
+ - Wireless Application Protocol is a specification for a set of communication protocols to standardize the way that wireless devices, such as cellular telephones and radio transceivers, can be used for Internet access, including e-mail, the World Wide Web, newsgroups, and instant messaging. While Internet access has been possible in the past, different manufacturers have used different technologies.
+-- What is WAP(Wireless Application Protocol)? - Definition from WhatIS.com. (n.d.). Retrieved from  http://searchmobilecomputing.techtarget.com/definition/WAP
+
+WAR
+ - Web Application Archive is a JAR file used to distribute a collection of JavaServer Pages, Java Servlets, Java classes, XML files, tag libraries, static web pages (HTML and related files) and other resources that together constitute a web application.
+-- WAR (file format) - Wikipedia. (n.d.). Retrieved May 20, 2017, from https://en.wikipedia.org/wiki/WAR_(file_format)
+
+WSDL
+ - Web Service Definition Language is an XML format for describing network services as a set of endpoints operating on messages containing either document-oriented or procedure-oriented information. 
+-- Web Service Definition Language (WSDL). (n.d.). Retrieved from https://www.w3.org/TR/wsdl
+
+XForms
+ - XForms is a World Wide Web Consortium recommendation for creating web forms and web applications. It's easy to learn, provides a rich user experience and does not require you to learn JavaScript.
+-- XForms - Wikibooks, open books for an open world. (n.d.). Retrieved May 20,2017, from https://en.wikibooks.org/wiki/XForms
+
+XLink
+ - XML Linking Language is an XML markup language and W3C specification that provides methods for creating internal and external links within XML documents, and associating metadata with those links.
+-- XLink - Wikipedia. (n.d.) Retrieved from May 20, 2017, from https://en.wikipedia.org/wiki/XLink
+
+XPointer
+ - XPointer is a language for locating data within an Extensible Markup Language (XML) document based on properties such as location within the document, character content, and attribute values.
+-- What is XPointer? -Definition from WhatIs.com. (n.d.). Retrieved from  http://searchmicroservices.techtarget.com/definition/XPointer
+
+XQuery
+ - XQuery is a language for finding and extracting elements and attributes from XML documents.
+-- XQuery Tutorial. (n.d.). Retrieved from https://www.w3schools.com/xml/xquery_intro.asp
+
+XSD
+ - XML Schema Definition is a World Wide Web Consortium (W3C) recommendation that specifies how to formally describe the elements in an Extensible Markup Language (XML) document.
+-- XSD (XML Schema Definition). (n.d.). Retrieved from http://searchmicroservices.techtarget.com/definition/XSD-XML-Schema-Definition
+
+XSL-FO
+ - Extensible Stylesheet Language Formatting Objects is an XML-based markup language describing the formatting of XML data for output to screen, paper or other media.
+-- XSL-FO Introduction. (n.d.). Retrieved from http://w3schools.sinsixx.com/xslfo/xslfo_intro.asp.htm
+
+XSLT
+ - Extensible Stylesheet Language Transformations is a language for transforming XML documents into other XML documents, or other formats such as HTML for web pages, plain text or XSL Formatting Objects, which may subsequently be converted to other formats, such as PDF, PostScript and PNG.
+-- XSLT. (2017, May 19). Retrieved May 20, 2017, from https://en.wikipedia.org/wiki/XSLT
+
+XSRF
+ - Cross-Site Request Forgery (CXRF/ XSRF) is an attack that tricks a victim's browser into sending a request to a vulnerable Web application, which then performs an undesired action on behalf of the victim (for example, changing credentials, making an illegal purchase, or performing online financial operation).
+-- XSRF Protection for REST Services. (n.d). Retrieved from https://help.sap.com/saphelp_nw74/helpdata/en/79/108d3aacaf4209b91b760280f82e13/content.htm
+
+XSS
+ - Cross-site Scripting (XSS) refers to client-side code injection attack wherein an attacker can execute malicious scripts (also commonly referred to as a malicious payload) into a legitimate website or web application.
+--What is Cross-site Scripting and How Can You Fix it? (n.d.). Retrieved from https://www.acunetix.com/websitesecurity/cross-site-scripting/
+___
+
+
+
