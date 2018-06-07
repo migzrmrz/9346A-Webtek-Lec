@@ -1,4 +1,4 @@
-x <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="utf-8">
@@ -74,46 +74,48 @@ x <!DOCTYPE html>
                     <p>&raquo; Typically asked with (among other things)</p>
                     <p>&raquo; Processing and/or storing data submitted vial HTML forms</p>
                     <p>&raquo; Generating dynamic content</p>
-                    </div>
-                    <br>
-                    <table class="table-fill table-bordered row1">
-                                       <thead>
-                                            <tr>
-                                            <th class="text-left">javax.servlet</th>
-                                            <th class="text-left">javax.servlet.http</th>
-                                        </thead>
-                                        <tbody class="table-hover">
-                                            <tr>                                         
-                                            <td class="text-left">
-                                                <code>Servlet</code> <code>GenericServlet</code>
-                                                <code>ServletRequest</code> <code>ServletResponse</code>
-                                                <code>ServletContext</code>
-                                                <code>ServletConfig</code>
-                                                <code>RequestDispatcher</code>
-                                            </td>
-            
-                                            <td class="text-left">
-                                                <code>HttpServlet</code>
-                                                <code>HttpServletRequest</code>
-                                                <code>HttpServletResponse</code>
-                                                <code>HttpSession</code>
-                                                <code>Cookie</code>
-                                            </td>
-                                            
-                                          </tr>
-                                        </tbody>
-                                    </table>
-                    <br>
-                    <p class = "row">&raquo; Servlet Processing</p>
-                        <div class = "row1">
-                            <p>&raquo; Client sends a request to a web server URL that is mapped to a servlet. Web server passes on the request to the servlet container</p>
-                            <p>&raquo; Servlet container checks if servlet is already loaded</p>
-                            <p>&raquo; If it is not yet loaded, servlet container loads the servlet class and instantiates the servlet, and calls its <code>init</code> method</p>
-                            <p>&raquo; Servlet container invokes the servlet‟s <code>service</code> method, passing request and response objects as arguments</p>
-                            <p>&raquo; Servlet processes the request using the response object to create the response, which is returned by the servlet container to the
-                            web server, which in turn sends the response to the client</p>
-                            <p>&raquo; Subsequent request to the servlet will not require servlet re-instantiation, unless the servlet has been unloaded; before a servlet is unloaded, the servlet container invokes its <code>destroy</code> method.</p>
-                        </div>
+          </div>
+          <br>
+          <table class="table-fill table-bordered row1">
+                             <thead>
+                                  <tr>
+                                  <th class="text-left">javax.servlet</th>
+                                  <th class="text-left">javax.servlet.http</th>
+                              </thead>
+                              <tbody class="table-hover">
+                                  <tr>                                         
+                                  <td class="text-left">
+                                      <code>Servlet</code> <code>GenericServlet</code>
+                                      <code>ServletRequest</code> <code>ServletResponse</code>
+                                      <code>ServletContext</code>
+                                      <code>ServletConfig</code>
+                                      <code>RequestDispatcher</code>
+                                  </td>
+  
+                                  <td class="text-left">
+                                      <code>HttpServlet</code>
+                                      <code>HttpServletRequest</code>
+                                      <code>HttpServletResponse</code>
+                                      <code>HttpSession</code>
+                                      <code>Cookie</code>
+                                  </td>
+                                  
+                                </tr>
+                              </tbody>
+          </table>
+          <br>
+
+          <div class="finals-topic">
+            <h1>Servlet Processing</h1>
+              <div class = "servlet-processing">
+                  <p>&raquo; Client sends a request to a web server URL that is mapped to a servlet. Web server passes on the request to the servlet container</p>
+                  <p>&raquo; Servlet container checks if servlet is already loaded</p>
+                  <p>&raquo; If it is not yet loaded, servlet container loads the servlet class and instantiates the servlet, and calls its <code>init</code> method</p>
+                  <p>&raquo; Servlet container invokes the servlet‟s <code>service</code> method, passing request and response objects as arguments</p>
+                  <p>&raquo; Servlet processes the request using the response object to create the response, which is returned by the servlet container to the
+                  web server, which in turn sends the response to the client</p>
+                  <p>&raquo; Subsequent request to the servlet will not require servlet re-instantiation, unless the servlet has been unloaded; before a servlet is unloaded, the servlet container invokes its <code>destroy</code> method.</p>
+              </div>
                     <p class = "row">&raquo; <code>init(config)</code></p>
                         <p class = "row1">&raquo; Invoked once on the servlet by the servlet container when the servlet is instantiated; can be used by the servlet for one-time startup
                         initialization</p>
@@ -134,73 +136,74 @@ x <!DOCTYPE html>
                     <p class = "row">&raquo; Servlet Request Dispatching (<code>RequestDispatcher</code>)</p>
                         <p class = "row1">&raquo; Obtain a RequestDispatcher to a resource (static or dynamic) from the request object</p>
                     <br>
-                            <pre class = "row2">
+                            <pre class = "row2 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
                             <code>RequestDispatcher rqstDsp;
                             rqstDsp = request.getRequestDispatcher(res);</code>
                             </pre>
                         <p class = "row1">&raquo; Include the dispatcher resource (or its output) in the current response; one or more resources can be included (e.g. use for banners,footers, etc.)</p>
                     <br>
-                            <pre class = "row2">
+                            <pre class = "row2 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="400ms">
                             <code>rqstDsp.include(request, response);</code>
                             </pre>
                          <p class = "row1">&raquo; Forwards the processing of the current request to the dispatcher resource; the servlet processing the current request must not generate a response ( e.g. use in MVC “controller” servlets)</p>
                     <br>
-                            <pre class = "row2">
+                            <pre class = "row2 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="500ms">
                             <code>rqstDsp.forward(request, response);</code>
                             </pre>
                     <p class = "row">&raquo; Session Tracking (<code>HttpSession</code>)</p>
                         <p class = "row1">&raquo; Session tracking support is implemented either cookies or URL-rewriting</p>
                         <p class = "row1">&raquo; Obtaining session object from the current request</p>
                     <br>
-                            <pre class = "row2">
+                            <pre class = "row2 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="600ms">
                             <code>HttpSession session;
                             session = request.getSession(createNew);</code>
                             </pre>
                     <p class = "row">&raquo; Obtaining session information (<code>HttpSession</code>)</p>
                     <br>
-                        <pre class = "row2">
+                        <pre class = "row2 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="500ms">
                 <code>getCreationTime(), getLastAccessedTime(), getMaxInactiveInternal(), 
                          getId(), isNew(), setMaxInactiveInterval(int val)</code>
                             </pre>
                     <p class = "row">&raquo; destroying sessions</p>
                     <br>
-                        <pre class = "row2">
+                        <pre class = "row2 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="500ms">
                             <code>invalidate()</code>
                             </pre>
-                    <p class = "row">&raquo; URL-rewriting (<code>HttpServletResponse</code>)</p>
+                    <p class = "row wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="500ms">&raquo; URL-rewriting (<code>HttpServletResponse</code>)</p>
                     <br>
-                        <pre class = "row2">
+                        <pre class = "row2 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="500ms">
                             <code>encodeURL(String url), encodeRedirectURL(String url)</code>
                             </pre>
             </article>
             
-            <article>
-                    <h3 class = "page-header">Web Context (ServletContext)</h3>
-                    <p class = "row">&raquo; a web application is associated with a context, which is an object that provides methods that servlets use to communicate with the servlet container</p>
-                    <p class = "row">&raquo; obtaining the servlet context (<code>HttpServlet</code>)</p>
-                    <br>
-                        <pre class = "row2">
-                            <code>ServletContext context;
-                            context = this.getServletContext();</code>
-                        </pre>
-                    <p class = "row">&raquo; obtaining context information (<code>ServletContext</code>)</p>
-                    <br>
-                        <pre class = "row2">
-        <code>getServerInfo(), getContextPath(), getRealPath(), getResource(), getResourceAsStream(), 
-    getMimeType, getInitParameter(), getInitParameterNames(), getRequestDispatcher(), getContext()</code>
-                        </pre>
+              <article>
+                      <h2 class = "page-header">Web Context (ServletContext)</h3>
+                      <p class = "row">&raquo; a web application is associated with a context, which is an object that provides methods that servlets use to communicate with the servlet container</p>
+                      <p class = "row">&raquo; obtaining the servlet context (<code>HttpServlet</code>)</p>
+                      <br>
+                          <pre class = "row2 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="500ms">
+                              <code>ServletContext context;
+                              context = this.getServletContext();</code>
+                          </pre>
+                      <p class = "row">&raquo; obtaining context information (<code>ServletContext</code>)</p>
+                      <br>
+                          <pre class = "row2 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="500ms">
+          <code>
+            getServerInfo(), getContextPath(), getRealPath(), getResource(), getResourceAsStream(), 
+              getMimeType, getInitParameter(), getInitParameterNames(), getRequestDispatcher(), getContext()</code>
+                </pre>
                     
             </article>
             
             <article>
-                    <h3 class = "page-header">Servlet Configuration (ServletConfig)</h3>
-                    <pre class = "row2">
+                    <h2 class = "page-header">Servlet Configuration (ServletConfig)</h3>
+                    <pre class = "row2 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="500ms">
             <code>getServletName(), getServletContext(), getInitParameter(), getInitParameterNames()</code>
                     </pre>
             </article>
             
             <article>
-                    <h3 class = "page-header">Information sharing using scope objects</h3>
+                    <h2 class = "page-header">Information sharing using scope objects</h3>
                     <p class = "row">&raquo; A request may be processed by several web application components (e.g. through calls to <code>RequestDispatcher forward/include</code>) and
                     there may be a need for one component to communicate information to the other components in the request processing chain.</p>
                     <p class = "row">&raquo; A client session typically consists of multiple requests, which due to the stateless nature of HTTP, will appear to the application as being
@@ -220,7 +223,7 @@ x <!DOCTYPE html>
             </article>
             
             <article>
-                    <h3 class = "page-header">Listeners</h3>
+                    <h2 class = "page-header">Listeners</h3>
                         <p class = "row">&raquoet; java objects used to "subscribe" to application "events" in order to be "notified" when these events occur</p>
                     <br>
                     <div class = "row1">
@@ -262,7 +265,7 @@ x <!DOCTYPE html>
                 </tbody>
             </table>
             <article>
-                <h3 class = "page-header">Filters</h3>
+                <h2 class = "page-header">Filters</h3>
                     <p class = "row">&raquo; Java objects used to intercept incoming requests and outgoing responses in order to perform various tasks such as:</p>
             </article>
             <br>
@@ -283,6 +286,7 @@ x <!DOCTYPE html>
                     <p class = "row1">&raquo; FilterChain</p>
                     <p class = "row1">&raquo; FilterConfig</p>
           </div>
+        </div>
         </div> 
       </div>
     </div>

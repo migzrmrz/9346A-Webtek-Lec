@@ -14,7 +14,7 @@
   <link href="../css/responsive.css" rel="stylesheet">
 
   <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700' rel='stylesheet' type='text/css'>
-  <link rel="shortcut icon" href="../images/user.png">
+  <link rel="shortcut icon" href="../images/favicon2.png">
 </head><!--/head-->
 
 <body>
@@ -29,7 +29,7 @@
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="index.html">
+            <a class="navbar-brand" href="../index.html">
               <h1><img class="img-responsive" src="../images/logo.png" alt="logo"></h1>
             </a>                    
           </div>
@@ -47,7 +47,7 @@
           </ul>
         </li>
               <li class="scroll"><a href="../quiz.html">Take our Quiz</a></li>                     
-              <li class="scroll"><a href="#about-us">Our Team</a></li>    
+              <li class="scroll"><a href="../index.html">Our Team</a></li>    
             </ul>
           </div>
         </div>
@@ -56,23 +56,65 @@
 
 
     
-  	<div id="intro">
+  	<div id="final-container-q">
       <div class="container">
         <h2>You're Done!</h2>
           <p>You have completed the test</p>
-          <p>Final Score: <?php echo $_SESSION['score']; ?></p>
+          <p class="final-score">Final Score: <span> <?php echo $_SESSION['score']; ?></span> pts</p>
           <a href="../index.html" class="start">Back to Main Page</a>      
       </div>
     </div>
 
+
+
+  <div class="row justify-content-center mb-5">
+            <div class="col-md-12 text-center">
+                <h2>Want to take another quiz?</h2>
+                <p class="lead">Just click below</p>
+            </div>
+            </div>
+            <div class="row blog-entries on-quiz text-center">
+                <div class="col-md-3 col-sm-6 col-12 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
+                    <a href="../Quiz/jspQuiz.php" class="blog-entry">
+                    <img src="../images/jsp.jpg" alt="Image placeholder">
+                    <h2>JSP Quiz</h2>
+                    </a>
+                </div>
+        
+                <div class="col-md-3 col-sm-6 col-12 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="400ms">
+                    <a href="../Quiz/servletQuiz.php" class="blog-entry">
+                    <img src="../images/Java-Servlets.png" alt="Image placeholder">
+                    <h2>Java Servlet Quiz</h2>
+                    </a>
+                </div>
+                <div class="col-md-3 col-sm-6 col-12 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="500ms">
+                    <a href="../Quiz/nodejsQuiz.php" class="blog-entry">
+                    <img src="../images/nodejs_logo.png" alt="Image placeholder">
+                    <h2>Node JS Quiz</h2>
+                    </a>
+                </div>
+                <div class="col-md-3 col-sm-6 col-12 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="600ms">
+                    <a href="../Quiz/phpQuiz.php" class="blog-entry">
+                    <img src="../images/php.png" alt="Image placeholder">
+                    <h2>PHP Quiz</h2>
+                    </a>
+                </div>
+            </div>
+
+                  <section class="learning-button">
+    <div class="caption">
+      <a data-scroll class="btn btn-start animated" href="php.html">Go Back to Lessons</a>
+    </div>
+  </section>
+
     <footer id="footer">
-    <!-- <div class="footer-top wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
+    <div class="footer-top wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
       <div class="container text-center">
         <div class="footer-logo">
           <a href="index.html"><img class="img-responsive" src="../images/logo.png" alt=""></a>
         </div>
       </div>
-    </div> -->
+    </div>
     <div class="footer-bottom">
       <div class="container">
         <div class="row">

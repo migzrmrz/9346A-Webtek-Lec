@@ -1424,6 +1424,10 @@ pre code{
     .container{
         width:970px
     }
+
+    .main-nav .container{
+        padding-bottom: 0;
+    }
 }
 @media (min-width:1200px){
     .container{

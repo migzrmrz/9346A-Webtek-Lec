@@ -26,7 +26,7 @@
   <link href="../css/responsive.css" rel="stylesheet">
 
   <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700' rel='stylesheet' type='text/css'>
-  <link rel="shortcut icon" href="../images/icon.png">
+  <link rel="shortcut icon" href="../images/favicon2.png">
 </head><!--/head-->
 
 <body>
@@ -69,7 +69,7 @@
 
     
   	<div id="intro">
-      <div class="container">
+      <div class="test-container">
         <h2>Test your Knowledge on Java Server Pages</h2>
         <ul class="list-quiz">
           <li class="odd wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms"><strong>Number of Questions: </strong> <?php echo $total; ?></li>
@@ -78,6 +78,40 @@
         </ul>
         <a href="qJsp.php?n=11" class="start">Start Quiz</a>
       </div>
+
+      <div class="row justify-content-center mb-5">
+            <div class="col-md-12 text-center">
+                <h2>Changed your mind?</h2>
+                <p class="lead">You may still choose what Quiz you want to take instead.</p>
+            </div>
+            </div>
+            <div class="row blog-entries on-quiz text-center">
+                <div class="col-md-3 col-sm-6 col-12 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
+                    <a href="../Quiz/jspQuiz.php" class="blog-entry">
+                    <img src="../images/jsp.jpg" alt="Image placeholder">
+                    <h2>JSP Quiz</h2>
+                    </a>
+                </div>
+        
+                <div class="col-md-3 col-sm-6 col-12 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="400ms">
+                    <a href="../Quiz/servletQuiz.php" class="blog-entry">
+                    <img src="../images/Java-Servlets.png" alt="Image placeholder">
+                    <h2>Java Servlet Quiz</h2>
+                    </a>
+                </div>
+                <div class="col-md-3 col-sm-6 col-12 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="500ms">
+                    <a href="../Quiz/nodejsQuiz.php" class="blog-entry">
+                    <img src="../images/nodejs_logo.png" alt="Image placeholder">
+                    <h2>Node JS Quiz</h2>
+                    </a>
+                </div>
+                <div class="col-md-3 col-sm-6 col-12 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="600ms">
+                    <a href="../Quiz/phpQuiz.php" class="blog-entry">
+                    <img src="../images/php.png" alt="Image placeholder">
+                    <h2>PHP Quiz</h2>
+                    </a>
+                </div>
+            </div>
 
           
 
@@ -90,13 +124,13 @@
 	</div>
 
     <footer id="footer">
-   <!--  <div class="footer-top wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
+    <div class="footer-top wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
       <div class="container text-center">
         <div class="footer-logo">
           <a href="index.html"><img class="img-responsive" src="../images/logo.png" alt=""></a>
         </div>
       </div>
-    </div> -->
+    </div>
     <div class="footer-bottom">
       <div class="container">
         <div class="row">
